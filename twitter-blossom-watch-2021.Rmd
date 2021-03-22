@@ -3,10 +3,10 @@ title: "Blossom Watch 2021"
 author: "Alan Millington"
 date: "`r Sys.time()`"
 output:
+  html_document: default
   github_document:
     fig_width: 9
     fig_height: 7
-  html_document: default
   word_document: 
     fig_width: 9
     fig_height: 7
@@ -136,7 +136,8 @@ distinct(screen_name, source) %>%
 # Networks
 ## Replies
 The "replies network", composed from users who reply directly to one another.
-![](\\images\\repliesnetwork.png)
+
+![](images/repliesnetwork.png)
 
 
 ```{r reply-network, eval=FALSE}
@@ -175,7 +176,10 @@ write_graph(blossom_mentions, file = "blossom_mentions.graphml", format = "graph
 
 ```
 
-![](\\images\\mentionsnetwork.png)
+
+![](images/mentionsnetwork.png)
+
+
 
 
 # Retweets

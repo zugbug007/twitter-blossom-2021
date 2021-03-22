@@ -3,10 +3,10 @@ title: "Blossom Watch 2021"
 author: "Alan Millington"
 date: "`r Sys.time()`"
 output:
-  html_document: default
   github_document:
     fig_width: 9
     fig_height: 7
+  html_document: default
   word_document: 
     fig_width: 9
     fig_height: 7

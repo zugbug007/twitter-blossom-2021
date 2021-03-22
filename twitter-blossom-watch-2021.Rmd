@@ -47,7 +47,7 @@ theme_set(theme_light())
 ```
 
 ```{r}
-blossom2021 <- search_tweets("#blossom OR #blossomwatch OR #NationalTrust OR #EveryoneNeedsNature", 5000)
+blossom2021 <- search_tweets("#blossom OR #blossomwatch OR #NationalTrust OR #EveryoneNeedsNature", n = 50000, lang = "en", retryonratelimit = FALSE)
 ```
 
 ```{r count-hashtags}
@@ -98,7 +98,7 @@ blossom2021 %>%
   filter(date >= as_date("2021-03-11"), date <= Sys.Date()) %>%
   ggplot(aes(hour, count)) + geom_col(fill = "skyblue3") + facet_grid(strftime(date, "%b %d") ~ .) + 
     labs(x = "Hour", y = "Tweets", title = "#blossom tweets by time of day") + 
-    theme(axis.text = element_text(size = 12), axis.title = element_text(size = 12))
+    theme(axis.text = element_text(size = 12), axis.title = element_text(size = 15))
 ```
 
 
@@ -107,9 +107,9 @@ blossom2021 %>%
 ```{r tweets-top-users}
 blossom2021 %>% 
   count(screen_name) %>% 
-  filter(n >= 20) %>% 
+  filter(n >= 8) %>% 
   ggplot(aes(reorder(screen_name, n), n)) + geom_col(fill = "skyblue3") + coord_flip() + 
-    labs(x = "Screen Name", y = "Tweets", title = "#blossom tweets by user", subtitle = "users with >= 20 tweets") + 
+    labs(x = "Screen Name", y = "Tweets", title = "#blossom tweets by user", subtitle = "users with >= 8 tweets") + 
     theme(axis.text = element_text(size = 12), axis.title = element_text(size = 12))
 ```
 

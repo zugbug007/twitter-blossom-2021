@@ -1,15 +1,15 @@
 Blossom Watch 2021
 ================
 Alan Millington
-2021-03-22 20:48:51
+2021-03-23 10:28:56
 
 | hashtag                      | count |
 | :--------------------------- | ----: |
-| blossom                      |  2364 |
-| blossomwatch                 |  1549 |
-| NationalTrust + BlossomWatch |    37 |
-| EveryoneNeedsNature          |   280 |
-| None                         |  1824 |
+| blossom                      |  2428 |
+| blossomwatch                 |  1588 |
+| NationalTrust + BlossomWatch |    36 |
+| EveryoneNeedsNature          |   277 |
+| None                         |  1835 |
 
 # Timeline
 
@@ -32,16 +32,14 @@ Filtered for dates March, London time.
 
 ![](twitter-blossom-watch-2021_files/figure-gfm/tweets-top-sources-1.png)<!-- -->
 
-# Networks
-
-## Replies
+## Network Replies
 
 The “replies network”, composed from users who reply directly to one
 another.
 
 ![](images/repliesnetwork.png)
 
-## Mentions
+## Network Mentions
 
 The “mentions network”, where users mention other users in their tweets.
 
@@ -62,15 +60,15 @@ The “mentions network”, where users mention other users in their tweets.
 | screen\_name    | text                                                                                                                                                                                                                                                                                                  | retweet\_count |
 | :-------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------: |
 | nationaltrust   | Pause to soak up the sweet scents and soft songs emanating from blossom branches. These colourful trees are a feast for the senses. \#BlossomWatch <https://t.co/GsXfF5KPAE>                                                                                                                          |            239 |
-| DrDarrenRFlower | Central Park New York \#spring \#spring2021 \#blossom \#cherry <https://t.co/Oimq2hRU1k>                                                                                                                                                                                                              |            143 |
-| nationaltrust   | Spring is on the way. Celebrate the arrival of blossom near you with \#BlossomWatch: <https://t.co/TaQxr1YkU8> <https://t.co/kQ93UDZlCP>                                                                                                                                                              |            123 |
+| DrDarrenRFlower | Central Park New York \#spring \#spring2021 \#blossom \#cherry <https://t.co/Oimq2hRU1k>                                                                                                                                                                                                              |            148 |
 | nationaltrust   | Everywhere these delicate flowers emerge, they bring delight with them. Thanks to everyone who’s helped spread the joys of blossom so far - keep the photos coming with \#BlossomWatch. Photos: Joanna A, Catherine A, Shonali B, Cara W. <https://t.co/6znNDEdvKC>                                   |            122 |
-| nationaltrust   | Happily dancing in the breeze, a golden daffodil is full of cheer. \#EveryoneNeedsNature <https://t.co/hSOWdCCnPL>                                                                                                                                                                                    |            108 |
-| nationaltrust   | If you’re lucky enough to spot a hare hopping around, the feeling of elation will stick with you all day. \#EveryoneNeedsNature <https://t.co/Vpo5aADU9Q>                                                                                                                                             |            100 |
-| nationaltrust   | \<U+0001F338\>\#BlossomWatch\<U+0001F338\> Lockdowns have changed the nation’s relationship with nature for the better. We are feeling more connected thanks to our daily strolls and taking more notice of the changing seasons. <https://t.co/JtIkqgUorV>                                           |             93 |
+| nationaltrust   | Happily dancing in the breeze, a golden daffodil is full of cheer. \#EveryoneNeedsNature <https://t.co/hSOWdCCnPL>                                                                                                                                                                                    |            118 |
+| nationaltrust   | \<U+0001F338\>\#BlossomWatch\<U+0001F338\> Lockdowns have changed the nation’s relationship with nature for the better. We are feeling more connected thanks to our daily strolls and taking more notice of the changing seasons. <https://t.co/JtIkqgUorV>                                           |             95 |
+| MikeDoylePhotos | Autumnal view at Sheffield Park, East Sussex. \#Sussex \#England \#NationalTrust \#landscape \#landscapephotography \#travel \#travelphotography \#photo \#photography \#photooftheday \#NaturePhotography <https://t.co/FqII3JWs8w>                                                                  |             90 |
 | nationaltrust   | One of life’s simple pleasures that can be enjoyed from anywhere. Engross yourself in the calming colours of a sunrise. \#EveryoneNeedsNature <https://t.co/l5xkDICUPn>                                                                                                                               |             69 |
-| ampomata        | This is my new painting “Bed Of Roses”. You can check it out here: <https://t.co/GoYnqeM1YY> \#art \#arte \#oleo \#kunst \#oilpainting \#contemporaryart \#ArtistOnTwitter \#blossom \#flower \#floral \#spring \#pink \#red \#roses \#field \#artprints \#flowers \#garden <https://t.co/7y9skbUaMs> |             67 |
-| MikeDoylePhotos | Autumnal view at Sheffield Park, East Sussex. \#Sussex \#England \#NationalTrust \#landscape \#landscapephotography \#travel \#travelphotography \#photo \#photography \#photooftheday \#NaturePhotography <https://t.co/FqII3JWs8w>                                                                  |             65 |
+| ampomata        | This is my new painting “Bed Of Roses”. You can check it out here: <https://t.co/GoYnqeM1YY> \#art \#arte \#oleo \#kunst \#oilpainting \#contemporaryart \#ArtistOnTwitter \#blossom \#flower \#floral \#spring \#pink \#red \#roses \#field \#artprints \#flowers \#garden <https://t.co/7y9skbUaMs> |             69 |
+| MikeDoylePhotos | Early autumn at Sheffield Park, East Sussex. \#Sussex \#England \#NationalTrust \#landscape \#landscapephotography \#travel \#travelphotography \#photo \#photography \#photooftheday \#NaturePhotography <https://t.co/fqSC6f0xMQ>                                                                   |             63 |
+| MikeDoylePhotos | Spring colour at Sheffield Park, East Sussex. \#Sussex \#England \#NationalTrust \#landscape \#landscapephotography \#travel \#travelphotography \#photo \#photography \#photooftheday \#NaturePhotography <https://t.co/uFdcfnor39>                                                                  |             61 |
 
 # Favourites
 
@@ -86,16 +84,16 @@ The “mentions network”, where users mention other users in their tweets.
 
 | screen\_name    | text                                                                                                                                                                                                                                                                | favorite\_count |
 | :-------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------: |
-| nationaltrust   | Pause to soak up the sweet scents and soft songs emanating from blossom branches. These colourful trees are a feast for the senses. \#BlossomWatch <https://t.co/GsXfF5KPAE>                                                                                        |            1112 |
-| DrDarrenRFlower | Central Park New York \#spring \#spring2021 \#blossom \#cherry <https://t.co/Oimq2hRU1k>                                                                                                                                                                            |             795 |
-| nationaltrust   | If you’re lucky enough to spot a hare hopping around, the feeling of elation will stick with you all day. \#EveryoneNeedsNature <https://t.co/Vpo5aADU9Q>                                                                                                           |             698 |
-| nationaltrust   | Everywhere these delicate flowers emerge, they bring delight with them. Thanks to everyone who’s helped spread the joys of blossom so far - keep the photos coming with \#BlossomWatch. Photos: Joanna A, Catherine A, Shonali B, Cara W. <https://t.co/6znNDEdvKC> |             693 |
-| nationaltrust   | Happily dancing in the breeze, a golden daffodil is full of cheer. \#EveryoneNeedsNature <https://t.co/hSOWdCCnPL>                                                                                                                                                  |             606 |
-| nationaltrust   | \<U+0001F338\>\#BlossomWatch\<U+0001F338\> Lockdowns have changed the nation’s relationship with nature for the better. We are feeling more connected thanks to our daily strolls and taking more notice of the changing seasons. <https://t.co/JtIkqgUorV>         |             571 |
-| nationaltrust   | Spring is on the way. Celebrate the arrival of blossom near you with \#BlossomWatch: <https://t.co/TaQxr1YkU8> <https://t.co/kQ93UDZlCP>                                                                                                                            |             503 |
-| MikeDoylePhotos | Early autumn at Sheffield Park, East Sussex. \#Sussex \#England \#NationalTrust \#landscape \#landscapephotography \#travel \#travelphotography \#photo \#photography \#photooftheday \#NaturePhotography <https://t.co/fqSC6f0xMQ>                                 |             484 |
-| MikeDoylePhotos | Spring colour at Sheffield Park, East Sussex. \#Sussex \#England \#NationalTrust \#landscape \#landscapephotography \#travel \#travelphotography \#photo \#photography \#photooftheday \#NaturePhotography <https://t.co/uFdcfnor39>                                |             434 |
-| MikeDoylePhotos | Autumnal view at Sheffield Park, East Sussex. \#Sussex \#England \#NationalTrust \#landscape \#landscapephotography \#travel \#travelphotography \#photo \#photography \#photooftheday \#NaturePhotography <https://t.co/FqII3JWs8w>                                |             424 |
+| nationaltrust   | Pause to soak up the sweet scents and soft songs emanating from blossom branches. These colourful trees are a feast for the senses. \#BlossomWatch <https://t.co/GsXfF5KPAE>                                                                                        |            1120 |
+| DrDarrenRFlower | Central Park New York \#spring \#spring2021 \#blossom \#cherry <https://t.co/Oimq2hRU1k>                                                                                                                                                                            |             822 |
+| nationaltrust   | Everywhere these delicate flowers emerge, they bring delight with them. Thanks to everyone who’s helped spread the joys of blossom so far - keep the photos coming with \#BlossomWatch. Photos: Joanna A, Catherine A, Shonali B, Cara W. <https://t.co/6znNDEdvKC> |             696 |
+| nationaltrust   | Happily dancing in the breeze, a golden daffodil is full of cheer. \#EveryoneNeedsNature <https://t.co/hSOWdCCnPL>                                                                                                                                                  |             674 |
+| nationaltrust   | \<U+0001F338\>\#BlossomWatch\<U+0001F338\> Lockdowns have changed the nation’s relationship with nature for the better. We are feeling more connected thanks to our daily strolls and taking more notice of the changing seasons. <https://t.co/JtIkqgUorV>         |             577 |
+| MikeDoylePhotos | Autumnal view at Sheffield Park, East Sussex. \#Sussex \#England \#NationalTrust \#landscape \#landscapephotography \#travel \#travelphotography \#photo \#photography \#photooftheday \#NaturePhotography <https://t.co/FqII3JWs8w>                                |             568 |
+| MikeDoylePhotos | Early autumn at Sheffield Park, East Sussex. \#Sussex \#England \#NationalTrust \#landscape \#landscapephotography \#travel \#travelphotography \#photo \#photography \#photooftheday \#NaturePhotography <https://t.co/fqSC6f0xMQ>                                 |             507 |
+| nationaltrust   | Who else is buzzing with excitement at the blossom appearing? We love hearing the calming hum of bees enjoying the flowers. \#BlossomWatch Photo: Rosie S, @ClivedenNT <https://t.co/JGcihvsoCV>                                                                    |             483 |
+| MikeDoylePhotos | Spring colour at Sheffield Park, East Sussex. \#Sussex \#England \#NationalTrust \#landscape \#landscapephotography \#travel \#travelphotography \#photo \#photography \#photooftheday \#NaturePhotography <https://t.co/uFdcfnor39>                                |             439 |
+| nationaltrust   | One of life’s simple pleasures that can be enjoyed from anywhere. Engross yourself in the calming colours of a sunrise. \#EveryoneNeedsNature <https://t.co/l5xkDICUPn>                                                                                             |             417 |
 
 # Quotes
 
@@ -134,16 +132,16 @@ Joining, by = “quoted\_status\_id”
 
 | screen\_name    | text                                                                                                                                                                                                                                                                | favorite\_count |
 | :-------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------: |
-| nationaltrust   | Pause to soak up the sweet scents and soft songs emanating from blossom branches. These colourful trees are a feast for the senses. \#BlossomWatch <https://t.co/GsXfF5KPAE>                                                                                        |            1112 |
-| DrDarrenRFlower | Central Park New York \#spring \#spring2021 \#blossom \#cherry <https://t.co/Oimq2hRU1k>                                                                                                                                                                            |             795 |
-| nationaltrust   | If you’re lucky enough to spot a hare hopping around, the feeling of elation will stick with you all day. \#EveryoneNeedsNature <https://t.co/Vpo5aADU9Q>                                                                                                           |             698 |
-| nationaltrust   | Everywhere these delicate flowers emerge, they bring delight with them. Thanks to everyone who’s helped spread the joys of blossom so far - keep the photos coming with \#BlossomWatch. Photos: Joanna A, Catherine A, Shonali B, Cara W. <https://t.co/6znNDEdvKC> |             693 |
-| nationaltrust   | Happily dancing in the breeze, a golden daffodil is full of cheer. \#EveryoneNeedsNature <https://t.co/hSOWdCCnPL>                                                                                                                                                  |             606 |
-| nationaltrust   | \<U+0001F338\>\#BlossomWatch\<U+0001F338\> Lockdowns have changed the nation’s relationship with nature for the better. We are feeling more connected thanks to our daily strolls and taking more notice of the changing seasons. <https://t.co/JtIkqgUorV>         |             571 |
-| nationaltrust   | Spring is on the way. Celebrate the arrival of blossom near you with \#BlossomWatch: <https://t.co/TaQxr1YkU8> <https://t.co/kQ93UDZlCP>                                                                                                                            |             503 |
-| MikeDoylePhotos | Early autumn at Sheffield Park, East Sussex. \#Sussex \#England \#NationalTrust \#landscape \#landscapephotography \#travel \#travelphotography \#photo \#photography \#photooftheday \#NaturePhotography <https://t.co/fqSC6f0xMQ>                                 |             484 |
-| MikeDoylePhotos | Spring colour at Sheffield Park, East Sussex. \#Sussex \#England \#NationalTrust \#landscape \#landscapephotography \#travel \#travelphotography \#photo \#photography \#photooftheday \#NaturePhotography <https://t.co/uFdcfnor39>                                |             434 |
-| MikeDoylePhotos | Autumnal view at Sheffield Park, East Sussex. \#Sussex \#England \#NationalTrust \#landscape \#landscapephotography \#travel \#travelphotography \#photo \#photography \#photooftheday \#NaturePhotography <https://t.co/FqII3JWs8w>                                |             424 |
+| nationaltrust   | Pause to soak up the sweet scents and soft songs emanating from blossom branches. These colourful trees are a feast for the senses. \#BlossomWatch <https://t.co/GsXfF5KPAE>                                                                                        |            1120 |
+| DrDarrenRFlower | Central Park New York \#spring \#spring2021 \#blossom \#cherry <https://t.co/Oimq2hRU1k>                                                                                                                                                                            |             822 |
+| nationaltrust   | Everywhere these delicate flowers emerge, they bring delight with them. Thanks to everyone who’s helped spread the joys of blossom so far - keep the photos coming with \#BlossomWatch. Photos: Joanna A, Catherine A, Shonali B, Cara W. <https://t.co/6znNDEdvKC> |             696 |
+| nationaltrust   | Happily dancing in the breeze, a golden daffodil is full of cheer. \#EveryoneNeedsNature <https://t.co/hSOWdCCnPL>                                                                                                                                                  |             674 |
+| nationaltrust   | \<U+0001F338\>\#BlossomWatch\<U+0001F338\> Lockdowns have changed the nation’s relationship with nature for the better. We are feeling more connected thanks to our daily strolls and taking more notice of the changing seasons. <https://t.co/JtIkqgUorV>         |             577 |
+| MikeDoylePhotos | Autumnal view at Sheffield Park, East Sussex. \#Sussex \#England \#NationalTrust \#landscape \#landscapephotography \#travel \#travelphotography \#photo \#photography \#photooftheday \#NaturePhotography <https://t.co/FqII3JWs8w>                                |             568 |
+| MikeDoylePhotos | Early autumn at Sheffield Park, East Sussex. \#Sussex \#England \#NationalTrust \#landscape \#landscapephotography \#travel \#travelphotography \#photo \#photography \#photooftheday \#NaturePhotography <https://t.co/fqSC6f0xMQ>                                 |             507 |
+| nationaltrust   | Who else is buzzing with excitement at the blossom appearing? We love hearing the calming hum of bees enjoying the flowers. \#BlossomWatch Photo: Rosie S, @ClivedenNT <https://t.co/JGcihvsoCV>                                                                    |             483 |
+| MikeDoylePhotos | Spring colour at Sheffield Park, East Sussex. \#Sussex \#England \#NationalTrust \#landscape \#landscapephotography \#travel \#travelphotography \#photo \#photography \#photooftheday \#NaturePhotography <https://t.co/uFdcfnor39>                                |             439 |
+| nationaltrust   | One of life’s simple pleasures that can be enjoyed from anywhere. Engross yourself in the calming colours of a sunrise. \#EveryoneNeedsNature <https://t.co/l5xkDICUPn>                                                                                             |             417 |
 
 ### Most liked media image
 
@@ -151,7 +149,7 @@ Joining, by = “quoted\_status\_id”
 
 # Tweet text
 
-The 250 words used 3 or more times. Words removed: blossom,
+The 150 words used 3 or more times. Words removed: blossom,
 blossomwatch, nationaltrust, everyoneneedsnature.
 
 ![](twitter-blossom-watch-2021_files/figure-gfm/count-words-1.png)<!-- -->
@@ -162,4 +160,4 @@ blossomwatch, nationaltrust, everyoneneedsnature.
 
 ## Blossom Sentiment Analysis - Visualisation
 
-![](twitter-blossom-watch-2021_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+![](twitter-blossom-watch-2021_files/figure-gfm/sentiment-analysis-1.png)<!-- -->

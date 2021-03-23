@@ -3,13 +3,11 @@ title: "Blossom Watch 2021"
 author: "Alan Millington"
 date: "`r Sys.time()`"
 output:
-  github_document:
-    fig_width: 9
-    fig_height: 7
+  github_document: default
   html_document: default
-  word_document: 
-    fig_width: 9
-    fig_height: 7
+  word_document: default
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
@@ -114,9 +112,9 @@ blossom2021 %>%
 ```{r tweets-top-users}
 blossom2021 %>% 
   count(screen_name) %>% 
-  filter(n >= 15) %>% 
+  filter(n >= 10) %>% 
   ggplot(aes(reorder(screen_name, n), n)) + geom_col(fill = "skyblue3") + coord_flip() + 
-    labs(x = "Screen Name", y = "Tweets", title = "#blossom tweets by user", subtitle = "users with >= 15 tweets") + 
+    labs(x = "Screen Name", y = "Tweets", title = "#blossom tweets by user", subtitle = "users with >= 10 tweets") + 
     theme(axis.text = element_text(size = 12), axis.title = element_text(size = 12))
 ```
 
@@ -131,16 +129,13 @@ distinct(screen_name, source) %>%
     theme(axis.text = element_text(size = 12), axis.title = element_text(size = 12))
 ```
 
-
-
-# Networks
-## Replies
+## Network Replies
 The "replies network", composed from users who reply directly to one another.
 
 ![](images/repliesnetwork.png)
 
 
-```{r reply-network, eval=FALSE}
+```{r reply-network}
 blossom2021_replies <- blossom2021 %>% 
   filter(!is.na(reply_to_screen_name)) %>% 
   select(screen_name, reply_to_screen_name) %>% 
@@ -152,14 +147,10 @@ V(blossom2021_replies)$id    <- V(blossom2021_replies)$name
 write_graph(blossom2021_replies, file = "blossom2021_replies.graphml", format = "graphml")
 ```
 
-
-
-## Mentions
+## Network Mentions
 The "mentions network", where users mention other users in their tweets.
 
-
-
-```{r mentions-network, eval=FALSE}
+```{r mentions-network}
 blossom_mentions <- blossom2021 %>% 
   mutate(mentions_screen_name = sapply(mentions_screen_name, 
                            function(x) paste(x, collapse = " "))) %>%
@@ -176,11 +167,7 @@ write_graph(blossom_mentions, file = "blossom_mentions.graphml", format = "graph
 
 ```
 
-
 ![](images/mentionsnetwork.png)
-
-
-
 
 # Retweets
 ## Retweet proportion
@@ -312,11 +299,12 @@ blossom_media %>%
 ```
 
 ### Most liked media image
-
 ![](`r blossom_media[1, "media_url"]`)
 
+
+
 # Tweet text
-The 250 words used 3 or more times. 
+The 150 words used 3 or more times. 
 Words removed: blossom, blossomwatch, nationaltrust, everyoneneedsnature.
 
 ```{r count-words}
@@ -332,7 +320,7 @@ blossom2021 %>%
          !grepl("^\\d+$", word)) %>% 
   anti_join(stop_words) %>% 
   count(word) %>% 
-  with(wordcloud(word, n, max.words = 250, min.freq = 3, colors = brewer.pal(8, "Dark2")))
+  with(wordcloud(word, n, max.words = 150, min.freq = 3, colors = brewer.pal(8, "Dark2")))
 ```
 
 ## Tweets by Tweet Length
@@ -347,14 +335,14 @@ blossom2021 %>%
 ```
 
 ## Blossom Sentiment Analysis - Visualisation
-```{r}
+```{r sentiment-analysis}
 sentiment <- blossom2021$text
-s_usable <- iconv(sentiment, 'UTF-8', 'ASCII')
-s_usable <- syuzhet::get_nrc_sentiment(s_usable)
+sentiment_clean <- iconv(sentiment, 'UTF-8', 'ASCII')
+sentiment_clean <- syuzhet::get_nrc_sentiment(sentiment_clean)
 # subset rtweet data (for ease) and combine with sentiment data
 subset_tweets <- cbind(
   blossom2021[, c("status_id", "favorite_count", "retweet_count")],
-  s_usable)
+  sentiment_clean)
 # transform data to long form (makes plotting easier)
 subset_tweets_long <- reshape2::melt(subset_tweets,
     variable.name = "emotion",

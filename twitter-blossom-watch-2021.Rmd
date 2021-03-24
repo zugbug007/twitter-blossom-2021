@@ -7,7 +7,7 @@ output:
   html_document: default
   word_document: default
 editor_options: 
-  chunk_output_type: console
+  chunk_output_type: inline
 ---
 
 ```{r setup, include=FALSE}
@@ -56,7 +56,7 @@ blossom2021 <- search_tweets("#blossom OR #blossomwatch OR #NationalTrust OR #Ev
 ```
 
 ```{r count-hashtags}
-hashtag_count <- tibble(hashtag = c("blossom", "blossomwatch", "NationalTrust + BlossomWatch", "EveryoneNeedsNature", "None"),
+hashtag_count <- tibble(hashtag = c("blossom", "blossomwatch", "NationalTrust + BlossomWatch", "EveryoneNeedsNature", "No Hashtag (Text contains keywords)"),
                         count = c(blossom2021 %>% 
                                     filter(grepl("blossom", hashtags, ignore.case = TRUE)) %>%
                                     filter(!grepl("blossomwatch", hashtags, ignore.case = TRUE)) %>%
@@ -82,6 +82,8 @@ hashtag_count %>%
   pander(justify = c("left", "right"))
 ```
 
+
+
 # Timeline
 ## Tweets by day
 ```{r tweets-by-day}
@@ -90,7 +92,7 @@ blossom2021 %>%
   count(date) %>% 
   ggplot(aes(date, n)) + geom_col(fill = "skyblue3") +  
     labs(x = "Date", y = "Tweets", title = "#blossom tweets per day") + 
-    theme(axis.text = element_text(size = 12), axis.title = element_text(size = 12))
+    theme(axis.text = element_text(size = 10), axis.title = element_text(size = 10))
 ```
 
 ## Tweets by day and time
@@ -335,7 +337,7 @@ blossom2021 %>%
 ```
 
 ## Blossom Sentiment Analysis - Visualisation
-```{r sentiment-analysis}
+```{r sentiment-analysis, echo=FALSE, fig.height=7, fig.width=9}
 sentiment <- blossom2021$text
 sentiment_clean <- iconv(sentiment, 'UTF-8', 'ASCII')
 sentiment_clean <- syuzhet::get_nrc_sentiment(sentiment_clean)

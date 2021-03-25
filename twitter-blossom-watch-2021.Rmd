@@ -4,6 +4,8 @@ author: "Alan Millington"
 date: "`r Sys.time()`"
 output:
   github_document: default
+  pdf_document: 
+    latex_engine: xelatex
   html_document: default
   word_document: default
 editor_options: 
@@ -12,6 +14,7 @@ editor_options:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+Script.Name<-c("twitter-blossom-watch-2021.Rmd")
 
 # ## install remotes package if it's not already
 # if (!requireNamespace("remotes", quietly = TRUE)) {
@@ -27,6 +30,7 @@ library(rmarkdown)
 library(tidyverse)
 library(lubridate)
 library(knitr)
+library(purrr)
 library(pander)
 library(wordcloud)
 library(tidytext)
@@ -34,6 +38,8 @@ library(igraph)
 library(httpuv)
 library(syuzhet)  # sentiment analysis
 library(grid)
+library(htmltools)
+library(leaflet)
 
 theme_set(theme_light())
 ```
@@ -53,7 +59,16 @@ theme_set(theme_light())
 
 ```{r}
 blossom2021 <- search_tweets("#blossom OR #blossomwatch OR #NationalTrust OR #EveryoneNeedsNature", n = 10000, lang = "en")
+
+blossom2021_geo <- blossom2021 %>% mutate(geo_coords = gsub("\\)|c\\(", "", geo_coords),
+         date_time = as.POSIXct(created_at, format = "%a %b %d %H:%M:%S +0000 %Y")) %>%
+  separate(geo_coords, c("lat", "long"), sep = ", ") %>%
+  mutate_at(c("lat", "long"), as.numeric)
 ```
+
+This table shows the total count of hashtags used where the various combinations are used by twitter users.
+When the tweet does not contain a hashtag, but contains the keywords it falls into the 'no hashtag' group.
+If any new hashtags are required to be tracked, please let me know and this can be easily updated.
 
 ```{r count-hashtags}
 hashtag_count <- tibble(hashtag = c("blossom", "blossomwatch", "NationalTrust + BlossomWatch", "EveryoneNeedsNature", "No Hashtag (Text contains keywords)"),
@@ -86,6 +101,7 @@ hashtag_count %>%
 
 # Timeline
 ## Tweets by day
+Frequency of tweets broken down by day.
 ```{r tweets-by-day}
 blossom2021 %>% 
   mutate(date = as_date(created_at, tz = "Europe/London")) %>% 
@@ -97,6 +113,9 @@ blossom2021 %>%
 
 ## Tweets by day and time
 Filtered for dates March, London time.
+Tweet frequency broken down by day and hour of day.
+
+
 ```{r tweets-by-day-hour}
 blossom2021 %>% 
   mutate(datetime = as_datetime(created_at, tz = "Europe/London"), hour = hour(datetime)) %>%
@@ -111,7 +130,8 @@ blossom2021 %>%
 
 # Users
 ## Top tweeters
-```{r tweets-top-users}
+Top twitter users that have tweeted more than 10 tweets containing the #blossom hashtag.
+```{r tweets-top-users, fig.height=7, fig.width=9}
 blossom2021 %>% 
   count(screen_name) %>% 
   filter(n >= 10) %>% 
@@ -121,18 +141,19 @@ blossom2021 %>%
 ```
 
 ## Sources
+Breakdown of twitter source clients that have used the #blossom hashtag.
 ```{r tweets-top-sources}
 blossom2021 %>% 
 distinct(screen_name, source) %>%
   count(source) %>% 
-  filter(n >= 5) %>%
+  filter(n >= 25) %>%
   ggplot(aes(reorder(source, n), n)) + geom_col(fill = "skyblue3") + coord_flip() + 
-    labs(x = "Source", y = "Tweets", title = "#blossom tweets by source", subtitle = "sources with >= 5 tweets") + 
+    labs(x = "Source", y = "Tweets", title = "#blossom tweets by source", subtitle = "sources with >= 25 tweets") + 
     theme(axis.text = element_text(size = 12), axis.title = element_text(size = 12))
 ```
 
 ## Network Replies
-The "replies network", composed from users who reply directly to one another.
+The "replies network", composed from users who reply directly to one another where the hashtag or keyword of blossom was part of the message text. Complied on Friday 19th March.
 
 ![](images/repliesnetwork.png)
 
@@ -150,7 +171,7 @@ write_graph(blossom2021_replies, file = "blossom2021_replies.graphml", format = 
 ```
 
 ## Network Mentions
-The "mentions network", where users mention other users in their tweets.
+The "mentions network" is where users mention other users in their tweets and those tweets contain a keyword such as blossom. The large network (mid-right) is the National Trust twitter account. The smaller networks are key influencers that have shared blossom tweets with their network which have subsequently shared it to their followers too.
 
 ```{r mentions-network}
 blossom_mentions <- blossom2021 %>% 
@@ -172,8 +193,8 @@ write_graph(blossom_mentions, file = "blossom_mentions.graphml", format = "graph
 ![](images/mentionsnetwork.png)
 
 # Retweets
-## Retweet proportion
-```{r is-retweet}
+
+```{r is-retweet, eval=FALSE, include=FALSE}
 blossom2021 %>% 
   count(is_retweet) %>% 
   ggplot(aes(is_retweet, n)) + geom_col(fill = "skyblue3") + 
@@ -181,8 +202,8 @@ blossom2021 %>%
     theme(axis.text = element_text(size = 12), axis.title = element_text(size = 12))
 ```
 
-## Retweet count
-```{r retweet-count}
+
+```{r retweet-count, eval=FALSE, include=FALSE}
 blossom2021 %>% 
   ggplot(aes(retweet_count)) + geom_histogram(bins = max(blossom2021$retweet_count), fill = "skyblue3") +
     labs(x = "Retweet count", y = "Tweets", title = "#blossom distribution of retweets per tweet") + 
@@ -190,6 +211,7 @@ blossom2021 %>%
 ```
 
 ## Top retweets
+Top re-tweeters and total re-tweet counts.
 ```{r most-retweeted}
 blossom2021 %>% 
   filter(screen_name != 'missmayim') %>%
@@ -203,8 +225,8 @@ blossom2021 %>%
 ```
 
 # Favourites
-
 ## Favourite proportion
+How many times a tweet was saved a favourite that contained the blossom keywords.
 ```{r has-favorite}
 blossom2021 %>% 
   mutate(has_favorite = ifelse(favorite_count > 0, TRUE, FALSE)) %>% 
@@ -214,8 +236,8 @@ blossom2021 %>%
     theme(axis.text = element_text(size = 12), axis.title = element_text(size = 12))
 ```
 
-## Favourite count
-```{r favorite-count}
+
+```{r favorite-count, eval=FALSE, include=FALSE}
 blossom2021 %>% 
   ggplot(aes(favorite_count)) + geom_histogram(bins = max(blossom2021$favorite_count), fill = "skyblue3") +
     labs(x = "Favorite count", y = "Tweets", title = "#blossom distribution of favorites per tweet") + 
@@ -236,8 +258,7 @@ blossom2021 %>%
 
 # Quotes
 
-## Quote proportion
-```{r is-quote}
+```{r is-quote, eval=FALSE, include=FALSE}
 blossom2021 %>% 
   count(is_quote) %>% 
   ggplot(aes(is_quote, n)) + geom_col(fill = "skyblue3") + 
@@ -245,8 +266,8 @@ blossom2021 %>%
     theme(axis.text = element_text(size = 12), axis.title = element_text(size = 12))
 ```
 
-## Quote count
-```{r quotes-count}
+
+```{r quotes-count, eval=FALSE, include=FALSE}
 blossom2021 %>% 
   filter(!is.na(quoted_status_id)) %>% 
   count(quoted_status_id) %>% 
@@ -276,6 +297,7 @@ blossom2021 %>%
 # Media
 
 ## Media count
+Shows tweets where a piece of media was shared such as images or videos.
 ```{r has-media}
 blossom2021 %>% 
   mutate(has_media = !is.na(media_url)) %>% 
@@ -306,7 +328,7 @@ blossom_media %>%
 
 
 # Tweet text
-The 150 words used 3 or more times. 
+The top 150 words used 3 or more times within tweet which contain keywords around blossom. 
 Words removed: blossom, blossomwatch, nationaltrust, everyoneneedsnature.
 
 ```{r count-words}
@@ -337,7 +359,10 @@ blossom2021 %>%
 ```
 
 ## Blossom Sentiment Analysis - Visualisation
-```{r sentiment-analysis, echo=FALSE, fig.height=7, fig.width=9}
+This process analyses each word within the tweet and then categorises the tweet into one of 8 main categories and polarity. 
+Each triangle in the plot is a tweet where one of the blossom keywords was found and the overall tweet was categorised.
+Blossom related tweets show strong 'positive' and 'joy' correlations based on the language used by tweeters.
+```{r sentiment-analysis, fig.height=7, fig.width=9}
 sentiment <- blossom2021$text
 sentiment_clean <- iconv(sentiment, 'UTF-8', 'ASCII')
 sentiment_clean <- syuzhet::get_nrc_sentiment(sentiment_clean)
@@ -354,7 +379,7 @@ subset_tweets_long <- reshape2::melt(subset_tweets,
 ggplot(subset_tweets_long, aes(x = emotion, y = sentiment,
   fill = emotion)) + theme_minimal() +
   coord_cartesian(ylim = c(0, 7)) +
-  geom_jitter(color = "#ffffff", shape = 25, size = 2, alpha = .9, stroke = .2) +
+  geom_jitter(color = "#ffffff", shape = 25, size = 2, stroke = .2)  +#alpha removed (alpha = .9) due to slow processing
   coord_flip() + labs(y = "", x = "",
     title = "#Blossom tweet sentiment") +
   theme(legend.position = "none",
@@ -363,4 +388,20 @@ ggplot(subset_tweets_long, aes(x = emotion, y = sentiment,
 
 ```
 
+```{r echo=FALSE, fig.height=12, fig.width=9, message=FALSE, warning=FALSE}
+blossom2021 %>%
+  mutate(bbox_coords = gsub("\\)|c\\(", "", bbox_coords)) %>%
+  separate(bbox_coords, c("box1", "box2","box3","box4", "box5", "box6", "box7", "box8"), sep = ", ") %>%
+  mutate_at(c("box1", "box2","box3","box4", "box5", "box6", "box7", "box8"), as.numeric) %>%
+    mutate(bbx_long = (box1 + box2 + box3 + box4)/4) %>%
+    mutate(bbx_lat = (box5 + box6 + box7 + box8)/4) %>%
+  filter(!is.na(place_type)) %>%
+  filter(!is.na(media_url)) %>%
+  leaflet() %>% 
+      setView(lat = 52.8781, lng = -2.8360, zoom = 6) %>%
+      addTiles() %>%
+          addProviderTiles(providers$Esri.WorldImagery) %>%
+ 	        #addCircleMarkers(lng = ~bbx_long, lat = ~bbx_lat, popup =  ~text, color = "#FF0000", radius = 3, stroke = TRUE, fillOpacity = 0.2)
+ addMarkers(lng = ~bbx_long, lat = ~bbx_lat, popup = ~htmlEscape(text))
+```
 

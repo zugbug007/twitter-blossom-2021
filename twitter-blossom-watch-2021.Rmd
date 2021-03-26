@@ -3,10 +3,10 @@ title: "Blossom Watch 2021"
 author: "Alan Millington"
 date: "`r Sys.time()`"
 output:
-  github_document: default
+  html_document: default
   pdf_document: 
     latex_engine: xelatex
-  html_document: default
+  github_document: default
   word_document: default
 editor_options: 
   chunk_output_type: inline
@@ -388,15 +388,15 @@ ggplot(subset_tweets_long, aes(x = emotion, y = sentiment,
 
 ```
 
-```{r echo=FALSE, fig.height=12, fig.width=9, message=FALSE, warning=FALSE}
+```{r echo=FALSE, fig.height=12, fig.width=12, message=FALSE, warning=FALSE}
 blossom2021 %>%
   mutate(bbox_coords = gsub("\\)|c\\(", "", bbox_coords)) %>%
   separate(bbox_coords, c("box1", "box2","box3","box4", "box5", "box6", "box7", "box8"), sep = ", ") %>%
   mutate_at(c("box1", "box2","box3","box4", "box5", "box6", "box7", "box8"), as.numeric) %>%
     mutate(bbx_long = (box1 + box2 + box3 + box4)/4) %>%
     mutate(bbx_lat = (box5 + box6 + box7 + box8)/4) %>%
-  filter(!is.na(place_type)) %>%
-  filter(!is.na(media_url)) %>%
+  #filter(!is.na(place_type)) %>%
+  #filter(!is.na(media_url)) %>%
   leaflet() %>% 
       setView(lat = 52.8781, lng = -2.8360, zoom = 6) %>%
       addTiles() %>%

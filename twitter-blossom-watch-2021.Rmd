@@ -5,6 +5,8 @@ date: "`r Sys.time()`"
 output:
   html_document: 
     df_print: default
+    toc: yes
+    theme: lumen
   pdf_document: 
     latex_engine: xelatex
   github_document: default
@@ -175,7 +177,7 @@ blossom2021 %>%
   group_by(date = as_date(datetime), hour) %>% 
   summarise(count = n()) %>% 
   filter(date >= as_date("2021-03-11"), date <= Sys.Date()) %>%
-  ggplot(aes(hour, count)) + geom_col(fill = "skyblue3") + facet_grid(strftime(date, "%b %d") ~ .) + 
+  ggplot(aes(hour, count)) + geom_col(fill = "skyblue3") + facet_grid(strftime(as.Date(date, format = "%d/%m/%y")) ~ .) + 
     labs(x = "Hour", y = "Tweets", title = "#blossom tweets by time of day") + 
     theme(axis.text = element_text(size = 12), axis.title = element_text(size = 15))
 ```
@@ -388,7 +390,7 @@ blossom_media %>%
 
 
 ## Tweet text
-The top 150 words used 3 or more times within tweet which contain keywords around blossom. 
+The top 500 words used 5 or more times within tweet which contain keywords around blossom. 
 Words removed: blossom, blossomwatch, nationaltrust, everyoneneedsnature.
 
 ```{r count-words, fig.height=7, fig.width=9}
@@ -404,7 +406,7 @@ blossom2021 %>%
          !grepl("^\\d+$", word)) %>% 
   anti_join(stop_words) %>% 
   count(word) %>% 
-  with(wordcloud(word, n, max.words = 150, min.freq = 3, colors = brewer.pal(8, "Dark2")))
+  with(wordcloud(word, n, max.words = 500, min.freq = 5, colors = brewer.pal(8, "Dark2")))
 ```
 
 ### Tweets by Tweet Length

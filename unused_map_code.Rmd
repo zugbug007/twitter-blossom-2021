@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ```{r render-output-doc}
-  render("twitter-blossom-watch-2021.Rmd", output_file = 'twitter-blossom-watch-2021.docx')
+ # render("twitter-blossom-watch-2021.Rmd", output_file = 'twitter-blossom-watch-2021.html')
 ```
 
 
@@ -18,9 +18,9 @@ knitr::opts_chunk$set(eval = FALSE, include = FALSE)
 ts <- blossom2021 %>% filter(!is.na(bbox_coords)) %>%
     select(bbox_coords)
 
-library(openxlsx)
+#library(openxlsx)
 
-write.xlsx(blossom2021_geo,"test_bb_geo.xlsx")
+#write.xlsx(blossom2021_geo,"test_bb_geo.xlsx")
 
 ```
 
@@ -63,6 +63,11 @@ invisible(sapply(files, source, local=TRUE))
 sapply(files, function(f) eval(parse(text=f)))
 
 ```
+
+
+
+
+
 ```{r}
 news <- function(term) {
   require(dplyr)
@@ -109,5 +114,5 @@ news <- function(term) {
 # term need to be URL encoded for use in the URL structure. Decode and clean up for the filename useage
 # re-encode for the parameter passing to the function
 search_term <- URLdecode('national%20trust%20blossom')
-newsdf <- news(URLencode(search_term))
+blossom_news <- news(URLencode(search_term))
 ```

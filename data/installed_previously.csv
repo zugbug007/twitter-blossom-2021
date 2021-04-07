@@ -1,0 +1,1162 @@
+"","Package","LibPath","Version","Priority","Depends","Imports","LinkingTo","Suggests","Enhances","License","License_is_FOSS","License_restricts_use","OS_type","MD5sum","NeedsCompilation","Built"
+"abind","abind","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.4-5",NA,"R (>= 1.5.0)","methods, utils",NA,NA,NA,"LGPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"adobeanalyticsr","adobeanalyticsr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.5",NA,"R (>= 3.2.0)","assertthat (>= 0.2.0), jsonlite (>= 1.5), dplyr (>= 0.8.1),
+stringr (>= 1.4.0), purrrlyr (>= 0.0.6), purrr (>= 0.3.3), httr
+(>= 1.3.1), tidyr (>= 1.0.0), rlang (>= 0.4.8), lubridate (>=
+1.7.9), ggplot2 (>= 3.3.2), scales (>= 1.1.1), lifecycle, glue,
+tibble, knitr",NA,"testthat, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.4"
+"AlgDesign","AlgDesign","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.2.0",NA,NA,NA,NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.0"
+"alphavantager","alphavantager","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.2",NA,"R (>= 3.3.0)","dplyr (>= 0.7.0), glue (>= 1.1.1), httr (>= 1.2.1), jsonlite
+(>= 1.5), purrr (>= 0.2.2.2), readr (>= 1.1.1), stringr (>=
+1.2.0), tibble (>= 1.3.3), tidyr (>= 0.6.3), timetk (>=
+0.1.1.1)",NA,"tidyquant, testthat, knitr",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.0.3"
+"ambient","ambient","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0.0",NA,NA,"Rcpp (>= 0.12.18), rlang, grDevices, graphics","Rcpp",NA,NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"anomalize","anomalize","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.2.2",NA,"R (>= 3.0.0)","dplyr, glue, timetk, sweep, tibbletime (>= 0.1.5), purrr,
+rlang, tibble, tidyr (>= 1.0.0), ggplot2, cli, crayon,
+rstudioapi",NA,"tidyverse, tidyquant, stringr, testthat (>= 2.1.0), covr,
+knitr, rmarkdown, devtools, roxygen2",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.0.3"
+"anytime","anytime","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.3.9",NA,"R (>= 3.2.0)","Rcpp (>= 0.12.9)","Rcpp (>= 0.12.9), BH","tinytest (>= 1.0.0), gettz",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.4"
+"arules","arules","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.6-6",NA,"R (>= 3.4.0), Matrix (>= 1.2-0)","stats, methods, graphics, utils",NA,"pmml, XML, arulesViz, testthat",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"arulesViz","arulesViz","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.3-3",NA,"arules (>= 1.4.1), grid","scatterplot3d, vcd, seriation, igraph (>= 1.0.0), graphics,
+methods, utils, grDevices, stats, colorspace, DT, plotly,
+visNetwork",NA,"graph, Rgraphviz, iplots, shiny, shinythemes, htmlwidgets",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"askpass","askpass","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.1",NA,NA,"sys (>= 2.1)",NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"assertive","assertive","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.3-6",NA,"R (>= 3.0.0)","assertive.base (>= 0.0-4), assertive.properties (>= 0.0-2),
+assertive.types (>= 0.0-2), assertive.numbers,
+assertive.strings, assertive.datetimes, assertive.files,
+assertive.sets (>= 0.0-2), assertive.matrices,
+assertive.models, assertive.data, assertive.data.uk,
+assertive.data.us, assertive.reflection (>= 0.0-2),
+assertive.code, knitr",NA,"testthat, markdown",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.0.3"
+"assertive.base","assertive.base","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.0-9",NA,"R (>= 3.5.0)","methods, utils",NA,"testthat",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.0.3"
+"assertive.code","assertive.code","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.0-3",NA,"R (>= 3.0.0)","assertive.base (>= 0.0-2), assertive.properties,
+assertive.types, methods",NA,"testthat",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.0.3"
+"assertive.data","assertive.data","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.0-3",NA,"R (>= 3.0.0)","assertive.base (>= 0.0-2), assertive.strings",NA,"testthat",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.0.3"
+"assertive.data.uk","assertive.data.uk","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.0-2",NA,"R (>= 3.0.0)","assertive.base (>= 0.0-2), assertive.strings",NA,"testthat",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.0.3"
+"assertive.data.us","assertive.data.us","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.0-2",NA,"R (>= 3.0.0)","assertive.base (>= 0.0-2), assertive.strings",NA,"testthat, devtools",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.0.3"
+"assertive.datetimes","assertive.datetimes","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.0-3",NA,"R (>= 3.0.0)","assertive.base (>= 0.0-7), assertive.types",NA,"testthat",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.0.3"
+"assertive.files","assertive.files","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.0-2",NA,"R (>= 3.0.0)","assertive.base (>= 0.0-2), assertive.numbers",NA,"testthat",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.0.3"
+"assertive.matrices","assertive.matrices","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.0-2",NA,"R (>= 3.0.0)","assertive.base (>= 0.0-2)",NA,"testthat",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.0.3"
+"assertive.models","assertive.models","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.0-2",NA,"R (>= 3.0.0)","assertive.base (>= 0.0-2), stats",NA,"testthat",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.0.3"
+"assertive.numbers","assertive.numbers","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.0-2",NA,"R (>= 3.0.0)","assertive.base (>= 0.0-2)",NA,"testthat",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.0.3"
+"assertive.properties","assertive.properties","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.0-4",NA,"R (>= 3.0.0)","assertive.base (>= 0.0-7), methods",NA,"testthat",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.0.3"
+"assertive.reflection","assertive.reflection","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.0-5",NA,"R (>= 3.0.0)","assertive.base (>= 0.0-7), utils",NA,"testthat",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.0.3"
+"assertive.sets","assertive.sets","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.0-3",NA,"R (>= 3.0.0)","assertive.base (>= 0.0-7)",NA,"testthat",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.0.3"
+"assertive.strings","assertive.strings","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.0-3",NA,"R (>= 3.0.0)","assertive.base (>= 0.0-2), assertive.types, stringi",NA,"testthat",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.0.3"
+"assertive.types","assertive.types","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.0-3",NA,"R (>= 3.0.0)","assertive.base (>= 0.0-7), assertive.properties, codetools,
+methods, stats",NA,"testthat, data.table, dplyr, xml2",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.0.3"
+"assertthat","assertthat","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.2.1",NA,NA,"tools",NA,"testthat, covr",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"backports","backports","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.2.0",NA,"R (>= 3.0.0)",NA,NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"base","base","C:/Users/alan.millington/Documents/R/R-4.0.3/library","4.0.3","base",NA,NA,NA,"methods",NA,"Part of R 4.0.3",NA,NA,NA,NA,NA,"4.0.3"
+"base64enc","base64enc","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1-3",NA,"R (>= 2.9.0)",NA,NA,NA,"png","GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"base64url","base64url","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.4",NA,NA,"backports (>= 1.1.0)",NA,"base64enc, checkmate, knitr, microbenchmark, openssl,
+rmarkdown, testthat",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.4"
+"bdsmatrix","bdsmatrix","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.3-4",NA,"methods, R (>= 2.0.0)",NA,NA,NA,NA,"LGPL-2",NA,NA,NA,NA,"yes","4.0.3"
+"BH","BH","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.75.0-0",NA,NA,NA,NA,NA,NA,"BSL-1.0",NA,NA,NA,NA,"no","4.0.3"
+"bit","bit","C:/Users/alan.millington/Documents/R/R-4.0.3/library","4.0.4",NA,"R (>= 2.9.2)",NA,NA,"testthat (>= 0.11.0), roxygen2, knitr, rmarkdown,
+microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"bit64","bit64","C:/Users/alan.millington/Documents/R/R-4.0.3/library","4.0.5",NA,"R (>= 3.0.1), bit (>= 4.0.0), utils, methods, stats",NA,NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"bitops","bitops","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0-6",NA,NA,NA,NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"blob","blob","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.2.1",NA,NA,"methods, rlang, vctrs (>= 0.2.1)",NA,"covr, crayon, pillar (>= 1.2.1), testthat",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"bookdown","bookdown","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.21",NA,NA,"htmltools (>= 0.3.6), knitr (>= 1.22), rmarkdown (>= 2.4),
+xfun (>= 0.13), tinytex (>= 0.12), yaml (>= 2.1.19)",NA,"htmlwidgets, rstudioapi, miniUI, rsconnect (>= 0.4.3), servr
+(>= 0.13), shiny, testit (>= 0.9), tufte, webshot",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"Boom","Boom","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.9.6",NA,"MASS, R(>= 3.5.0)",NA,NA,"testthat",NA,"LGPL-2.1 | file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"BoomSpikeSlab","BoomSpikeSlab","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.2.3",NA,"Boom (>= 0.9.6) , R (>= 3.5.0)",NA,"Boom(>= 0.9.6)","MASS, testthat, mlbench, igraph",NA,"LGPL-2.1 | file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"boot","boot","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.3-25","recommended","R (>= 3.0.0), graphics, stats",NA,NA,"MASS, survival",NA,"Unlimited",NA,NA,NA,NA,"no","4.0.3"
+"brew","brew","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0-6",NA,NA,NA,NA,NA,NA,"GPL-2",NA,NA,NA,NA,NA,"4.0.3"
+"brio","brio","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.1.1",NA,NA,NA,NA,"testthat (>= 2.1.0), covr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"broom","broom","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.7.2",NA,"R (>= 3.1)","backports, dplyr (>= 1.0.0), ellipsis, generics (>= 0.0.2),
+glue, methods, purrr, rlang, stringr, tibble (>= 3.0.0), tidyr
+(>= 1.0.0)",NA,"AER, akima, AUC, bbmle, betareg, biglm, binGroup, boot,
+btergm, car, caret, cluster, coda, covr, drc, e1071, emmeans,
+epiR, ergm (>= 3.10.4), fixest (>= 0.5.0), gam (>= 1.15),
+gamlss, gamlss.data, gamlss.dist, gee, geepack, ggplot2,
+glmnet, glmnetUtils, gmm, Hmisc, irlba, joineRML, Kendall,
+knitr, ks, Lahman, lavaan, leaps, lfe, lm.beta, lme4, lmodel2,
+lmtest (>= 0.9.38), lsmeans, maps, maptools, margins, MASS,
+Matrix, mclogit, mclust, mediation, metafor, mfx, mgcv, mlogit,
+modeldata, modeltests, muhaz, multcomp, network, nnet, orcutt
+(>= 2.2), ordinal, plm, poLCA, psych, quantreg, rgeos,
+rmarkdown, robust, robustbase, rsample, sandwich, sp, spdep,
+spatialreg, speedglm, spelling, survey, survival, systemfit,
+testthat (>= 2.1.0), tseries, zoo",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"bslib","bslib","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.2.4",NA,"R (>= 2.10)","grDevices, htmltools (>= 0.5.1), jsonlite, sass (>= 0.3.0),
+digest (>= 0.6.25), jquerylib (>= 0.1.3), rlang, magrittr",NA,"shiny, rmarkdown, knitr, testthat, withr, rappdirs, curl",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"bsts","bsts","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.9.5",NA,"BoomSpikeSlab (>= 1.2.3), zoo (>= 1.8), xts, Boom (>= 0.9.6),
+R(>= 3.4.0)",NA,"Boom (>= 0.9.6)","testthat",NA,"LGPL-2.1 | file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"cachem","cachem","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0.4",NA,NA,"rlang, fastmap",NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"cairoDevice","cairoDevice","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.28.2",NA,"R (>= 2.12.0)","grDevices",NA,NA,NA,"GPL",NA,NA,NA,NA,"yes","4.0.3"
+"callr","callr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","3.5.1",NA,NA,"processx (>= 3.4.4), R6, utils",NA,"cli, covr, crayon, fansi, pingr, ps, rprojroot, spelling,
+testthat, tibble, withr (>= 2.3.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"car","car","C:/Users/alan.millington/Documents/R/R-4.0.3/library","3.0-10",NA,"R (>= 3.5.0), carData (>= 3.0-0)","abind, MASS, mgcv, nnet, pbkrtest (>= 0.4-4), quantreg,
+grDevices, utils, stats, graphics, maptools, rio, lme4, nlme",NA,"alr4, boot, coxme, knitr, leaps, lmtest, Matrix,
+MatrixModels, rgl (>= 0.93.960), sandwich, SparseM, survival,
+survey",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"carData","carData","C:/Users/alan.millington/Documents/R/R-4.0.3/library","3.0-4",NA,"R (>= 3.5.0)",NA,NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"caTools","caTools","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.18.0",NA,"R (>= 3.6.0)","bitops",NA,"MASS, rpart",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"CausalImpact","CausalImpact","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.2.6",NA,"bsts (>= 0.9.0)","assertthat (>= 0.2.0), Boom, dplyr, ggplot2, zoo",NA,"knitr, rmarkdown, testthat",NA,"Apache License 2.0 | file LICENSE",NA,NA,NA,NA,"no","4.0.4"
+"cellranger","cellranger","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.1.0",NA,"R (>= 3.0.0)","rematch, tibble",NA,"covr, testthat (>= 1.0.0), knitr, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"ChannelAttribution","ChannelAttribution","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.0.2",NA,NA,"Rcpp","Rcpp, RcppArmadillo",NA,NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"checkmate","checkmate","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.0.0",NA,"R (>= 3.0.0)","backports (>= 1.1.0), utils",NA,"R6, fastmatch, data.table (>= 1.9.8), devtools, ggplot2,
+knitr, magrittr, microbenchmark, rmarkdown, testthat (>=
+0.11.0), tinytest (>= 1.1.0), tibble",NA,"BSD_3_clause + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"chron","chron","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.3-56",NA,"R (>= 2.12.0)","graphics, stats",NA,"scales, ggplot2","zoo","GPL-2",NA,NA,NA,NA,"yes","4.0.3"
+"class","class","C:/Users/alan.millington/Documents/R/R-4.0.3/library","7.3-17","recommended","R (>= 3.0.0), stats, utils","MASS",NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"classInt","classInt","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.4-3",NA,"R (>= 2.2)","grDevices, stats, graphics, e1071, class, KernSmooth",NA,"spData (>= 0.2.6.2), units, knitr, rmarkdown",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"cli","cli","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.3.1",NA,"R (>= 2.10)","assertthat, glue, methods, utils",NA,"callr, covr, grDevices, htmlwidgets, knitr, mockery, ps (>=
+1.3.4.9000), rmarkdown, rstudioapi, prettycode (>= 1.1.0),
+testthat, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.4"
+"clipr","clipr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.7.1",NA,NA,"utils",NA,"covr, knitr, rmarkdown, rstudioapi (>= 0.5), testthat (>=
+2.0.0)",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"clisymbols","clisymbols","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.2.0",NA,NA,NA,NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"cluster","cluster","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.1.0","recommended","R (>= 3.3.0)","graphics, grDevices, stats, utils",NA,"MASS, Matrix",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"clustMixType","clustMixType","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.2-9",NA,NA,"RColorBrewer, tibble",NA,"testthat",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"coda","coda","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.19-4",NA,"R (>= 2.14.0)","lattice",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"codetools","codetools","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.2-18","recommended","R (>= 2.1)",NA,NA,NA,NA,"GPL",NA,NA,NA,NA,"no","4.0.3"
+"coindeskr","coindeskr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.0",NA,NA,"httr, jsonlite",NA,"testthat",NA,"CC0",NA,NA,NA,NA,"no","3.6.3"
+"colorspace","colorspace","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.0-0",NA,"R (>= 3.0.0), methods","graphics, grDevices, stats",NA,"datasets, utils, KernSmooth, MASS, kernlab, mvtnorm, vcd,
+tcltk, shiny, shinyjs, ggplot2, dplyr, scales, grid, png, jpeg,
+knitr, rmarkdown, RColorBrewer, rcartocolor, scico, viridis,
+wesanderson",NA,"BSD_3_clause + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"commonmark","commonmark","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.7",NA,NA,NA,NA,"curl, testthat, xml2",NA,"BSD_2_clause + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"compiler","compiler","C:/Users/alan.millington/Documents/R/R-4.0.3/library","4.0.3","base",NA,NA,NA,NA,NA,"Part of R 4.0.3",NA,NA,NA,NA,NA,"4.0.3"
+"conquer","conquer","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0.2",NA,"R (>= 3.5.0)","Rcpp (>= 1.0.3), Matrix, matrixStats, stats","Rcpp, RcppArmadillo (>= 0.9.850.1.0)",NA,NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"corrplot","corrplot","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.84",NA,NA,NA,NA,"knitr, RColorBrewer, testthat",NA,"GPL",NA,NA,NA,NA,"no","4.0.3"
+"covr","covr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","3.5.1",NA,"R (>= 3.1.0), methods","digest, stats, utils, jsonlite, rex, httr, crayon, withr (>=
+1.0.2), yaml",NA,"R6, curl, knitr, rmarkdown, htmltools, DT (>= 0.2), testthat,
+rlang, rstudioapi (>= 0.2), xml2 (>= 1.0.0), parallel, memoise,
+mockery",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"cowplot","cowplot","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.1.0",NA,"R (>= 3.5.0)","ggplot2 (> 2.2.1), grid, gtable, grDevices, methods, rlang,
+scales",NA,"Cairo, covr, dplyr, forcats, gridGraphics (>= 0.4-0), knitr,
+lattice, magick, maps, PASWR, patchwork, rmarkdown, ragg,
+testthat (>= 1.0.0), tidyr, vdiffr (>= 0.3.0), VennDiagram",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"cpp11","cpp11","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.2.6",NA,NA,NA,NA,"bench, brio, callr, cli, covr, decor, desc, ggplot2, glue,
+knitr, lobstr, mockery, progress, rmarkdown, scales, testthat,
+tibble, utils, vctrs, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"crayon","crayon","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.4.1",NA,NA,"grDevices, methods, utils",NA,"mockery, rstudioapi, testthat, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"crosstalk","crosstalk","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.1.0.1",NA,NA,"htmltools (>= 0.3.6), jsonlite, lazyeval, R6",NA,"shiny, ggplot2, testthat (>= 2.1.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"crul","crul","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.1.0",NA,NA,"curl (>= 3.3), R6 (>= 2.2.0), urltools (>= 1.6.0), httpcode
+(>= 0.2.0), jsonlite, mime",NA,"testthat, roxygen2 (>= 7.1.1), fauxpas (>= 0.1.0), webmockr
+(>= 0.1.0), knitr, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.4"
+"csv","csv","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.5.9",NA,NA,"data.table, stringi",NA,"",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"curl","curl","C:/Users/alan.millington/Documents/R/R-4.0.3/library","4.3",NA,"R (>= 3.0.0)",NA,NA,"spelling, testthat (>= 1.0.0), knitr, jsonlite, rmarkdown,
+magrittr, httpuv (>= 1.4.4), webutils",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"d3Network","d3Network","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.5.2.1",NA,"R (>= 3.0.0)","plyr, rjson, whisker",NA,"RCurl",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.0.3"
+"data.table","data.table","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.13.2",NA,"R (>= 3.1.0)","methods",NA,"bit64, curl, R.utils, xts, nanotime, zoo, yaml, knitr,
+rmarkdown",NA,"MPL-2.0 | file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"data.tree","data.tree","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0.0",NA,"R (>= 3.5)","R6, stringi, methods",NA,"Formula, graphics, testthat, knitr, rmarkdown, ape, yaml,
+networkD3, jsonlite, treemap, party, partykit, doParallel,
+foreach, htmlwidgets, DiagrammeR (>= 1.0.0), mockery, rpart","igraph","GPL (>= 2)",NA,NA,NA,NA,"no","4.0.2"
+"datarium","datarium","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.0",NA,"R (>= 3.1.0)",NA,NA,"knitr",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"datasets","datasets","C:/Users/alan.millington/Documents/R/R-4.0.3/library","4.0.3","base",NA,NA,NA,NA,NA,"Part of R 4.0.3",NA,NA,NA,NA,NA,"4.0.3"
+"DBI","DBI","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.1.0",NA,"methods, R (>= 3.0.0)",NA,NA,"blob, covr, hms, knitr, magrittr, rmarkdown, rprojroot,
+RSQLite (>= 1.1-2), testthat, xml2",NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.0.3"
+"dbplyr","dbplyr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.0.0",NA,"R (>= 3.1)","assertthat (>= 0.2.0), DBI (>= 1.0.0), dplyr (>= 0.8.0), glue
+(>= 1.2.0), lifecycle, magrittr, methods, purrr (>= 0.2.5), R6
+(>= 2.2.2), rlang (>= 0.2.0), tibble (>= 1.4.2), tidyselect (>=
+0.2.4), blob (>= 1.2.0), utils, withr",NA,"bit64, covr, knitr, Lahman, nycflights13, odbc, RMariaDB (>=
+1.0.2), rmarkdown, RPostgres (>= 1.1.3), RPostgreSQL, RSQLite
+(>= 2.1.0), testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"DCM","DCM","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.1",NA,"R(>= 3.0.0), tcltk, gWidgets","readxl, pander",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"no","3.6.2"
+"deldir","deldir","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.2-3",NA,"R (>= 3.5.0)","graphics, grDevices",NA,"polyclip",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"dendextend","dendextend","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.14.0",NA,"R (>= 3.0.0)","utils, stats, datasets, magrittr (>= 1.0.1), ggplot2, viridis",NA,"knitr, rmarkdown, testthat, seriation, colorspace, ape,
+microbenchmark, gplots, heatmaply, dynamicTreeCut, pvclust,
+corrplot, DendSer, MASS, cluster, fpc, circlize (>= 0.2.5),
+covr","ggdendro, dendroextras, Hmisc, data.table, rpart","GPL-2 | GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"Deriv","Deriv","C:/Users/alan.millington/Documents/R/R-4.0.3/library","4.1.1",NA,NA,"methods",NA,"testthat",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.0.3"
+"desc","desc","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.2.0",NA,"R (>= 3.1.0)","assertthat, utils, R6, crayon, rprojroot",NA,"covr, testthat, whoami, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"devtools","devtools","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.3.2",NA,"R (>= 3.0.2), usethis (>= 1.6.3)","callr (>= 3.4.4), cli (>= 2.0.2), covr (>= 3.5.1), desc (>=
+1.2.0), DT (>= 0.15), ellipsis (>= 0.3.1), httr (>= 1.4.2),
+jsonlite (>= 1.7.1), memoise (>= 1.1.0), pkgbuild (>= 1.1.0),
+pkgload (>= 1.1.0), rcmdcheck (>= 1.3.3), remotes (>= 2.2.0),
+rlang (>= 0.4.7), roxygen2 (>= 7.1.1), rstudioapi (>= 0.11),
+rversions (>= 2.0.2), sessioninfo (>= 1.1.1), stats, testthat
+(>= 2.3.2), tools, utils, withr (>= 2.2.0)",NA,"BiocManager (>= 1.30.10), curl (>= 4.3), digest (>= 0.6.25),
+foghorn (>= 1.3.1), gmailr (>= 1.0.0), knitr (>= 1.29), lintr
+(>= 2.0.1), MASS, mockery (>= 0.4.2), pingr (>= 2.0.1), pkgdown
+(>= 1.6.1), rhub (>= 1.1.1), rmarkdown (>= 2.3), spelling (>=
+2.1)",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"DiagrammeR","DiagrammeR","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0.6.1.9000",NA,"R (>= 3.2.0)","dplyr (>= 0.7.6),
+downloader (>= 0.4),
+glue (>= 1.3.0),
+htmltools (>= 0.3.6),
+htmlwidgets (>= 1.2),
+igraph (>= 1.2.2),
+influenceR (>= 0.1.0),
+magrittr (>= 1.5),
+purrr (>= 0.2.5),
+RColorBrewer (>= 1.1-2),
+readr (>= 1.1.1),
+rlang (>= 0.2.2),
+rstudioapi (>= 0.7),
+scales (>= 1.0.0),
+stringr (>= 1.3.1),
+tibble (>= 1.4.2),
+tidyr (>= 0.8.1),
+viridis (>= 0.5.1),
+visNetwork (>= 2.0.4)",NA,"covr,
+DiagrammeRsvg,
+rsvg,
+knitr,
+testthat,
+rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,NA,"4.0.2"
+"dials","dials","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.0.9",NA,"scales, R (>= 2.10)","glue, purrr, tibble, rlang, utils, withr, DiceDesign, dplyr
+(>= 0.8.5), vctrs (>= 0.3.0.9000)",NA,"testthat, knitr, rpart, covr, kernlab, xml2, rmarkdown",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"DiceDesign","DiceDesign","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.8-1",NA,"R (>= 2.10)",NA,NA,"rgl, randtoolbox, lattice",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"dichromat","dichromat","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.0-0",NA,"R (>= 2.10), stats",NA,NA,NA,NA,"GPL-2",NA,NA,NA,NA,NA,"4.0.3"
+"diffobj","diffobj","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.3.3",NA,"R (>= 3.1.0)","crayon (>= 1.3.2), tools, methods, utils, stats",NA,"knitr, rmarkdown",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"digest","digest","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.6.27",NA,"R (>= 3.3.0)","utils",NA,"tinytest, knitr, rmarkdown, minidown",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"doBy","doBy","C:/Users/alan.millington/Documents/R/R-4.0.3/library","4.6.8",NA,"R (>= 3.6.0), methods","pbkrtest (>= 0.4-8.1), MASS, Matrix, magrittr, Deriv, tibble,
+broom, ggplot2, dplyr",NA,"multcomp, geepack, lme4, survival, knitr",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"downloader","downloader","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.4",NA,NA,"utils, digest",NA,"testthat",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.0"
+"dplyr","dplyr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0.4",NA,"R (>= 3.3.0)","ellipsis, generics, glue (>= 1.3.2), lifecycle (>= 0.2.0),
+magrittr (>= 1.5), methods, R6, rlang (>= 0.4.9), tibble (>=
+2.1.3), tidyselect (>= 1.1.0), utils, vctrs (>= 0.3.5)",NA,"bench, broom, callr, covr, DBI, dbplyr (>= 1.4.3), knitr,
+Lahman, lobstr, microbenchmark, nycflights13, purrr, rmarkdown,
+RMySQL, RPostgreSQL, RSQLite, testthat (>= 2.1.0), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"DT","DT","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.16",NA,NA,"htmltools (>= 0.3.6), htmlwidgets (>= 1.3), jsonlite (>=
+0.9.16), magrittr, crosstalk, promises",NA,"knitr (>= 1.8), rmarkdown, shiny (>= 1.2.0), testit",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"dtt","dtt","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1-2",NA,NA,NA,NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"dygraphs","dygraphs","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.1.1.6",NA,"R (>= 3.0)","magrittr, htmlwidgets (>= 0.6), htmltools (>= 0.3.5), zoo (>=
+1.7-10), xts (>= 0.9-7)",NA,"testthat","rmarkdown (>= 0.3.3), shiny (>= 0.10.2.1)","MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"e1071","e1071","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.7-4",NA,NA,"graphics, grDevices, class, stats, methods, utils",NA,"cluster, mlbench, nnet, randomForest, rpart, SparseM, xtable,
+Matrix, MASS, slam",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"ellipsis","ellipsis","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.3.1",NA,"R (>= 3.2)","rlang (>= 0.3.0)",NA,"covr, testthat",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"entropy","entropy","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.2.1",NA,"R (>= 2.15.1)",NA,NA,"",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.0.3"
+"evaluate","evaluate","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.14",NA,"R (>= 3.0.2)","methods",NA,"testthat, lattice, ggplot2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"eventdataR","eventdataR","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.2.0",NA,"R (>= 3.0)",NA,NA,"knitr, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"exactRankTests","exactRankTests","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.8-31",NA,"R (>= 2.4.0), stats, utils",NA,NA,"survival",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"excelR","excelR","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.4.0",NA,NA,"htmlwidgets (>= 1.3), jsonlite (>= 1.6)",NA,"shiny (>= 1.3.1), testthat (>= 2.0.0), covr (>= 3.2.1)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"ExPanDaR","ExPanDaR","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.5.1",NA,"R (>= 3.3.0)","tidyr, dplyr, ggplot2, corrplot, lfe, multiwayvcov, lmtest,
+stargazer, scales, shiny, DT, openssl, tictoc, shinycssloaders,
+kableExtra, rio, zip, rlang",NA,"gapminder, rmarkdown, htmltools, knitr, devtools, tidyquant,
+wbstats",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"expm","expm","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.999-5",NA,"Matrix","methods",NA,"RColorBrewer, sfsmisc, Rmpfr",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"extraDistr","extraDistr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.9.1",NA,"R (>= 3.1.0)","Rcpp","Rcpp","testthat, LaplacesDemon, VGAM, evd, hoa, skellam, triangle,
+actuar",NA,"GPL-2",NA,NA,NA,NA,"yes","4.0.3"
+"extrafont","extrafont","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.17",NA,"R (>= 2.15)","extrafontdb, grDevices, utils, Rttf2pt1",NA,"fontcm",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"extrafontdb","extrafontdb","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0",NA,"R (>= 2.14)",NA,NA,NA,NA,"GPL-2",NA,NA,NA,NA,NA,"4.0.3"
+"fansi","fansi","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.4.2",NA,"R (>= 3.1.0)",NA,NA,"unitizer, knitr, rmarkdown",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"farver","farver","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.0.3",NA,NA,NA,NA,"testthat (>= 2.1.0), covr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"fastmap","fastmap","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0.1",NA,NA,NA,NA,"testthat (>= 2.1.1)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"filelock","filelock","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0.2",NA,NA,NA,NA,"callr (>= 2.0.0), covr, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.4"
+"flexdashboard","flexdashboard","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.5.2",NA,"R (>= 3.0.2)","tools, jsonlite, htmltools, knitr (>= 1.13), htmlwidgets (>=
+0.6), rmarkdown (>= 1.10.3), shiny (>= 0.13)",NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"fontawesome","fontawesome","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.0",NA,"R (>= 3.2.0)","htmltools (>= 0.3.6)",NA,"covr, knitr, testthat, rsvg",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"forcats","forcats","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.5.0",NA,"R (>= 3.2)","ellipsis, magrittr, rlang, tibble",NA,"covr, ggplot2, testthat, readr, knitr, rmarkdown, dplyr",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"foreach","foreach","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.5.1",NA,"R (>= 2.5.0)","codetools, utils, iterators",NA,"randomForest, doMC, doParallel, testthat, knitr, rmarkdown",NA,"Apache License (== 2.0)",NA,NA,NA,NA,"no","4.0.3"
+"forecast","forecast","C:/Users/alan.millington/Documents/R/R-4.0.3/library","8.13",NA,"R (>= 3.0.2),","colorspace, fracdiff, ggplot2 (>= 2.2.1), graphics, lmtest,
+magrittr, nnet, parallel, Rcpp (>= 0.11.0), stats, timeDate,
+tseries, urca, zoo","Rcpp (>= 0.11.0), RcppArmadillo (>= 0.2.35)","forecTheta, knitr, methods, rmarkdown, rticles, seasonal,
+testthat, uroot",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"foreign","foreign","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.8-80","recommended","R (>= 4.0.0)","methods, utils, stats",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"formattable","formattable","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.2.1",NA,"R (> 3.0.2)","methods, htmltools, htmlwidgets, knitr, rmarkdown",NA,"testthat, DT, shiny, covr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.4"
+"Formula","Formula","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.2-4",NA,"R (>= 2.0.0), stats",NA,NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"fracdiff","fracdiff","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.5-1",NA,NA,"stats",NA,"longmemo, forecast, urca",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"fs","fs","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.5.0",NA,"R (>= 3.1)","methods",NA,"testthat, covr, pillar (>= 1.0.0), tibble (>= 1.1.0), crayon,
+rmarkdown, knitr, withr, spelling, vctrs (>= 0.3.0)",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"funModeling","funModeling","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.9.4",NA,"R (>= 3.4.0), Hmisc (>= 3.17.1)","ROCR, ggplot2, gridExtra, pander, reshape2, scales, dplyr,
+lazyeval, utils, RColorBrewer, moments, entropy, cli, stringr",NA,"knitr, rmarkdown",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"furrr","furrr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.2.1",NA,"future (>= 1.19.1), R (>= 3.2.0)","ellipsis, globals (>= 0.13.1), lifecycle (>= 0.2.0), purrr (>=
+0.3.0), rlang (>= 0.3.0), vctrs (>= 0.3.2)",NA,"carrier, covr, dplyr (>= 0.7.4), knitr, listenv (>= 0.6.0),
+magrittr, progressr, rmarkdown, testthat, withr, tidyselect",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"future","future","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.20.1",NA,NA,"digest, globals (>= 0.13.1), listenv (>= 0.8.0), parallel,
+parallelly (>= 1.21.0), tools, utils",NA,"RhpcBLASctl, R.rsp, markdown",NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.0.3"
+"fuzzyjoin","fuzzyjoin","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.6",NA,"R (>= 2.10)","stringdist, stringr, dplyr (>= 0.8.1), tidyr (>= 0.4.0),
+purrr, geosphere, tibble",NA,"testthat, knitr, ggplot2, qdapDictionaries, readr, rvest,
+rmarkdown, maps, IRanges, covr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"ganttrify","ganttrify","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.0.0.9003",NA,"R (>= 2.10)","magrittr, tibble, dplyr, ggplot2, readr, zoo, wesanderson,
+lubridate, tidyr, shiny, DT",NA,"googlesheets4, extrafont, svglite, readxl",NA,"GPL-3",NA,NA,NA,NA,"no","3.6.3"
+"gapminder","gapminder","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.3.0",NA,"R (>= 3.1.0)","tibble",NA,"dplyr, ggplot2, testthat",NA,"CC0",NA,NA,NA,NA,"no","4.0.3"
+"gargle","gargle","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.5.0",NA,"R (>= 3.2)","fs (>= 1.3.1), glue (>= 1.3.0), httr (>= 1.4.0), jsonlite,
+rlang (>= 0.4.2), stats, withr",NA,"covr, knitr, rmarkdown, sodium, spelling, testthat (>= 2.3.2)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"gclus","gclus","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.3.2",NA,"R (>= 2.10), cluster",NA,NA,"knitr, rmarkdown",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"gdata","gdata","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.18.0",NA,"R (>= 2.3.0)","gtools, stats, methods, utils",NA,"RUnit",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"gdtools","gdtools","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.2.2",NA,NA,"Rcpp (>= 0.12.12), systemfonts (>= 0.1.1)","Rcpp","htmltools, testthat, fontquiver (>= 0.2.0), curl",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"generics","generics","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.0",NA,"R (>= 3.1)","methods",NA,"covr, pkgload, testthat, tibble",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"geosphere","geosphere","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.5-10",NA,"R (>= 3.0.0)","sp",NA,"methods, raster",NA,"GPL (>= 3)",NA,NA,NA,NA,"yes","4.0.3"
+"GGally","GGally","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.0.0",NA,"R (>= 3.1), ggplot2 (>= 3.3.0)","grDevices, grid, gtable (>= 0.2.0), plyr (>= 1.8.3), progress,
+RColorBrewer, reshape (>= 0.8.5), scales (>= 1.1.0), utils,
+rlang, lifecycle",NA,"broom (>= 0.4.0), chemometrics, geosphere (>= 1.5-1),
+ggforce, Hmisc, igraph (>= 1.0.1), intergraph (>= 2.0-2), maps
+(>= 3.1.0), mapproj, network (>= 1.12.0), scagnostics, sna (>=
+2.3-2), survival, rmarkdown, roxygen2, testthat, crosstalk,
+knitr, spelling",NA,"GPL (>= 2.0)",NA,NA,NA,NA,"no","4.0.3"
+"gganimate","gganimate","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0.7",NA,"ggplot2 (>= 3.0.0)","stringi, tweenr (>= 1.0.1), grid, rlang, glue, progress, plyr,
+scales, grDevices, utils",NA,"magick, svglite, knitr, rmarkdown, testthat, base64enc,
+htmltools, covr, transformr, av, gifski, ragg",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"ggdendro","ggdendro","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.22",NA,NA,"MASS, ggplot2(>= 0.9.2)",NA,"rpart (>= 4.0-0), tree, testthat, knitr, cluster, scales,
+spelling, rmarkdown",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"ggforce","ggforce","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.3.2",NA,"ggplot2 (>= 3.0.0), R (>= 3.3.0)","Rcpp (>= 0.12.2), grid, scales, MASS, tweenr (>= 0.1.5),
+gtable, rlang, polyclip, stats, grDevices, tidyselect, withr,
+utils","Rcpp, RcppEigen","sessioninfo, concaveman, deldir, reshape2, units (>= 0.4-6),
+covr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"ggiraph","ggiraph","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.7.8",NA,NA,"grid, ggplot2 (>= 3.3.0), htmlwidgets (>= 0.6), stats,
+htmltools, Rcpp (>= 0.12.12), gdtools (>= 0.2.1), purrr, rlang,
+uuid","Rcpp, gdtools","knitr, testthat, rmarkdown, maps, shiny, sf (>= 0.7-3),
+quantreg, xml2 (>= 1.0.0), dplyr",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.4"
+"ggmap","ggmap","C:/Users/alan.millington/Documents/R/R-4.0.3/library","3.0.0",NA,"R (>= 3.1.0), ggplot2 (>= 2.2.0)","RgoogleMaps, png, plyr, rjson, jpeg, digest, scales, dplyr,
+bitops, grid, glue, httr, stringr, purrr, magrittr, tibble,
+tidyr",NA,"MASS, hexbin, testthat",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"ggplot2","ggplot2","C:/Users/alan.millington/Documents/R/R-4.0.3/library","3.3.3",NA,"R (>= 3.2)","digest, glue, grDevices, grid, gtable (>= 0.1.1), isoband,
+MASS, mgcv, rlang (>= 0.3.0), scales (>= 0.5.0), stats, tibble,
+withr (>= 2.0.0)",NA,"covr, dplyr, ggplot2movies, hexbin, Hmisc, knitr, lattice,
+mapproj, maps, maptools, multcomp, munsell, nlme, profvis,
+quantreg, RColorBrewer, rgeos, rmarkdown, rpart, sf (>= 0.7-3),
+svglite (>= 1.2.0.9001), testthat (>= 2.1.0), vdiffr (>= 0.3.0)","sp","MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"ggpmisc","ggpmisc","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.3.7",NA,"R (>= 3.6.0), ggplot2 (>= 3.3.2)","grid, rlang (>= 0.4.7), magrittr (>= 1.5), glue (>= 1.4.2),
+gridExtra (>= 2.3), scales (>= 1.1.1), MASS (>= 7.3-51.6),
+polynom (>= 1.4-0), splus2R (>= 1.2-2), tibble (>= 3.0.3), plyr
+(>= 1.8.6), dplyr (>= 1.0.2), xts (>= 0.12-0), zoo (>= 1.8-8),
+broom (>= 0.7.0), lubridate (>= 1.7.9), stringr (>= 1.4.0)",NA,"knitr (>= 1.29), rmarkdown (>= 2.3), nlme (>= 3.1-147),
+gginnards(>= 0.0.3), ggrepel (>= 0.8.2), magick (>= 2.4.0)",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"ggpubr","ggpubr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.4.0",NA,"R (>= 3.1.0), ggplot2","ggrepel, grid, ggsci, stats, utils, tidyr, purrr, dplyr (>=
+0.7.1), cowplot, ggsignif, scales, gridExtra, glue, polynom,
+rlang, rstatix (>= 0.6.0), tibble, magrittr",NA,"grDevices, knitr, RColorBrewer, gtable",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"ggraph","ggraph","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.0.5",NA,"R (>= 2.10), ggplot2 (>= 3.0.0)","Rcpp (>= 0.12.2), dplyr, ggforce (>= 0.3.1), grid, igraph (>=
+1.0.0), scales, MASS, digest, gtable, ggrepel, utils, stats,
+viridis, rlang, tidygraph, graphlayouts (>= 0.5.0), withr","Rcpp","network, knitr, rmarkdown, purrr, tibble, seriation, deldir,
+gganimate, covr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"ggrepel","ggrepel","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.8.2",NA,"R (>= 3.0.0), ggplot2 (>= 2.2.0)","grid, Rcpp, scales (>= 0.3.0)","Rcpp","knitr, rmarkdown, testthat, gridExtra, devtools, prettydoc",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"ggsci","ggsci","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.9",NA,"R (>= 3.0.2)","grDevices, scales, ggplot2 (>= 2.0.0)",NA,"knitr, rmarkdown, gridExtra, reshape2",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"ggsignif","ggsignif","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.6.0",NA,NA,"ggplot2 (>= 2.0.0)",NA,"testthat, knitr, rmarkdown",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"ggtext","ggtext","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.1",NA,"R (>= 3.5)","ggplot2 (>= 3.3.0), grid, gridtext, rlang, scales",NA,"cowplot, dplyr, glue, knitr, rmarkdown, testthat, vdiffr",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"ggthemes","ggthemes","C:/Users/alan.millington/Documents/R/R-4.0.3/library","4.2.0",NA,"R (>= 3.3.0)","ggplot2 (>= 3.0.0), graphics, grid, methods, purrr, scales,
+stringr, tibble",NA,"dplyr, covr, extrafont, glue, knitr, lattice, lintr, maps,
+mapproj, pander, rlang, rmarkdown, spelling, testthat, tidyr,
+vdiffr, withr",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"gh","gh","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.1.0",NA,NA,"cli, ini, jsonlite, httr (>= 1.2)",NA,"covr, keyring, pingr, testthat, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"gifski","gifski","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.8.7",NA,NA,NA,NA,"ggplot2, gapminder",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"git2r","git2r","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.27.1",NA,"R (>= 3.1)","graphics, utils",NA,"getPass",NA,"GPL-2",NA,NA,NA,NA,"yes","4.0.3"
+"glasso","glasso","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.11",NA,NA,NA,NA,NA,NA,"GPL-2",NA,NA,NA,NA,"yes","4.0.3"
+"globals","globals","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.14.0",NA,"R (>= 3.1.2)","codetools",NA,NA,NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.0.3"
+"glue","glue","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.4.2",NA,"R (>= 3.2)","methods",NA,"testthat, covr, magrittr, crayon, knitr, rmarkdown, DBI,
+RSQLite, R.utils, forcats, microbenchmark, rprintf, stringr,
+ggplot2, dplyr, withr, vctrs (>= 0.3.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"gmodels","gmodels","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.18.1",NA,"R (>= 1.9.0)","MASS, gdata",NA,"gplots, gtools, Matrix, nlme, lme4 (>= 0.999999-0)",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"gmp","gmp","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.6-2",NA,"R (>= 3.5.0)","methods",NA,"Rmpfr, MASS, round",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"goftest","goftest","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.2-2",NA,"R (>= 3.3)","stats",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"googleAnalyticsR","googleAnalyticsR","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.8.0",NA,"R (>= 3.3.0)","assertthat (>= 0.2.0), cli (>= 2.0.2), dplyr (>= 0.8.0),
+googleAuthR (>= 1.3.0), httr (>= 1.3.1), jsonlite (>= 1.5),
+magrittr (>= 1.5), memoise, methods, purrr (>= 0.2.2), rlang
+(>= 0.1.0), stats, tibble (>= 2.0.1), tidyr (>= 1.0.0), utils",NA,"bigQueryR (>= 0.3.1), covr, formatR, ganalytics,
+googleCloudStorageR (>= 0.2.0), htmlwidgets, knitr, miniUI (>=
+0.1.1), rmarkdown, shiny (>= 0.13.2), testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"googleAuthR","googleAuthR","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.3.0",NA,"R (>= 3.3.0)","assertthat (>= 0.2.0), cli (>= 2.0.2), digest, gargle (>=
+0.4.0), httr (>= 1.4.0), jsonlite (>= 1.6), memoise (>= 1.1.0),
+rlang, utils",NA,"bigQueryR, covr, devtools (>= 1.12.0), formatR (>= 1.4),
+googleAnalyticsR, knitr, miniUI (>= 0.1.1), rmarkdown, roxygen2
+(>= 5.0.0), rstudioapi, shiny (>= 0.13.2), testthat, usethis
+(>= 1.6.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"googledrive","googledrive","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0.1",NA,"R (>= 3.2)","curl (>= 2.8.1), gargle (>= 0.3.1), glue (>= 1.2.0), httr,
+jsonlite, magrittr, purrr (>= 0.2.3), rlang (>= 0.3.1), tibble
+(>= 2.0.0), utils, uuid",NA,"covr, dplyr, knitr, rmarkdown, roxygen2, sodium, spelling,
+testthat (>= 2.1.1)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"googlesheets","googlesheets","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.3.0",NA,"R (>= 3.2.0)","cellranger (>= 1.0.0), dplyr (>= 0.4.2), httr (>= 1.1.0),
+jsonlite, purrr, readr (>= 0.2.2), stats, stringr, tibble,
+tidyr, utils, xml2 (>= 1.0.0)",NA,"covr, ggplot2, knitr, rmarkdown, rprojroot, testthat (>=
+1.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"googlesheets4","googlesheets4","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.2.0",NA,"R (>= 3.2)","cellranger, curl, gargle (>= 0.5.0), glue (>= 1.3.0),
+googledrive (>= 1.0.0), httr, ids, lifecycle, magrittr,
+methods, purrr, rematch2, rlang, tibble (>= 2.1.1), utils,
+vctrs (>= 0.2.3)",NA,"covr, readr, rmarkdown, sodium, spelling, testthat (>=
+2.1.0), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"googleVis","googleVis","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.6.9",NA,"R (>= 3.0.2)","methods, jsonlite, utils",NA,"shiny (>= 0.4.0), httpuv (>= 1.2.0), knitr (>= 1.5),
+rmarkdown, markdown, data.table",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"gower","gower","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.2.2",NA,NA,NA,NA,"tinytest (>= 0.9.3),",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"GPArotation","GPArotation","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2014.11-1",NA,"R (>= 2.0.0)",NA,NA,NA,NA,"GPL (>= 2) | file LICENSE",NA,NA,NA,NA,"no","4.0.0"
+"GPfit","GPfit","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0-8",NA,NA,"lhs (>= 0.5), lattice (>= 0.18-8)",NA,"testthat",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"gplots","gplots","C:/Users/alan.millington/Documents/R/R-4.0.3/library","3.1.0",NA,"R (>= 3.0)","gtools, stats, caTools, KernSmooth",NA,"grid, MASS, knitr",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"graphics","graphics","C:/Users/alan.millington/Documents/R/R-4.0.3/library","4.0.3","base",NA,"grDevices",NA,NA,NA,"Part of R 4.0.3",NA,NA,NA,NA,"yes","4.0.3"
+"graphlayouts","graphlayouts","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.7.1",NA,"R (>= 3.2.0)","igraph, Rcpp","Rcpp, RcppArmadillo","oaqc, testthat, ggraph, ggplot2, knitr, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"grDevices","grDevices","C:/Users/alan.millington/Documents/R/R-4.0.3/library","4.0.3","base",NA,NA,NA,"KernSmooth",NA,"Part of R 4.0.3",NA,NA,NA,NA,"yes","4.0.3"
+"grid","grid","C:/Users/alan.millington/Documents/R/R-4.0.3/library","4.0.3","base",NA,"grDevices, utils",NA,"lattice",NA,"Part of R 4.0.3",NA,NA,NA,NA,"yes","4.0.3"
+"gridBase","gridBase","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.4-7",NA,"R (>= 2.3.0)","graphics, grid",NA,"lattice",NA,"GPL",NA,NA,NA,NA,"no","4.0.3"
+"gridExtra","gridExtra","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.3",NA,NA,"gtable, grid, grDevices, graphics, utils",NA,"ggplot2, egg, lattice, knitr, testthat",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"gridtext","gridtext","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.4",NA,"R (>= 3.5)","grid, grDevices, markdown, rlang, Rcpp, RCurl, png, jpeg,
+stringr, xml2","Rcpp","covr, knitr, rmarkdown, testthat, vdiffr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"gsubfn","gsubfn","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.7",NA,"proto",NA,NA,"boot, chron, grid, lattice, quantreg, svUnit, tcltk, zoo",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"gt","gt","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.2.2",NA,"R (>= 3.2.0)","checkmate (>= 2.0.0), commonmark (>= 1.7), dplyr (>= 0.8.5),
+fs (>= 1.3.2), ggplot2 (>= 3.3.0), glue (>= 1.3.2), htmltools
+(>= 0.5.0), magrittr (>= 1.5), rlang (>= 0.4.5), sass (>=
+0.1.1), scales (>= 1.1.0), stringr (>= 1.3.1), tibble (>=
+3.0.0), tidyselect (>= 1.0.0)",NA,"covr, knitr, paletteer, testthat (>= 2.1.0), RColorBrewer,
+rmarkdown, rvest, shiny, tidyr, webshot, xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"gtable","gtable","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.3.0",NA,"R (>= 3.0)","grid",NA,"covr, testthat, knitr, rmarkdown, ggplot2, profvis",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"gtools","gtools","C:/Users/alan.millington/Documents/R/R-4.0.3/library","3.8.2",NA,"methods, stats, utils",NA,NA,NA,NA,"GPL-2",NA,NA,NA,NA,"yes","4.0.3"
+"gtrendsR","gtrendsR","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.4.7",NA,"R (>= 3.5.0)","ggplot2, jsonlite, anytime, curl",NA,"knitr, rmarkdown, tinytest",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"gWidgets","gWidgets","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.0-54.1",NA,"methods, utils",NA,NA,"gWidgetstcltk",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","3.6.2"
+"hardhat","hardhat","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.5",NA,"R (>= 2.10)","glue, rlang (>= 0.4.1), tibble, vctrs (>= 0.3.0)",NA,"covr, crayon, devtools, knitr, Matrix, modeldata (>= 0.0.2),
+recipes (>= 0.1.8), rmarkdown (>= 2.3), roxygen2, testthat (>=
+2.1.0), usethis",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"haven","haven","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.3.1",NA,"R (>= 3.2)","forcats (>= 0.2.0), hms, methods, Rcpp (>= 0.11.4), readr (>=
+0.1.0), rlang (>= 0.4.0), tibble, tidyselect, vctrs (>= 0.3.0)","Rcpp","covr, fs, knitr, rmarkdown, testthat, pillar (>= 1.4.0), cli,
+crayon",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"here","here","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0.0",NA,NA,"rprojroot (>= 2.0.1)",NA,"conflicted, covr, fs, knitr, palmerpenguins, plyr, readr,
+rmarkdown, testthat, uuid, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"hexbin","hexbin","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.28.1",NA,"R (>= 2.0.1), methods","lattice, grid, graphics, grDevices, stats, utils",NA,"marray, affy, Biobase, limma, knitr",NA,"GPL-2",NA,NA,NA,NA,"yes","4.0.3"
+"highcharter","highcharter","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.8.2",NA,"R (>= 2.10)","htmlwidgets, magrittr, purrr, rlist, assertthat, zoo, dplyr
+(>= 0.7.0), tibble (>= 1.1), stringr (>= 1.3.0), broom, xts,
+quantmod, tidyr, htmltools, jsonlite, igraph, lubridate, yaml,
+rlang (>= 0.1.1), rjson",NA,"knitr, rmarkdown, survival, ggplot2, httr, viridisLite,
+shiny, MASS, gapminder, forecast, geojsonio, testthat, covr,
+spelling",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"highr","highr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.8",NA,"R (>= 3.2.3)",NA,NA,"knitr, testit",NA,"GPL",NA,NA,NA,NA,"no","4.0.3"
+"HistData","HistData","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.8-7",NA,"R (>= 3.5.0)",NA,NA,"gtools, KernSmooth, maps, ggplot2, scales, proto, grid,
+reshape, plyr, lattice, jpeg, car, gplots, sp, heplots, knitr,
+rmarkdown, effects, lubridate, gridExtra, vcd, MASS",NA,"GPL",NA,NA,NA,NA,"no","4.0.4"
+"Hmisc","Hmisc","C:/Users/alan.millington/Documents/R/R-4.0.3/library","4.5-0",NA,"lattice, survival (>= 3.1-6), Formula, ggplot2 (>= 2.2)","methods, latticeExtra, cluster, rpart, nnet, foreign, gtable,
+grid, gridExtra, data.table, htmlTable (>= 1.11.0), viridis,
+htmltools, base64enc",NA,"acepack, chron, rms, mice, tables, knitr, plotly (>= 4.5.6),
+rlang, plyr, VGAM",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.4"
+"hms","hms","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0.0",NA,NA,"ellipsis, lifecycle, methods, pkgconfig, rlang, vctrs (>=
+0.2.1)",NA,"crayon, lubridate, pillar (>= 1.1.0), testthat (>= 3.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.4"
+"hrbrthemes","hrbrthemes","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.8.0",NA,"R (>= 3.4.0)","ggplot2 (>= 3.3.0), grDevices, grid, scales, extrafont, knitr,
+rmarkdown, htmltools, tools, magrittr, gdtools",NA,"testthat, dplyr, gridExtra, hunspell, stringi, gcookbook,
+clipr, vdiffr, svglite",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"htmlTable","htmlTable","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.1.0",NA,NA,"stringr, knitr (>= 1.6), magrittr (>= 1.5), methods,
+checkmate, htmlwidgets, htmltools, rstudioapi (>= 0.6)",NA,"testthat, XML, xml2, Hmisc, reshape, rmarkdown, chron,
+lubridate, tibble, purrr, tidyselect, glue, rlang, tidyr (>=
+0.7.2), dplyr (>= 0.7.4)",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.0.3"
+"htmltools","htmltools","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.5.1.1",NA,"R (>= 2.14.1)","utils, digest, grDevices, base64enc, rlang",NA,"markdown, testthat, withr, Cairo, ragg, shiny","knitr","GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"htmlwidgets","htmlwidgets","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.5.2",NA,NA,"grDevices, htmltools (>= 0.3), jsonlite (>= 0.9.16), yaml",NA,"knitr (>= 1.8), rmarkdown","shiny (>= 1.1)","MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"httpcode","httpcode","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.3.0",NA,NA,NA,NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"httpuv","httpuv","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.5.4",NA,"R (>= 2.15.1)","Rcpp (>= 0.11.0), utils, R6, promises, later (>= 0.8.0)","Rcpp, BH, later","testthat, callr, curl, websocket",NA,"GPL (>= 2) | file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"httr","httr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.4.2",NA,"R (>= 3.2)","curl (>= 3.0.0), jsonlite, mime, openssl (>= 0.8), R6",NA,"covr, httpuv, jpeg, knitr, png, readr, rmarkdown, testthat
+(>= 0.8.0), xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"hunspell","hunspell","C:/Users/alan.millington/Documents/R/R-4.0.3/library","3.0.1",NA,"R (>= 3.0.2)","Rcpp, digest","Rcpp (>= 0.12.12)","spelling, testthat, pdftools, janeaustenr, wordcloud2, knitr,
+stopwords, rmarkdown",NA,"GPL-2 | LGPL-2.1 | MPL-1.1",NA,NA,NA,NA,"yes","4.0.3"
+"ids","ids","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0.1",NA,NA,"openssl, uuid",NA,"knitr, rcorpora, rmarkdown, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"igraph","igraph","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.2.6",NA,"methods","graphics, grDevices, magrittr, Matrix, pkgconfig (>= 2.0.0),
+stats, utils",NA,"ape, digest, graph, igraphdata, rgl, scales, stats4, tcltk,
+testthat, withr",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"image.darknet","image.darknet","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.0",NA,NA,NA,NA,NA,NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","3.6.1"
+"import","import","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.2.0",NA,NA,NA,NA,"knitr, rmarkdown, magrittr, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.2"
+"infer","infer","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.5.3",NA,"R (>= 3.5.0)","dplyr (>= 0.7.0), methods, tibble, rlang (>= 0.2.0), ggplot2,
+magrittr, glue (>= 1.3.0), grDevices, purrr",NA,"broom, devtools (>= 1.12.0), knitr, tidyr, rmarkdown,
+nycflights13, stringr, testthat, covr, vdiffr, fs",NA,"CC0",NA,NA,NA,NA,"no","4.0.3"
+"influenceR","influenceR","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.0",NA,"R (>= 3.2.0)","igraph (>= 1.0.1), Matrix (>= 1.1-4), methods, utils",NA,"testthat",NA,"GPL-2",NA,NA,NA,NA,"yes","4.0.0"
+"ini","ini","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.3.1",NA,NA,NA,NA,"testthat",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"inline","inline","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.3.16",NA,"R (>= 2.4.0)","methods",NA,"Rcpp (>= 0.11.0)",NA,"LGPL",NA,NA,NA,NA,"no","4.0.3"
+"installr","installr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.22.0",NA,"R (>= 2.14.0), stringr, utils",NA,NA,"curl, XML, htmltab, devtools, rjson, data.table, plyr,
+ggplot2, sp, tools, pkgbuild",NA,"GPL-2",NA,NA,"windows",NA,"no","4.0.3"
+"ipred","ipred","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.9-9",NA,"R (>= 2.10)","rpart (>= 3.1-8), MASS, survival, nnet, class, prodlim",NA,"mvtnorm, mlbench, TH.data",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"isoband","isoband","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.2.3",NA,NA,"grid, utils","testthat","covr, ggplot2, knitr, magick, microbenchmark, rmarkdown, sf,
+testthat, xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"ISOcodes","ISOcodes","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2020.03.16",NA,"R (>= 3.5.0)",NA,NA,NA,NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"iterators","iterators","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0.13",NA,"R (>= 2.5.0), utils",NA,NA,"RUnit, foreach",NA,"Apache License (== 2.0)",NA,NA,NA,NA,"no","4.0.3"
+"itunesr","itunesr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.3",NA,NA,"jsonlite, xml2, lubridate, curl",NA,"testthat, covr",NA,"CC0",NA,NA,NA,NA,"no","3.6.3"
+"janeaustenr","janeaustenr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.5",NA,"R (>= 3.1.2)",NA,NA,"dplyr, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"janitor","janitor","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.0.1",NA,"R (>= 3.1.2)","dplyr (>= 0.7.0), lifecycle, lubridate, magrittr, purrr,
+rlang, stringi, stringr, snakecase (>= 0.9.2), tidyselect (>=
+1.0.0), tidyr (>= 0.7.0)",NA,"knitr, rmarkdown, sf, testthat, tibble, tidygraph",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"JavaGD","JavaGD","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.6-4",NA,"R (>= 2.4.0)","rJava (>= 0.5-0), grDevices, graphics",NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"jpeg","jpeg","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1-8.1",NA,"R (>= 2.9.0)",NA,NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"jquerylib","jquerylib","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.3",NA,NA,"htmltools",NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"jsonlite","jsonlite","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.7.2",NA,"methods",NA,NA,"httr, curl, plyr, testthat, knitr, rmarkdown, R.rsp, sf",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"kableExtra","kableExtra","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.3.1",NA,"R (>= 3.1.0)","knitr (>= 1.16), magrittr, stringr (>= 1.0), xml2 (>= 1.1.1),
+rvest, rmarkdown (>= 1.6.0), scales, viridisLite, stats,
+grDevices, htmltools, rstudioapi, glue, tools, webshot, digest,
+graphics",NA,"testthat, magick, formattable, sparkline",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"KernSmooth","KernSmooth","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.23-18","recommended","R (>= 2.5.0), stats",NA,NA,"MASS",NA,"Unlimited",NA,NA,NA,NA,"yes","4.0.3"
+"km.ci","km.ci","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.5-2",NA,"R (>= 1.8.0), survival, stats",NA,NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,NA,"4.0.3"
+"KMsurv","KMsurv","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1-5",NA,NA,NA,NA,NA,NA,"GPL (>= 3)",NA,NA,NA,NA,NA,"4.0.3"
+"knitr","knitr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.31",NA,"R (>= 3.2.3)","evaluate (>= 0.10), highr, methods, markdown, stringr (>=
+0.6), yaml (>= 2.1.19), xfun (>= 0.19), tools",NA,"formatR, testit, digest, rgl (>= 0.95.1201), codetools,
+rmarkdown, htmlwidgets (>= 0.7), webshot, tikzDevice (>= 0.10),
+tinytex, reticulate (>= 1.4), JuliaCall (>= 0.11.1), magick,
+png, jpeg, gifski, xml2 (>= 1.2.0), httr, DBI (>= 0.4-1),
+showtext, tibble, sass, ragg, styler (>= 1.2.0)",NA,"GPL",NA,NA,NA,NA,"no","4.0.3"
+"labeling","labeling","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.4.2",NA,NA,"stats, graphics",NA,NA,NA,"MIT + file LICENSE | Unlimited",NA,NA,NA,NA,"no","4.0.3"
+"Lahman","Lahman","C:/Users/alan.millington/Documents/R/R-4.0.3/library","8.0-0",NA,"R (>= 3.5.0)","dplyr",NA,"lattice, ggplot2, googleVis, data.table, vcd, reshape2,
+tidyr, knitr, rmarkdown, car",NA,"GPL",NA,NA,NA,NA,"no","4.0.3"
+"later","later","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.1.0.1",NA,NA,"Rcpp (>= 0.12.9), rlang","Rcpp, BH","knitr, rmarkdown, testthat",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"lattice","lattice","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.20-41","recommended","R (>= 3.0.0)","grid, grDevices, graphics, stats, utils",NA,"KernSmooth, MASS, latticeExtra","chron","GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"latticeExtra","latticeExtra","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.6-29",NA,"R (>= 3.6.0), lattice","grid, stats, utils, grDevices, png, jpeg, RColorBrewer",NA,"maps, mapproj, deldir, tripack, quantreg, zoo, MASS, mgcv",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"lava","lava","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.6.8.1",NA,"R (>= 3.0)","grDevices, graphics, methods, numDeriv, stats, survival,
+SQUAREM, utils",NA,"KernSmooth, Matrix, Rgraphviz, data.table, ellipse, fields,
+foreach, geepack, gof (>= 0.9), graph, knitr, bookdown,
+rmarkdown, igraph (>= 0.6), lava.tobit (>= 0.4.7), lavaSearch2,
+lme4, magrittr, mets (>= 1.1), nlme, optimx, polycor, quantreg,
+rgl, R.rsp (>= 0.40), testthat (>= 0.11), visNetwork, zoo",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"lazyeval","lazyeval","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.2.2",NA,"R (>= 3.1.0)",NA,NA,"knitr, rmarkdown (>= 0.2.65), testthat, covr",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"leafem","leafem","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.3",NA,"R (>= 3.1.0)","base64enc, htmltools (>= 0.3), htmlwidgets, leaflet (>=
+2.0.1), raster, sf, png",NA,"clipr, gdalUtils, leafgl, mapdeck, plainview, stars",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"leaflet","leaflet","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.0.4.1",NA,"R (>= 3.1.0)","base64enc, crosstalk, htmlwidgets, htmltools, magrittr,
+markdown, methods, png, RColorBrewer, raster, scales (>=
+1.0.0), sp, stats, viridis (>= 0.5.1), leaflet.providers (>=
+1.8.0)",NA,"knitr, maps, sf (>= 0.9-6), shiny, rgdal, rgeos, R6, RJSONIO,
+purrr, testthat",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.4"
+"leaflet.providers","leaflet.providers","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.9.0",NA,"R (>= 2.10)",NA,NA,"V8, jsonlite, testthat (>= 2.1.0)",NA,"BSD_2_clause + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"leafsync","leafsync","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.0",NA,"R (>= 3.1.0), methods","htmltools (>= 0.3), htmlwidgets, leaflet (>= 2.0.1)",NA,NA,NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"LearnBayes","LearnBayes","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.15.1",NA,NA,NA,NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"learnr","learnr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.10.1",NA,NA,"utils, parallel, withr, rappdirs, rprojroot, jsonlite,
+htmltools (>= 0.3.5), htmlwidgets, evaluate, knitr (>= 1.14),
+markdown, shiny (>= 1.0), rmarkdown (>= 1.12.0), ellipsis (>=
+0.2.0.1), checkmate, renv (>= 0.8.0)",NA,"testthat (>= 2.1.0), callr, rlang",NA,"Apache License (>= 2.0)",NA,NA,NA,NA,"no","4.0.3"
+"lego","lego","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.2",NA,"R (>= 3.1.0)",NA,NA,"dplyr, XML",NA,"CC0",NA,NA,NA,NA,"no","4.0.3"
+"lexicon","lexicon","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.2.1",NA,"R (>= 3.2.2)","data.table, syuzhet (>= 1.0.1)",NA,NA,NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"lfe","lfe","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.8-5.1",NA,"R (>= 2.15.2), Matrix (>= 1.1-2)","Formula, xtable, compiler, utils, methods, sandwich, parallel",NA,"knitr, digest, igraph, plm, cubature (>= 2.0.3), numDeriv,
+data.table, alpaca, testthat",NA,"Artistic-2.0",NA,NA,NA,NA,"yes","4.0.3"
+"lhs","lhs","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.1.1",NA,"R (>= 3.4.0)","Rcpp","Rcpp","testthat, assertthat, DoE.base, knitr, rmarkdown, covr",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"lifecycle","lifecycle","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0.0",NA,"R (>= 3.3)","glue, rlang (>= 0.4.10)",NA,"covr, crayon, knitr, rmarkdown, testthat (>= 3.0.1), tibble",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.4"
+"listenv","listenv","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.8.0",NA,"R (>= 3.1.2)",NA,NA,"R.utils, R.rsp, markdown",NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.0.3"
+"lme4","lme4","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.1-25",NA,"R (>= 3.2.0), Matrix (>= 1.2-1), methods, stats","graphics, grid, splines, utils, parallel, MASS, lattice, boot,
+nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4),
+statmod","Rcpp (>= 0.10.5), RcppEigen","knitr, rmarkdown, PKPDmodels, MEMSS, testthat (>= 0.8.1),
+ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3,
+numDeriv, car, dfoptim, mgcv",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"lmtest","lmtest","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.9-38",NA,"R (>= 3.0.0), stats, zoo","graphics",NA,"car, strucchange, sandwich, dynlm, stats4, survival, AER",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"loo","loo","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.3.1",NA,"R (>= 3.1.2)","checkmate, matrixStats (>= 0.52), parallel, stats",NA,"bayesplot (>= 1.7.0), brms (>= 2.10.0), ggplot2, graphics,
+knitr, rmarkdown, rstan, rstanarm (>= 2.19.0), rstantools,
+spdep, testthat (>= 2.1.0)",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.0.3"
+"lubridate","lubridate","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.7.9.2",NA,"methods, R (>= 3.2)","generics, Rcpp (>= 0.12.13)","Rcpp","covr, knitr, testthat (>= 2.1.0), vctrs (>= 0.3.0), rmarkdown","chron, timeDate, tis, zoo","GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"lwgeom","lwgeom","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.2-5",NA,"R (>= 3.3.0)","Rcpp, units, sf (>= 0.9-3)","Rcpp, sf (>= 0.6-0)","covr, sp, geosphere, testthat",NA,"GPL-2",NA,NA,NA,NA,"yes","4.0.3"
+"magick","magick","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.6.0",NA,NA,"Rcpp (>= 0.12.12), magrittr, curl","Rcpp","av (>= 0.3), spelling, jsonlite, methods, knitr, rmarkdown,
+rsvg, webp, pdftools, ggplot2, gapminder, IRdisplay, tesseract
+(>= 2.0), gifski",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"magickGUI","magickGUI","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.2.2",NA,"R (>= 3.1.2), magick (>= 2.2)","tcltk",NA,"testthat (>= 2.0.0), knitr, rmarkdown",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"magrittr","magrittr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.0.1",NA,NA,NA,NA,"covr, knitr, rlang, rmarkdown, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"maps","maps","C:/Users/alan.millington/Documents/R/R-4.0.3/library","3.3.0",NA,"R (>= 3.0.0)","graphics, utils",NA,"mapproj (>= 1.2-0), mapdata (>= 2.3.0), sp, maptools,
+rnaturalearth",NA,"GPL-2",NA,NA,NA,NA,"yes","4.0.3"
+"maptools","maptools","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0-2",NA,"R (>= 2.10), sp (>= 1.0-11)","foreign (>= 0.8), methods, grid, lattice, stats, utils,
+grDevices",NA,"rgeos (>= 0.1-8), spatstat (>= 1.60), PBSmapping, maps,
+RColorBrewer, raster, polyclip, spatstat.utils, plotrix","gpclib","GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"markdown","markdown","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.1",NA,"R (>= 2.11.1)","utils, xfun, mime (>= 0.3)",NA,"knitr, RCurl",NA,"GPL-2",NA,NA,NA,NA,"yes","4.0.3"
+"markovchain","markovchain","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.8.5-4",NA,"R (>= 3.6.0), methods","igraph, Matrix, matlab, expm, stats4, parallel, Rcpp (>=
+1.0.2), RcppParallel, utils, stats, grDevices","Rcpp, RcppParallel, RcppArmadillo (>= 0.9.600.4.0)","knitr, testthat, diagram, DiagrammeR, msm, Rsolnp, rmarkdown,
+ctmcd, bookdown, rticles","etm","GPL-2",NA,NA,NA,NA,"yes","4.0.3"
+"MASS","MASS","C:/Users/alan.millington/Documents/R/R-4.0.3/library","7.3-53","recommended","R (>= 3.1.0), grDevices, graphics, stats, utils","methods",NA,"lattice, nlme, nnet, survival",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"matlab","matlab","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0.2",NA,"R (>= 2.15)","methods",NA,NA,NA,"Artistic-2.0",NA,NA,NA,NA,"no","4.0.3"
+"Matrix","Matrix","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.2-18","recommended","R (>= 3.2.0)","methods, graphics, grid, stats, utils, lattice",NA,"expm, MASS","MatrixModels, graph, SparseM, sfsmisc","GPL (>= 2) | file LICENCE",NA,NA,NA,NA,"yes","4.0.3"
+"MatrixModels","MatrixModels","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.4-1",NA,"R (>= 3.0.1)","stats, methods, Matrix (>= 1.1-5)",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"matrixStats","matrixStats","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.57.0",NA,"R (>= 2.12.0)",NA,NA,"base64enc, ggplot2, knitr, microbenchmark, R.devices, R.rsp",NA,"Artistic-2.0",NA,NA,NA,NA,"yes","4.0.3"
+"maxLik","maxLik","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.4-6",NA,"R (>= 2.4.0), miscTools (>= 0.6-8), methods","sandwich",NA,"testthat, MASS, clue, dlm",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"maxstat","maxstat","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.7-25",NA,"R (>= 1.7.0)","exactRankTests(>= 0.8-23), mvtnorm(>= 0.5-10), stats, graphics",NA,"TH.data, survival",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"mclust","mclust","C:/Users/alan.millington/Documents/R/R-4.0.3/library","5.4.7",NA,"R (>= 3.0)","stats, utils, graphics, grDevices",NA,"knitr (>= 1.12), rmarkdown (>= 0.9), mix (>= 1.0), geometry
+(>= 0.3-6), MASS",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"memoise","memoise","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.1.0",NA,NA,"digest (>= 0.6.3)",NA,"testthat, aws.s3, httr, covr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"methods","methods","C:/Users/alan.millington/Documents/R/R-4.0.3/library","4.0.3","base",NA,"utils, stats",NA,"codetools",NA,"Part of R 4.0.3",NA,NA,NA,NA,"yes","4.0.3"
+"mgcv","mgcv","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.8-33","recommended","R (>= 2.14.0), nlme (>= 3.1-64)","methods, stats, graphics, Matrix, splines, utils",NA,"parallel, survival, MASS",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"mime","mime","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.10",NA,NA,"tools",NA,NA,NA,"GPL",NA,NA,NA,NA,"yes","4.0.4"
+"miniUI","miniUI","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.1.1",NA,NA,"shiny (>= 0.13), htmltools (>= 0.3), utils",NA,NA,NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"minqa","minqa","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.2.4",NA,NA,"Rcpp (>= 0.9.10)","Rcpp",NA,NA,"GPL-2",NA,NA,NA,NA,"yes","4.0.3"
+"miscTools","miscTools","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.6-26",NA,"R (>= 2.14.0)","digest",NA,"Ecdat (>= 0.1-5)",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"mnormt","mnormt","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.0.2",NA,"R (>= 2.2.0)","tmvnsim (>= 1.0-2)",NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.0.2"
+"modeldata","modeldata","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.0",NA,"R (>= 2.10)",NA,NA,"covr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"modelr","modelr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.8",NA,"R (>= 3.2)","broom, magrittr, purrr (>= 0.2.2), rlang (>= 0.2.0), tibble,
+tidyr (>= 0.8.0), tidyselect, vctrs",NA,"compiler, covr, ggplot2, testthat",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"modeltime","modeltime","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.4.0",NA,"R (>= 3.5.0)","StanHeaders, timetk (>= 2.6.0), parsnip (>= 0.1.4), dials,
+yardstick, workflows (>= 0.1.3), hardhat, rlang (>= 0.1.2),
+glue, plotly, reactable, gt, ggplot2, tibble, tidyr, dplyr,
+purrr, slider, stringr, forcats, scales, janitor, progressr,
+magrittr, forecast, xgboost (>= 1.2.0.1), prophet, methods, cli",NA,"rstan, tidymodels, recipes, rsample, tune, tidyverse,
+lubridate, testthat, roxygen2, kernlab, earth, randomForest,
+tidyquant, knitr, rmarkdown, webshot",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"moments","moments","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.14",NA,NA,NA,NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"multiwayvcov","multiwayvcov","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.2.3",NA,"R (>= 3.0.0)","sandwich, boot, compiler, parallel, stats, utils",NA,"lmtest",NA,"BSD_2_clause + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"munsell","munsell","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.5.0",NA,NA,"colorspace, methods",NA,"ggplot2, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"mvtnorm","mvtnorm","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.1-1",NA,"R(>= 3.5.0)","stats, methods",NA,NA,NA,"GPL-2",NA,NA,NA,NA,"yes","4.0.3"
+"MxIF","MxIF","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.2",NA,"R (>= 3.4.0)","mclust, jpeg, tiff, ggplot2, png, Rtsne, magick, reshape, plyr",NA,NA,NA,"MIT",NA,NA,NA,NA,"no","3.6.1"
+"NeuralNetTools","NeuralNetTools","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.5.2",NA,"R (>= 3.1.1)","ggplot2 (>= 2.0.0), nnet, reshape2, scales, tidyr",NA,"caret, neuralnet, RSNNS",NA,"CC0",NA,NA,NA,NA,"no","4.0.0"
+"nlme","nlme","C:/Users/alan.millington/Documents/R/R-4.0.3/library","3.1-150","recommended","R (>= 3.4.0)","graphics, stats, utils, lattice",NA,"Hmisc, MASS",NA,"GPL (>= 2) | file LICENCE",NA,NA,NA,NA,"yes","4.0.3"
+"nloptr","nloptr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.2.2.2",NA,NA,NA,NA,"testthat (>= 0.8.1), knitr, rmarkdown, inline (>= 0.3.14)",NA,"LGPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"NLP","NLP","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.2-1",NA,"R (>= 3.2.0)","utils",NA,NA,"udpipe, spacyr, cleanNLP","GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"nnet","nnet","C:/Users/alan.millington/Documents/R/R-4.0.3/library","7.3-14","recommended","R (>= 3.0.0), stats, utils",NA,NA,"MASS",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"numDeriv","numDeriv","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2016.8-1.1",NA,"R (>= 2.11.1)",NA,NA,NA,NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"nycflights13","nycflights13","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0.1",NA,"R (>= 3.2)","tibble",NA,"dplyr",NA,"CC0",NA,NA,NA,NA,"no","4.0.3"
+"officedown","officedown","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.2.1",NA,NA,"knitr, rmarkdown, officer (>= 0.3.15), xml2, rlang, uuid,
+grDevices, yaml, utils, memoise, rvg (>= 0.2.2)",NA,"ggplot2, flextable, bookdown (>= 0.13)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.4"
+"officer","officer","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.3.17",NA,NA,"R6, grDevices, stats, graphics, utils, zip (>= 2.1.0), uuid
+(>= 0.1-4), xml2 (>= 1.1.0)",NA,"testthat, devEMF, ggplot2, rmarkdown, base64enc, knitr, rsvg",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"opencage","opencage","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.2.2",NA,NA,"crul (>= 0.5.2), dplyr (>= 0.7.4), lifecycle, jsonlite (>=
+1.5), memoise (>= 1.1.0), progress (>= 1.1.2), purrr (>=
+0.2.4), ratelimitr (>= 0.4.0), rlang, tibble (>= 1.4.2), tidyr
+(>= 0.8.0), withr (>= 2.0.0)",NA,"knitr (>= 1.19), mockery, rmarkdown (>= 1.8), sf (>= 0.9),
+testthat (>= 2.1.0)",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"openssl","openssl","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.4.3",NA,NA,"askpass",NA,"testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite,
+jose, sodium",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"openxlsx","openxlsx","C:/Users/alan.millington/Documents/R/R-4.0.3/library","4.2.3",NA,"R (>= 3.3.0)","grDevices, methods, Rcpp, stats, utils, zip, stringi","Rcpp","knitr, testthat, roxygen2, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"osmdata","osmdata","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.4",NA,"R (>= 3.2.4)","curl, httr, jsonlite, lubridate, magrittr, methods, Rcpp (>=
+0.12.4), rvest, sp, tibble, utils, xml2","Rcpp","devtools, knitr, pkgdown, raster, rmarkdown, roxygen2, sf,
+testthat",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"packrat","packrat","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.5.0",NA,"R (>= 3.0.0)","tools, utils",NA,"testthat (>= 0.7), devtools, httr, knitr, rmarkdown",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"pacman","pacman","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.5.1",NA,"R (>= 3.5.0)","remotes, methods, stats, utils",NA,"BiocManager, knitr, lattice, testthat (>= 0.9.0), XML",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"padr","padr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.5.3",NA,"R (>= 3.0.0)","Rcpp, dplyr (>= 0.6.0), lubridate, rlang","Rcpp","ggplot2, testthat, knitr, rmarkdown, lazyeval, tidyr,
+data.table",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"pander","pander","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.6.3",NA,"R (>= 2.15.0)","grDevices, graphics, methods, utils, stats, digest, tools,
+Rcpp","Rcpp","grid, lattice, ggplot2 (>= 0.9.2), sylly, sylly.en,
+futile.logger, survival, microbenchmark, zoo, nlme, descr,
+MASS, knitr, rmarkdown, tables, reshape, memisc, Epi,
+randomForest, tseries, gtable, rms, forecast, data.table",NA,"AGPL-3 | file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"parallel","parallel","C:/Users/alan.millington/Documents/R/R-4.0.3/library","4.0.3","base",NA,"tools, compiler",NA,"methods","snow, nws, Rmpi","Part of R 4.0.3",NA,NA,NA,NA,"yes","4.0.3"
+"parallelly","parallelly","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.21.0",NA,NA,"parallel, tools, utils",NA,NA,NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"no","4.0.3"
+"parsnip","parsnip","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.4",NA,"R (>= 2.10)","dplyr (>= 0.8.0.1), rlang (>= 0.3.1), purrr, utils, tibble (>=
+2.1.1), generics, glue, magrittr, stats, tidyr (>= 1.0.0),
+globals, prettyunits, vctrs (>= 0.2.0)",NA,"testthat, knitr, rmarkdown, survival, keras, xgboost, covr,
+C50, sparklyr (>= 1.0.0), earth, kernlab, kknn, randomForest,
+ranger (>= 0.12.0), rpart, MASS, nlme, modeldata, liquidSVM,
+Matrix",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"patchwork","patchwork","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.1.0",NA,NA,"ggplot2 (>= 3.0.0), gtable, grid, stats, grDevices, utils,
+graphics",NA,"knitr, rmarkdown, gridGraphics, gridExtra, ragg, testthat (>=
+2.1.0), vdiffr, covr, png",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"pbkrtest","pbkrtest","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.4-8.6",NA,"R (>= 3.6.0), lme4 (>= 1.1.10)","Matrix (>= 1.2.3), parallel, magrittr, MASS, methods",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"pdp","pdp","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.7.0",NA,"R (>= 3.2.5)","ggplot2 (>= 0.9.0), grDevices, gridExtra, lattice, magrittr,
+methods, mgcv, plyr, stats, viridis, utils",NA,"adabag, AmesHousing, C50, caret, Cubist, doParallel, dplyr,
+e1071, earth, gbm, ipred, keras, kernlab, MASS, mda, nnet,
+party, partykit, progress, randomForest, ranger, rpart,
+testthat, xgboost (>= 0.6-0), knitr, rmarkdown, vip",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.0"
+"PerformanceAnalytics","PerformanceAnalytics","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.0.4",NA,"R (>= 3.5.0), xts (>= 0.10.0)","methods, quadprog, zoo",NA,"dygraphs, Hmisc, MASS, quantmod, gamlss, gamlss.dist,
+robustbase, quantreg, tinytest, ggplot2, RColorBrewer,
+googleVis, plotly, gridExtra, ggpubr, RPESE, R.rsp, RobStatTM",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"pillar","pillar","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.5.1",NA,NA,"cli, crayon (>= 1.3.4), ellipsis, fansi, lifecycle, rlang (>=
+0.3.0), utf8 (>= 1.1.0), utils, vctrs (>= 0.2.0)",NA,"bit64, debugme, DiagrammeR, knitr, lubridate, nycflights13,
+palmerpenguins, rmarkdown, survival, testthat (>= 3.0.2),
+tibble, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.4"
+"pkgbuild","pkgbuild","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.2.0",NA,"R (>= 3.1)","callr (>= 3.2.0), cli, crayon, desc, prettyunits, R6,
+rprojroot, withr (>= 2.1.2)",NA,"Rcpp, cpp11, testthat, covr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"pkgconfig","pkgconfig","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.0.3",NA,NA,"utils",NA,"covr, testthat, disposables (>= 1.0.3)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"pkgload","pkgload","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.1.0",NA,NA,"cli, crayon, desc, methods, pkgbuild, rlang, rprojroot,
+rstudioapi, utils, withr",NA,"bitops, covr, Rcpp, testthat",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"plm","plm","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.4-0",NA,"R (>= 3.1.0)","MASS, bdsmatrix, zoo, nlme, sandwich, lattice, lmtest, maxLik,
+Rdpack, Formula, stats",NA,"AER, car, pcse, clusterSEs, collapse, pglm, spdep, splm,
+statmod, urca, Ecdat, pder, stargazer, texreg, foreign, knitr,
+rmarkdown, bookdown",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"plogr","plogr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.2.0",NA,NA,NA,NA,"Rcpp",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"plotly","plotly","C:/Users/alan.millington/Documents/R/R-4.0.3/library","4.9.2.1",NA,"R (>= 3.2.0), ggplot2 (>= 3.0.0)","tools, scales, httr, jsonlite (>= 1.6), magrittr, digest,
+viridisLite, base64enc, htmltools (>= 0.3.6), htmlwidgets (>=
+1.3), tidyr, hexbin, RColorBrewer, dplyr, tibble, lazyeval (>=
+0.2.0), rlang, crosstalk, purrr, data.table, promises",NA,"MASS, maps, ggthemes, GGally, testthat, knitr, devtools,
+shiny (>= 1.1.0), shinytest (>= 1.3.0), curl, rmarkdown,
+vdiffr, Cairo, broom, webshot, listviewer, dendextend, sf,
+maptools, rgeos, png, IRdisplay, processx, plotlyGeoAssets,
+forcats",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"plumber","plumber","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0.0",NA,"R (>= 3.0.0)","R6 (>= 2.0.0), stringi (>= 0.3.0), jsonlite (>= 0.9.16),
+webutils (>= 1.1), httpuv (>= 1.5.0), crayon, promises (>=
+1.1.0), sodium, swagger (>= 3.33.0), magrittr, mime, lifecycle",NA,"testthat (>= 0.11.0), rmarkdown, base64enc, htmlwidgets,
+visNetwork, later, readr, yaml, feather, future",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"plyr","plyr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.8.6",NA,"R (>= 3.1.0)","Rcpp (>= 0.11.0)","Rcpp","abind, covr, doParallel, foreach, iterators, itertools,
+tcltk, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"png","png","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1-7",NA,"R (>= 2.9.0)",NA,NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"politicaldata","politicaldata","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.3",NA,"R (>= 2.10)","utils",NA,"testthat, dplyr, magrittr, tidyr, ggplot2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"polyclip","polyclip","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.10-0",NA,"R (>= 3.0.0)",NA,NA,NA,NA,"BSL",NA,NA,NA,NA,"yes","4.0.3"
+"polycor","polycor","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.7-10",NA,"R (>= 3.3.0)","stats, mvtnorm, Matrix",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.0"
+"polynom","polynom","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.4-0",NA,NA,"stats, graphics",NA,"knitr, rmarkdown",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"praise","praise","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0.0",NA,NA,NA,NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"prettydoc","prettydoc","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.4.1",NA,NA,"rmarkdown (>= 1.17)",NA,"knitr, KernSmooth",NA,"Apache License (>= 2.0)",NA,NA,NA,NA,"no","4.0.4"
+"prettyunits","prettyunits","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.1.1",NA,NA,NA,NA,"codetools, covr, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"pROC","pROC","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.16.2",NA,"R (>= 2.14)","methods, plyr, Rcpp (>= 0.11.1)","Rcpp","microbenchmark, tcltk, MASS, logcondens, doParallel,
+testthat, vdiffr, ggplot2",NA,"GPL (>= 3)",NA,NA,NA,NA,"yes","4.0.3"
+"processx","processx","C:/Users/alan.millington/Documents/R/R-4.0.3/library","3.4.5",NA,NA,"ps (>= 1.2.0), R6, utils",NA,"callr (>= 3.2.0), codetools, covr, crayon, curl, debugme,
+parallel, testthat, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"prodlim","prodlim","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2019.11.13",NA,"R (>= 2.9.0)","Rcpp (>= 0.11.5), stats, grDevices, graphics, survival,
+KernSmooth, lava","Rcpp",NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"profvis","profvis","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.3.7",NA,"R (>= 3.0)","htmlwidgets (>= 0.3.2), stringr",NA,"knitr, ggplot2, rmarkdown, testthat, devtools, shiny,
+htmltools",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"progress","progress","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.2.2",NA,NA,"hms, prettyunits, R6, crayon",NA,"Rcpp, testthat, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"progressr","progressr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.6.0",NA,NA,"digest, utils",NA,"graphics, tcltk, beepr, pbmcapply, progress, purrr, foreach,
+plyr, doFuture, future (>= 1.16.0), future.apply, furrr, shiny,
+commonmark, base64enc, tools",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.0.3"
+"promises","promises","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.1.1",NA,NA,"R6, Rcpp, later, rlang, stats, magrittr","later, Rcpp","testthat, future, knitr, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"prophet","prophet","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.6.1",NA,"R (>= 3.4.0), Rcpp (>= 0.12.0), rlang (>= 0.3.0.1)","dplyr (>= 0.7.7), dygraphs (>= 1.1.1.4), extraDistr, ggplot2,
+grid, methods, rstan (>= 2.18.1), rstantools (>= 2.0.0),
+scales, stats, tidyr (>= 0.6.1), xts","BH (>= 1.66.0), Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0),
+rstan (>= 2.18.1), StanHeaders (>= 2.18.0)","knitr, testthat, readr, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.2"
+"proto","proto","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0.0",NA,NA,NA,NA,"testthat, covr",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"psych","psych","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.0.9",NA,NA,"mnormt,parallel,stats,graphics,grDevices,methods,lattice,nlme",NA,"psychTools, GPArotation, lavaan, lme4, Rcsdp, graph,
+Rgraphviz",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"purrr","purrr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.3.4",NA,"R (>= 3.2)","magrittr (>= 1.5), rlang (>= 0.3.1)",NA,"covr, crayon, dplyr (>= 0.7.8), knitr, rmarkdown, testthat,
+tibble, tidyselect",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"purrrlyr","purrrlyr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.0.7",NA,NA,"dplyr (>= 0.8.0), magrittr (>= 1.5), purrr (>= 0.2.2), Rcpp","BH, Rcpp","covr, testthat (>= 3.0.0)",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"pvm","pvm","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.4.2.6",NA,"R(>= 2.10)",NA,NA,"remotes, git2r, yaml, parallel",NA,"GPL(>= 3)",NA,NA,NA,NA,"no","4.0.3"
+"pwr","pwr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.3-0",NA,NA,"stats, graphics",NA,"ggplot2, scales, knitr, rmarkdown",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.0.0"
+"qap","qap","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1-1",NA,NA,NA,NA,"testthat",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"quadprog","quadprog","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.5-8",NA,"R (>= 3.1.0)",NA,NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"Quandl","Quandl","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.10.0",NA,"R (>= 2.15.0), xts","httr (>= 0.6.1), zoo, jsonlite (>= 0.9.14)",NA,"testthat (>= 0.10.0), roxygen2, timeSeries",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"quantmod","quantmod","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.4.17",NA,"R (>= 3.2.0), xts(>= 0.9-0), zoo, TTR(>= 0.2), methods","curl",NA,"DBI,RMySQL,RSQLite,timeSeries,XML,downloader,jsonlite(>= 1.1)",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"quantreg","quantreg","C:/Users/alan.millington/Documents/R/R-4.0.3/library","5.75",NA,"R (>= 2.6), stats, SparseM","methods, graphics, Matrix, MatrixModels, conquer",NA,"tripack, akima, MASS, survival, rgl, logspline, nor1mix,
+Formula, zoo, R.rsp",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"R6","R6","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.5.0",NA,"R (>= 3.0)",NA,NA,"knitr, microbenchmark, pryr, testthat, ggplot2, scales",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"radiant","radiant","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.3.2",NA,"R (>= 3.4.0), radiant.data (>= 1.3.0), radiant.design (>=
+1.3.0), radiant.basics (>= 1.3.0), radiant.model (>= 1.3.0),
+radiant.multivariate (>= 1.3.0)","shiny (>= 1.4.0), import (>= 1.1.0)",NA,"testthat (>= 2.0.0), knitr, rmarkdown",NA,"AGPL-3 | file LICENSE",NA,NA,NA,NA,"no","4.0.2"
+"radiant.basics","radiant.basics","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.3.4",NA,"R (>= 3.4.0), radiant.data (>= 1.2.0)","ggplot2 (>= 2.2.1), scales (>= 0.4.0), dplyr (>= 0.8.3), tidyr
+(>= 0.8.2), magrittr (>= 1.5), shiny (>= 1.4.0), psych (>=
+1.8.3.3), import (>= 1.1.0), lubridate (>= 1.7.4), polycor (>=
+0.7.10), patchwork (>= 1.0.0)",NA,"testthat (>= 2.0.0), pkgdown (>= 1.1.0)",NA,"AGPL-3 | file LICENSE",NA,NA,NA,NA,"no","4.0.2"
+"radiant.data","radiant.data","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.3.10",NA,"R (>= 3.4.0), magrittr (>= 1.5), ggplot2 (>= 2.2.1), lubridate
+(>= 1.7.4), tidyr (>= 0.8.2), dplyr (>= 1.0.1)","tibble (>= 1.4.2), rlang (>= 0.4.0), broom (>= 0.5.2), car (>=
+3.0-0), knitr (>= 1.20), markdown (>= 1.0), rmarkdown(>= 1.14),
+shiny (>= 1.4.0), jsonlite (>= 1.0), shinyAce (>= 0.4.1), psych
+(>= 1.8.4), DT (>= 0.9), readr (>= 1.1.1), readxl (>= 1.0.0),
+writexl (>= 0.2), scales (>= 0.4.0), curl (>= 2.5), rstudioapi
+(>= 0.7), import (>= 1.1.0), plotly (>= 4.7.1), glue (>=
+1.3.0), shinyFiles (>= 0.7.3), stringi (>= 1.2.4), randomizr
+(>= 0.20.0), patchwork (>= 1.0.0), MASS, base64enc",NA,"svglite (>= 1.2.1), DBI (>= 0.7), RSQLite (>= 2.0),
+RPostgreSQL (>= 0.6.2), odbc (>= 1.1.4), webshot (>= 0.5.0),
+testthat (>= 2.0.0), pkgdown (>= 1.1.0)",NA,"AGPL-3 | file LICENSE",NA,NA,NA,NA,"no","4.0.2"
+"radiant.design","radiant.design","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.3.5",NA,"R (>= 3.4.0), radiant.data (>= 1.3.0), mvtnorm","dplyr (>= 0.8.3), magrittr (>= 1.5), shiny (>= 1.4.0),
+AlgDesign (>= 1.1.7.3), import (>= 1.1.0), pwr (>= 1.1.2),
+randomizr (>= 0.20.0), polycor",NA,"testthat (>= 2.0.0), pkgdown (>= 1.1.0)",NA,"AGPL-3 | file LICENSE",NA,NA,NA,NA,"no","4.0.2"
+"radiant.model","radiant.model","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.3.14",NA,"R (>= 3.4.0), radiant.data (>= 1.3.0)","radiant.basics (>= 1.3.0), shiny (>= 1.4.0), nnet (>= 7.3.12),
+NeuralNetTools (>= 1.5.1), sandwich (>= 2.3.4), car (>= 2.1.3),
+ggplot2 (>= 2.2.1), data.tree (>= 0.7.4), stringr (>= 1.1.0),
+lubridate (>= 1.7.2), tidyr (>= 0.8.2), dplyr (>= 0.8.3), rlang
+(>= 0.4.0), magrittr (>= 1.5), DiagrammeR (>= 1.0.0), import
+(>= 1.1.0), psych (>= 1.8.4), e1071 (>= 1.6.8), rpart (>=
+4.1.11), ggrepel (>= 0.8), broom (>= 0.7.0), patchwork (>=
+1.0.0), ranger (>= 0.11.2), xgboost (>= 0.90.0.2), pdp (>=
+0.7.0), yaml",NA,"testthat (>= 2.0.0), pkgdown (>= 1.1.0)",NA,"AGPL-3 | file LICENSE",NA,NA,NA,NA,"no","4.0.2"
+"radiant.multivariate","radiant.multivariate","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.3.5",NA,"R (>= 3.4.0), radiant.data (>= 1.3.0)","radiant.model (>= 1.3.0), shiny (>= 1.4.0), dplyr (>= 0.8.3),
+rlang (>= 0.4.0), ggplot2 (>= 2.2.1), scales (>= 0.4.0),
+magrittr (>= 1.5), psych (>= 1.8.4), GPArotation (>=
+2014.11-1), car (>= 2.1.1), MASS (>= 7.3), import (>= 1.1.0),
+ggrepel (>= 0.8), lubridate (>= 1.7.4), polycor (>= 0.7.10),
+gower (>= 0.2.1), clustMixType (>= 0.2.1), patchwork (>= 1.0.0)",NA,"testthat (>= 2.0.0), pkgdown (>= 1.1.0)",NA,"AGPL-3 | file LICENSE",NA,NA,NA,NA,"no","4.0.2"
+"randomForest","randomForest","C:/Users/alan.millington/Documents/R/R-4.0.3/library","4.6-14",NA,"R (>= 3.2.2), stats",NA,NA,"RColorBrewer, MASS",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"randomForestExplainer","randomForestExplainer","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.10.1",NA,"R (>= 3.0)","data.table (>= 1.10.4), dplyr (>= 0.7.1), DT (>= 0.2), GGally
+(>= 1.3.0), ggplot2 (>= 2.2.1), ggrepel (>= 0.6.5),
+randomForest (>= 4.6.12), ranger(>= 0.9.0), reshape2 (>=
+1.4.2), rmarkdown (>= 1.5)",NA,"knitr, MASS (>= 7.3.47), testthat",NA,"GPL",NA,NA,NA,NA,"no","4.0.3"
+"randomForestSRC","randomForestSRC","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.9.3",NA,"R (>= 3.5.0),","parallel",NA,"survival, pec, prodlim, mlbench, akima, caret, imbalance",NA,"GPL (>= 3)",NA,NA,NA,NA,"yes","4.0.3"
+"randomizr","randomizr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.20.0",NA,"R (>= 3.5.0)",NA,NA,"knitr, dplyr, blockTools, testthat, rmarkdown, ri",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.0"
+"ranger","ranger","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.12.1",NA,"R (>= 3.1)","Rcpp (>= 0.11.2), Matrix","Rcpp, RcppEigen","survival, testthat",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"rappdirs","rappdirs","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.3.3",NA,"R (>= 3.2)",NA,NA,"roxygen2, testthat (>= 3.0.0), covr, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.4"
+"raster","raster","C:/Users/alan.millington/Documents/R/R-4.0.3/library","3.4-5",NA,"sp (>= 1.4.1), R (>= 3.5.0)","Rcpp, methods","Rcpp","rgdal (>= 1.5-8), rgeos (>= 0.3-8), ncdf4, igraph, tcltk,
+parallel, rasterVis, MASS, sf, tinytest, gstat, fields",NA,"GPL (>= 3)",NA,NA,NA,NA,"yes","4.0.3"
+"ratelimitr","ratelimitr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.4.1",NA,NA,"assertthat",NA,"testthat, microbenchmark, knitr, rmarkdown, covr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"rattle","rattle","C:/Users/alan.millington/Documents/R/R-4.0.3/library","5.4.0",NA,"R (>= 3.5.0), tibble, bitops","stats, utils, ggplot2, grDevices, graphics, magrittr, methods,
+stringi, stringr, tidyr, dplyr, XML, rpart.plot",NA,"pmml (>= 1.2.13), colorspace, ada, amap, arules, arulesViz,
+biclust, cairoDevice, cba, cluster, corrplot, descr, doBy,
+e1071, ellipse, fBasics, foreign, fpc, gdata, ggdendro,
+ggraptR, gplots, grid, gridExtra, gtools, hmeasure, Hmisc,
+kernlab, Matrix, mice, nnet, party, plyr, psych, randomForest,
+RColorBrewer, readxl, reshape, rggobi, RGtk2, ROCR, RODBC,
+rpart, scales, SnowballC, survival, timeDate, tm, verification,
+wskm, xgboost",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"rbibutils","rbibutils","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.0",NA,"R (>= 2.10)","utils, tools",NA,"testthat",NA,"GPL-2",NA,NA,NA,NA,"yes","4.0.3"
+"rcmdcheck","rcmdcheck","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.3.3",NA,NA,"callr (>= 3.1.1.9000), cli (>= 1.1.0), crayon, desc (>=
+1.2.0), digest, pkgbuild, prettyunits, R6, rprojroot,
+sessioninfo (>= 1.1.1), utils, withr, xopen",NA,"covr, knitr, mockery, rmarkdown, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"RColorBrewer","RColorBrewer","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.1-2",NA,"R (>= 2.0.0)",NA,NA,NA,NA,"Apache License 2.0",NA,NA,NA,NA,"no","4.0.3"
+"Rcpp","Rcpp","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0.6",NA,NA,"methods, utils",NA,"tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"RcppAlgos","RcppAlgos","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.4.1",NA,NA,"gmp, Rcpp, methods","Rcpp, RcppThread","testthat, numbers, microbenchmark, knitr",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"RcppArmadillo","RcppArmadillo","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.10.1.2.0",NA,"R (>= 3.3.0)","Rcpp (>= 0.11.0), stats, utils, methods","Rcpp","tinytest, Matrix, pkgKitten, reticulate, slam",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"RcppEigen","RcppEigen","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.3.3.7.0",NA,"R (>= 2.15.1)","Matrix (>= 1.1-0), Rcpp (>= 0.11.0), stats, utils","Rcpp","inline, tinytest, pkgKitten, microbenchmark",NA,"GPL (>= 2) | file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"RcppParallel","RcppParallel","C:/Users/alan.millington/Documents/R/R-4.0.3/library","5.0.2",NA,"R (>= 3.0.2)",NA,NA,"Rcpp, RUnit, knitr, rmarkdown",NA,"GPL-2",NA,NA,NA,NA,"yes","4.0.3"
+"RcppThread","RcppThread","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.5.4",NA,"R (>= 3.3.0)",NA,NA,"testthat, R.rsp, Rcpp",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"RCurl","RCurl","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.98-1.2",NA,"R (>= 3.4.0), methods","bitops",NA,"XML",NA,"BSD_3_clause + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"RDoubleClick","RDoubleClick","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1",NA,"R (>= 3.0)","jsonlite (>= 0.9.5), httr (>= 0.3), plyr, stringr",NA,NA,NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","3.6.1"
+"Rdpack","Rdpack","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.1.1",NA,"R (>= 2.15.0), methods","tools, utils, rbibutils (>= 1.3)",NA,"grDevices, testthat, rstudioapi, rprojroot, gbRd",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"rdrop2","rdrop2","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.8.2.1",NA,"R (>= 3.1.1)","assertive, digest, dplyr, httr, jsonlite, magrittr, purrr",NA,"testthat, uuid",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"reactable","reactable","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.2.3",NA,"R (>= 3.1)","digest, htmltools, htmlwidgets, jsonlite, reactR",NA,"covr, crosstalk, dplyr, leaflet, MASS, rmarkdown, shiny,
+sparkline, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"reactR","reactR","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.4.3",NA,NA,"htmltools",NA,"htmlwidgets (>= 0.6.0), rmarkdown, shiny, V8, knitr, usethis,
+jsonlite",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"readr","readr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.4.0",NA,"R (>= 3.1)","cli, clipr, crayon, hms (>= 0.4.1), methods, rlang, R6,
+tibble, utils, lifecycle","BH, cpp11","covr, curl, dplyr, knitr, rmarkdown, spelling, stringi,
+testthat, xml2",NA,"GPL (>= 2) | file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"readxl","readxl","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.3.1",NA,NA,"cellranger, Rcpp (>= 0.12.18), tibble (>= 1.3.1), utils","progress, Rcpp","covr, knitr, rmarkdown, rprojroot (>= 1.1), testthat",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"recipes","recipes","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.15",NA,"R (>= 3.1), dplyr","generics (>= 0.1.0), glue, gower, ipred, lifecycle, lubridate,
+magrittr, Matrix, purrr (>= 0.2.3), rlang (>= 0.4.0), stats,
+tibble, tidyr (>= 1.0.0), tidyselect (>= 1.1.0), timeDate,
+utils, withr",NA,"covr, ddalpha, dimRed (>= 0.2.2), fastICA, ggplot2, igraph,
+kernlab, knitr, modeldata, RANN, RcppRoll, rmarkdown, rpart,
+rsample, RSpectra, testthat (>= 2.1.0), xml2",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"RedditExtractoR","RedditExtractoR","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.1.5",NA,"R (>= 3.2.0)","RJSONIO, utils, igraph, grDevices, graphics, magrittr, dplyr,
+visNetwork, rlang",NA,NA,NA,"GPL-3",NA,NA,NA,NA,"no","4.0.4"
+"registry","registry","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.5-1",NA,"R (>= 2.6.0)","utils",NA,NA,NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"rematch","rematch","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0.1",NA,NA,NA,NA,"covr, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"rematch2","rematch2","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.1.2",NA,NA,"tibble",NA,"covr, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"remotes","remotes","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.2.0",NA,"R (>= 3.0.0)","methods, stats, tools, utils",NA,"brew, callr, codetools, curl, covr, git2r (>= 0.23.0), knitr,
+mockery, pkgbuild (>= 1.0.1), pingr, rmarkdown, rprojroot,
+testthat, withr",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"renv","renv","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.12.3",NA,NA,"utils",NA,"R6, BiocManager, cli, covr, devtools, knitr, packrat,
+remotes, reticulate, rmarkdown, rstudioapi, testthat, uuid,
+yaml",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"repr","repr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.1.0",NA,"R (>= 3.0.1)","utils, grDevices, htmltools, jsonlite, pillar (>= 1.4.0),
+base64enc",NA,"methods, highr, Cairo, stringr, testthat, diffobj (>= 0.2.3),
+leaflet","data.table, dplyr, htmlwidgets, vegalite, plotly, geojsonio","GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"reprex","reprex","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.3.0",NA,"R (>= 3.1)","callr (>= 2.0.0), clipr (>= 0.4.0), fs, rlang, rmarkdown,
+utils, whisker, withr",NA,"covr, devtools, fortunes, knitr, miniUI, rprojroot,
+rstudioapi, shiny, styler (>= 1.0.2), testthat (>= 2.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"reshape","reshape","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.8.8",NA,"R (>= 2.6.1)","plyr",NA,NA,NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"reshape2","reshape2","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.4.4",NA,"R (>= 3.1)","plyr (>= 1.8.1), Rcpp, stringr","Rcpp","covr, lattice, testthat (>= 0.8.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"reticulate","reticulate","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.18",NA,"R (>= 3.0)","graphics, jsonlite, Matrix, methods, rappdirs, Rcpp (>=
+0.12.7), utils","Rcpp","callr, knitr, rmarkdown, testthat",NA,"Apache License 2.0",NA,NA,NA,NA,"yes","4.0.3"
+"rex","rex","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.2.0",NA,NA,"lazyeval",NA,"testthat, knitr, rmarkdown, dplyr, ggplot2, magrittr, Hmisc,
+stringr, rvest, roxygen2, covr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"rgdal","rgdal","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.5-18",NA,"R (>= 3.5.0), methods, sp (>= 1.1-0)","grDevices, graphics, stats, utils","sp","knitr, DBI, RSQLite, maptools, mapview, rmarkdown, curl",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"rgeos","rgeos","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.5-5",NA,"R (>= 3.3.0), methods, sp (>= 1.1-0)","utils, stats, graphics","sp","maptools (>= 0.8-5), testthat, XML, maps, rgdal",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"RgoogleMaps","RgoogleMaps","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.4.5.3",NA,"R (>= 2.10)","graphics, stats, utils, grDevices, methods, png,sp",NA,"PBSmapping, maptools, loa, RColorBrewer, leaflet,jpeg, RCurl",NA,"GPL",NA,NA,NA,NA,"no","4.0.3"
+"RGtk2","RGtk2","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.20.36",NA,"R (>= 3.4.0)","methods",NA,NA,NA,"GPL",NA,NA,NA,NA,"yes","4.0.3"
+"riingo","riingo","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.3.1",NA,"R (>= 2.10)","crayon (>= 1.3.4), glue (>= 1.3.1), httr (>= 1.3.1), jsonlite
+(>= 1.5), purrr (>= 0.2.4), rlang (>= 0.2.0), tibble (>=
+1.4.2), vctrs (>= 0.3.0)",NA,"covr, testthat, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"rio","rio","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.5.16",NA,"R (>= 2.15.0)","tools, stats, utils, foreign, haven (>= 1.1.0), curl (>= 0.6),
+data.table (>= 1.9.8), readxl (>= 0.1.1), openxlsx, tibble",NA,"datasets, bit64, testthat, knitr, magrittr, clipr, csvy,
+feather, fst, hexView, jsonlite, readODS (>= 1.6.4), readr,
+rmatio, xml2 (>= 1.2.0), yaml",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"rJava","rJava","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.9-13",NA,"R (>= 2.5.0), methods",NA,NA,NA,NA,"GPL-2",NA,NA,NA,NA,"yes","4.0.3"
+"rjson","rjson","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.2.20",NA,"R (>= 3.1.0)",NA,NA,NA,NA,"GPL-2",NA,NA,NA,NA,"yes","4.0.3"
+"RJSONIO","RJSONIO","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.3-1.4",NA,NA,"methods",NA,NA,NA,"BSD_3_clause + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"rlang","rlang","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.4.10",NA,"R (>= 3.3.0)","utils",NA,"cli, covr, crayon, glue, magrittr, methods, pak, pillar,
+rmarkdown, testthat (>= 3.0.0), vctrs (>= 0.2.3), withr","winch","MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"rlist","rlist","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.4.6.1",NA,"R (>= 2.15)","yaml, jsonlite, XML, data.table",NA,"testthat, stringdist, pipeR",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"rmarkdown","rmarkdown","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.5",NA,"R (>= 3.0)","tools, utils, knitr (>= 1.22), yaml (>= 2.1.19), htmltools (>=
+0.3.5), evaluate (>= 0.13), jsonlite, tinytex (>= 0.11), xfun
+(>= 0.15), methods, stringr (>= 1.2.0)",NA,"shiny (>= 0.11), tufte, testthat, digest, dygraphs, vctrs,
+tibble, fs, rsconnect",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"rmdformats","rmdformats","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0.1",NA,NA,"knitr, rmarkdown, bookdown, htmltools",NA,"questionr, DT, palmerpenguins, ggplot2",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.4"
+"rnaturalearth","rnaturalearth","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.0",NA,"R (>= 3.1.1)","sp (>= 1.0.15), utils (>= 3.2.3), sf (>= 0.3-4)",NA,"rgdal, knitr (>= 1.12.3), testthat (>= 0.9.1), httr (>=
+1.1.0), devtools (>= 1.10.0), rnaturalearthdata (>= 0.1.0),
+rnaturalearthhires (>= 0.1.0), raster (>= 2.5-2), rgeos",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"rnaturalearthdata","rnaturalearthdata","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.0",NA,"R (>= 3.1.1)","sp (>= 1.0.15)",NA,"knitr (>= 1.12.3), testthat (>= 0.9.1)",NA,"CC0",NA,NA,NA,NA,"no","4.0.3"
+"ROCR","ROCR","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0-11",NA,"R (>= 3.6)","methods, graphics, grDevices, gplots, stats",NA,"testthat, knitr, rmarkdown",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"roxygen2","roxygen2","C:/Users/alan.millington/Documents/R/R-4.0.3/library","7.1.1",NA,"R (>= 3.2)","brew, commonmark, desc (>= 1.2.0), digest, knitr, methods,
+pkgload (>= 1.0.2), purrr (>= 0.3.3), R6 (>= 2.1.2), Rcpp (>=
+0.11.0), rlang, stringi, stringr (>= 1.0.0), utils, xml2","Rcpp","covr, devtools, rmarkdown, testthat (>= 2.1.0), R.methodsS3,
+R.oo",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"rpart","rpart","C:/Users/alan.millington/Documents/R/R-4.0.3/library","4.1-15","recommended","R (>= 2.15.0), graphics, stats, grDevices",NA,NA,"survival",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"rpart.plot","rpart.plot","C:/Users/alan.millington/Documents/R/R-4.0.3/library","3.0.9",NA,"R (>= 3.4.0), rpart (>= 4.1-15)",NA,NA,"earth (>= 5.1.2)",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"rprojroot","rprojroot","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.0.2",NA,"R (>= 3.0.0)",NA,NA,"covr, knitr, lifecycle, mockr, rmarkdown, testthat (>=
+3.0.0), withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"rsample","rsample","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.0.8",NA,"R (>= 3.2)","dplyr (>= 0.8.5), purrr, tibble, rlang (>= 0.4.0), methods,
+generics, utils, tidyselect, furrr, tidyr, vctrs (>= 0.3.0),
+modeldata, slider (>= 0.1.5), ellipsis",NA,"ggplot2, testthat, rmarkdown, knitr, AmesHousing, recipes (>=
+0.1.4), broom, xml2, covr",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"rsconnect","rsconnect","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.8.16",NA,"R (>= 3.0.0)","curl, digest, jsonlite, openssl, packrat (>= 0.4.8-1),
+rstudioapi (>= 0.5), yaml (>= 2.1.5)",NA,"RCurl, callr, httpuv, knitr, plumber (>= 0.3.2), reticulate,
+rmarkdown (>= 1.1), shiny, sourcetools, testthat, xtable",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"RSiteCatalyst","RSiteCatalyst","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.4.16",NA,"R (>= 3.5)","jsonlite (>= 1.0), httr (>= 1.0), plyr (>= 1.8), base64enc (>=
+0.1), digest (>= 0.6), stringr (>= 1.0)",NA,"testthat (>= 2.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"RSQLite","RSQLite","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.2.1",NA,"R (>= 3.1.0)","bit64, blob (>= 1.2.0), DBI (>= 1.1.0), memoise, methods,
+pkgconfig, Rcpp (>= 0.12.7)","BH, plogr (>= 0.2.0), Rcpp","DBItest (>= 1.7.0), knitr, rmarkdown, testthat",NA,"LGPL (>= 2.1)",NA,NA,NA,NA,"yes","4.0.3"
+"rstan","rstan","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.21.2",NA,"R (>= 3.4.0), StanHeaders (>= 2.21.0), ggplot2 (>= 3.0.0)","methods, stats4, inline, gridExtra (>= 2.0.0), Rcpp (>=
+0.12.0), RcppParallel (>= 5.0.1), loo (>= 2.3.0), pkgbuild,
+withr, V8","Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0), BH (>=
+1.72.0-2), StanHeaders (>= 2.21.0), RcppParallel","RUnit, RcppEigen (>= 0.3.3.3.0), BH (>= 1.72.0-2), parallel,
+KernSmooth, shinystan (>= 2.3.0), bayesplot (>= 1.5.0),
+rmarkdown, rstantools, rstudioapi, Matrix, knitr (>= 1.15.1)",NA,"GPL (>= 3)",NA,NA,NA,NA,"yes","4.0.3"
+"rstantools","rstantools","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.1.1",NA,NA,"desc, stats, utils, Rcpp (>= 0.12.16), RcppParallel (>= 5.0.1)",NA,"rstan (>= 2.17.2), usethis (>= 1.5.1), testthat (>= 2.0.0),
+knitr, pkgbuild, pkgload, roxygen2 (>= 6.0.1), rmarkdown,
+rstudioapi",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.0.3"
+"rstatix","rstatix","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.6.0",NA,"R (>= 3.3.0)","stats, utils, tidyr (>= 1.0.0), purrr, broom (>= 0.5.6), rlang
+(>= 0.3.1), tibble (>= 2.1.3), dplyr (>= 0.7.1), magrittr,
+corrplot, tidyselect (>= 1.0.0), car, generics (>= 0.0.2)",NA,"knitr, rmarkdown, ggpubr, graphics, emmeans, coin, boot,
+testthat, spelling",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"rstudioapi","rstudioapi","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.13",NA,NA,NA,NA,"testthat, knitr, rmarkdown, clipr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"Rtsne","Rtsne","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.15",NA,NA,"Rcpp (>= 0.11.0), stats","Rcpp","irlba, testthat",NA,"file LICENSE","yes",NA,NA,NA,"yes","4.0.3"
+"Rttf2pt1","Rttf2pt1","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.3.8",NA,"R (>= 2.15)",NA,NA,NA,NA,"file LICENSE","yes",NA,NA,NA,"yes","4.0.3"
+"rtweet","rtweet","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.7.0.9000",NA,"R (>= 3.5.0)","bit64, curl, httr (>= 1.3.0), jsonlite (>= 0.9.22), lifecycle
+(>= 1.0.0), progress, rappdirs, tibble (>= 1.3.4), rlang (>=
+0.4.10), utils, withr",NA,"covr, ggplot2, httpuv, igraph, knitr, magick, openssl,
+rmarkdown, testthat (>= 3.0.0), webshot",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"rversions","rversions","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.0.2",NA,NA,"curl, utils, xml2 (>= 1.0.0)",NA,"mockery, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"rvest","rvest","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.3.6",NA,"R (>= 3.2), xml2","httr (>= 0.5), magrittr, selectr",NA,"covr, knitr, png, rmarkdown, spelling, stringi (>= 0.3.1),
+testthat",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"rvg","rvg","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.2.5",NA,"R (>= 3.0)","grDevices, Rcpp (>= 0.12.12), officer (>= 0.3.6), gdtools (>=
+0.2.1), xml2 (>= 1.0.0), rlang","Rcpp, gdtools","rmarkdown, htmltools, testthat, covr, grid, knitr",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.4"
+"sandwich","sandwich","C:/Users/alan.millington/Documents/R/R-4.0.3/library","3.0-0",NA,"R (>= 3.0.0)","stats, utils, zoo",NA,"AER, car, geepack, lattice, lmtest, MASS, multiwayvcov,
+parallel, pcse, plm, pscl, scatterplot3d, stats4, strucchange,
+survival",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"sass","sass","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.3.1",NA,NA,"digest, fs, rlang, htmltools, R6, rappdirs",NA,"testthat, knitr, rmarkdown, withr, shiny",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"scales","scales","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.1.1",NA,"R (>= 3.2)","farver (>= 2.0.3), labeling, lifecycle, munsell (>= 0.5), R6,
+RColorBrewer, viridisLite",NA,"bit64, covr, dichromat, ggplot2, hms (>= 0.5.0), testthat (>=
+2.1.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"scatterplot3d","scatterplot3d","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.3-41",NA,"R (>= 2.7.0)","grDevices, graphics, stats",NA,NA,NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"searchConsoleR","searchConsoleR","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.4.0",NA,"R (>= 3.2.0)","googleAuthR (>= 1.0.0), stringr (>= 1.0.0)",NA,"shiny (>= 0.12.1), knitr, rmarkdown, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"selectr","selectr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.4-2",NA,"R (>= 3.0)","methods, stringr, R6",NA,"testthat, XML, xml2",NA,"BSD_3_clause + file LICENCE",NA,NA,NA,NA,"no","4.0.3"
+"seriation","seriation","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.2-9",NA,"R (>= 2.14.0)","stats, grDevices, grid, TSP, qap, cluster, gclus, dendextend,
+colorspace, MASS, gplots, registry",NA,"biclust, testthat, DendSer, GA",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"sessioninfo","sessioninfo","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.1.1",NA,NA,"cli, tools, utils, withr",NA,"callr, covr, mockery, testthat",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"sf","sf","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.9-6",NA,"methods, R (>= 3.3.0)","classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid,
+magrittr, Rcpp (>= 0.12.18), stats, tools, units (>= 0.6-0),
+utils","Rcpp","blob, covr, dplyr (>= 0.8-3), ggplot2, knitr, lwgeom (>=
+0.2-1), maps, mapview, microbenchmark, odbc, pillar, pool,
+raster, rgdal, rgeos, rlang, rmarkdown, RPostgres (>= 1.1.0),
+RPostgreSQL, RSQLite, s2 (>= 1.0.1), sp (>= 1.2-4), spatstat,
+spatstat.utils, stars (>= 0.2-0), testthat, tibble (>= 1.4.1),
+tidyr (>= 1.0-0), tidyselect (>= 1.0.0), tmap (>= 2.0), vctrs",NA,"GPL-2 | MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"shiny","shiny","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.6.0",NA,"R (>= 3.0.2), methods","utils, grDevices, httpuv (>= 1.5.2), mime (>= 0.3), jsonlite
+(>= 0.9.16), xtable, digest (>= 0.6.25), htmltools (>=
+0.5.0.9001), R6 (>= 2.0), sourcetools, later (>= 1.0.0),
+promises (>= 1.1.0), tools, crayon, rlang (>= 0.4.9), fastmap
+(>= 1.0.0), withr, commonmark (>= 1.7), glue (>= 1.3.2), bslib
+(>= 0.2.2.9002), cachem, ellipsis, lifecycle (>= 0.2.0)",NA,"datasets, Cairo (>= 1.5-5), testthat (>= 2.1.1), knitr (>=
+1.6), markdown, rmarkdown, ggplot2, reactlog (>= 1.0.0),
+magrittr, shinytest (>= 1.4.0.9003), yaml, future, dygraphs,
+ragg, showtext, sass",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"shinyAce","shinyAce","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.4.1",NA,"R (>= 3.3.0)","shiny (>= 1.0.5), jsonlite, utils, tools",NA,"testthat (>= 2.0.0), dplyr (>= 0.8.3)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"shinycssloaders","shinycssloaders","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0.0",NA,"R (>= 3.1)","digest, glue, grDevices, shiny",NA,"shinydisconnect, shinyjs",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"shinydashboard","shinydashboard","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.7.1",NA,"R (>= 3.0)","utils, shiny (>= 1.0.0), htmltools (>= 0.2.6), promises",NA,NA,NA,"GPL (>= 2) | file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"shinyFiles","shinyFiles","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.9.0",NA,NA,"htmltools, jsonlite, tools, shiny (>= 1.1.0), fs (>= 1.2.6),
+tibble (>= 1.4.2)",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"shinythemes","shinythemes","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.1.2",NA,"R (>= 3.0.0)","shiny (>= 0.11)",NA,NA,NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"shinyWidgets","shinyWidgets","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.5.7",NA,"R (>= 3.1.0)","shiny (>= 0.14), htmltools, jsonlite, grDevices",NA,"shinydashboard, testthat, covr, shinydashboardPlus, bs4Dash,
+argonR, argonDash, tablerDash, ggplot2, DT, scales",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"SILGGM","SILGGM","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0.0",NA,"R (>= 3.0.0), Rcpp","glasso, MASS, reshape, utils","Rcpp",NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"skimr","skimr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.1.2",NA,"R (>= 3.1.2)","cli, crayon, dplyr (>= 0.8.0), knitr (>= 1.2), magrittr (>=
+1.5), purrr, repr, rlang (>= 0.3.1), stats, stringr (>= 1.1),
+tibble (>= 2.0.0), tidyr (>= 1.0), tidyselect (>= 0.2.5), withr",NA,"covr, extrafont, lubridate, rmarkdown, sf, testthat (>=
+2.0.0)",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"slackr","slackr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.4.2",NA,"R (>= 3.0.0)","httr (>= 0.4.0), jsonlite, ggplot2, utils, methods, dplyr,
+graphics, grDevices",NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"slam","slam","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1-48",NA,"R (>= 3.4.0)","stats",NA,NA,"Matrix, SparseM, spam","GPL-2",NA,NA,NA,NA,"yes","4.0.3"
+"slider","slider","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.5",NA,"R (>= 3.2)","glue, rlang (>= 0.4.5), vctrs (>= 0.3.0), warp","vctrs (>= 0.3.0)","covr, dplyr (>= 0.8.3), knitr, lubridate, rmarkdown, testthat
+(>= 2.1.0), xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"snakecase","snakecase","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.11.0",NA,"R (>= 3.2)","stringr, stringi",NA,"testthat, covr, tibble, purrrlyr, knitr, rmarkdown, magrittr",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"snow","snow","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.4-3",NA,"R (>= 2.13.1), utils",NA,NA,"Rmpi,rlecuyer,nws",NA,"GPL",NA,NA,NA,NA,"no","4.0.4"
+"SnowballC","SnowballC","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.7.0",NA,NA,NA,NA,NA,NA,"BSD_3_clause + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"snowfall","snowfall","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.84-6.1",NA,"R (>= 2.10), snow",NA,NA,"Rmpi",NA,"GPL",NA,NA,NA,NA,"no","4.0.4"
+"socviz","socviz","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.2",NA,"R (>= 3.5)","dplyr, fs, graphics, magrittr, rlang, tibble",NA,"ggplot2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"sodium","sodium","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.1",NA,NA,NA,NA,"knitr, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"sourcetools","sourcetools","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.7",NA,"R (>= 3.0.2)",NA,NA,"testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"sp","sp","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.4-4",NA,"R (>= 3.0.0), methods","utils, stats, graphics, grDevices, lattice, grid",NA,"RColorBrewer, rgdal (>= 1.2-3), rgeos (>= 0.3-13), gstat,
+maptools, deldir",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"SparseM","SparseM","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.78",NA,"R (>= 2.15), methods","graphics, stats, utils",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"spatial","spatial","C:/Users/alan.millington/Documents/R/R-4.0.3/library","7.3-12","recommended","R (>= 3.0.0), graphics, stats, utils",NA,NA,"MASS",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"spatialEco","spatialEco","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.3-2",NA,"R (>= 3.6.0)","sp, sf, raster, spatstat, spdep, rgeos, MASS, methods",NA,"exactextractr, cluster, readr, RCurl, RANN, rms, yaImpute,
+SpatialPack (>= 0.3), mgcv, EnvStats, maptools, GeNetIt, gstat,
+RStoolbox",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"spatstat","spatstat","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.64-1",NA,"R (>= 3.3.0), spatstat.data (>= 1.4-2), stats, graphics,
+grDevices, utils, methods, nlme, rpart","spatstat.utils (>= 1.17-0), mgcv, Matrix, deldir (>= 0.0-21),
+abind, tensor, polyclip (>= 1.10-0), goftest (>= 1.2-2)",NA,"sm, maptools (>= 0.9-9), gsl, locfit, spatial, RandomFields
+(>= 3.1.24.1), RandomFieldsUtils(>= 0.3.3.1), fftwtools (>=
+0.9-8)",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"spatstat.data","spatstat.data","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.5-2",NA,"R (>= 3.5.0)","spatstat.utils, Matrix",NA,"spatstat (>= 1.55-0)",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"spatstat.utils","spatstat.utils","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.17-0",NA,"R (>= 3.3.0), stats, graphics, grDevices, utils, methods",NA,NA,"spatstat",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"spData","spData","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.3.8",NA,"R (>= 3.3.0)","sp, raster",NA,"foreign, maptools, rgdal, sf (>= 0.9-1), spDataLarge (>=
+0.4.0), spdep, spatialreg",NA,"CC0",NA,NA,NA,NA,"no","4.0.3"
+"spdep","spdep","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.1-5",NA,"R (>= 3.3.0), methods, sp (>= 1.0), spData (>= 0.2.6.0), sf","deldir, boot (>= 1.3-1), graphics, grDevices, utils, stats,
+Matrix, LearnBayes, MASS, coda, expm, gmodels, nlme",NA,"spatialreg (>= 1.1-1), parallel, RANN, rgeos, RColorBrewer,
+lattice, xtable, maptools (>= 0.5-4), foreign, igraph,
+RSpectra, knitr, rgdal, classInt, tmap, spam, ggplot2,
+rmarkdown",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"splines","splines","C:/Users/alan.millington/Documents/R/R-4.0.3/library","4.0.3","base",NA,"graphics, stats",NA,"Matrix, methods",NA,"Part of R 4.0.3",NA,NA,NA,NA,"yes","4.0.3"
+"splus2R","splus2R","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.2-2",NA,"R (>= 2.7.2)","methods",NA,NA,NA,"GPL-2",NA,NA,NA,NA,"yes","4.0.3"
+"sqldf","sqldf","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.4-11",NA,"R (>= 3.1.0), gsubfn (>= 0.6), proto, RSQLite","DBI, chron",NA,"RH2, RMySQL, RPostgreSQL, svUnit, tcltk, MASS",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"SQUAREM","SQUAREM","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2020.5",NA,"R (>= 3.0)",NA,NA,"setRNG",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"StanHeaders","StanHeaders","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.21.0-6",NA,"R (>= 3.4.0)","RcppParallel (>= 5.0.1)","RcppEigen, RcppParallel (>= 5.0.1)","Rcpp, BH, knitr (>= 1.15.1), rmarkdown, Matrix, methods,
+rstan",NA,"BSD_3_clause + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"stargazer","stargazer","C:/Users/alan.millington/Documents/R/R-4.0.3/library","5.2.2",NA,NA,"stats, utils",NA,NA,"AER, betareg, brglm, censReg, dynlm, eha, erer, ergm, fGarch,
+gee, glmx, gmm, lfe, lme4, lmtest, MASS, mclogit, mgcv, mlogit,
+mnlogit, nlme, nnet, ordinal, plm, pscl, quantreg, rms,
+relevent, robustbase, sampleSelection, spdep, survey, survival,
+Zelig","GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"stars","stars","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.4-3",NA,"R (>= 3.3.0), abind, sf (>= 0.9-0)","methods, parallel, classInt (>= 0.4-1), lwgeom, rlang, units",NA,"PCICt, RNetCDF (>= 1.8-2), covr, cubelyr, digest, dplyr (>=
+0.7-0), exactextractr, future.apply, ggforce, ggplot2,
+ggthemes, gstat, httr, jsonlite, knitr, maps, ncdfgeom, ncmeta
+(>= 0.0.3), pbapply, plm, raster, rmarkdown, s2 (>= 1.0.0), sp,
+spacetime, spatstat, starsdata, testthat, viridis, xts, zoo",NA,"Apache License",NA,NA,NA,NA,"no","4.0.3"
+"statmod","statmod","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.4.35",NA,"R (>= 3.0.0)","stats, graphics",NA,"MASS, tweedie",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"stats","stats","C:/Users/alan.millington/Documents/R/R-4.0.3/library","4.0.3","base",NA,"utils, grDevices, graphics",NA,"MASS, Matrix, SuppDists, methods, stats4",NA,"Part of R 4.0.3",NA,NA,NA,NA,"yes","4.0.3"
+"stats4","stats4","C:/Users/alan.millington/Documents/R/R-4.0.3/library","4.0.3","base",NA,"graphics, methods, stats",NA,NA,NA,"Part of R 4.0.3",NA,NA,NA,NA,NA,"4.0.3"
+"stringdist","stringdist","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.9.6.3",NA,"R (>= 2.15.3)","parallel",NA,"tinytest",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"stringi","stringi","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.5.3",NA,"R (>= 2.14)","tools, utils, stats",NA,NA,NA,"file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"stringr","stringr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.4.0",NA,"R (>= 3.1)","glue (>= 1.2.0), magrittr, stringi (>= 1.1.7)",NA,"covr, htmltools, htmlwidgets, knitr, rmarkdown, testthat",NA,"GPL-2 | file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"survival","survival","C:/Users/alan.millington/Documents/R/R-4.0.3/library","3.2-7","recommended","R (>= 3.4.0)","graphics, Matrix, methods, splines, stats, utils",NA,NA,NA,"LGPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"survminer","survminer","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.4.8",NA,"ggplot2, ggpubr(>= 0.1.6)","grid, gridExtra (>= 2.0), magrittr, maxstat, methods, scales,
+survival, stats, broom, dplyr, tidyr, survMisc, purrr, tibble,
+rlang",NA,"knitr, flexsurv, cmprsk, markdown",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"survMisc","survMisc","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.5.5",NA,"survival","graphics, grDevices, stats, utils, knitr, KMsurv, ggplot2,
+data.table, zoo, grid, gridExtra, km.ci, xtable",NA,NA,NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"svglite","svglite","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.2.3.2",NA,"R (>= 3.0.0)","Rcpp, gdtools (>= 0.1.6)","Rcpp, gdtools, BH","htmltools, testthat, xml2 (>= 1.0.0), covr, fontquiver (>=
+0.2.0), knitr, rmarkdown",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"swagger","swagger","C:/Users/alan.millington/Documents/R/R-4.0.3/library","3.33.1",NA,NA,NA,NA,"jsonlite, plumber, testthat",NA,"Apache License 2.0 | file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"sweep","sweep","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.2.3",NA,"R (>= 3.3.0)","broom (>= 0.5.6), dplyr (>= 1.0.0), forecast (>= 8.0),
+lubridate (>= 1.6.0), tibble (>= 1.2), tidyr (>= 1.0.0), timetk
+(>= 2.1.0), rlang",NA,"forcats, knitr, rmarkdown, testthat, purrr, readr, robets,
+stringr, scales, tidyquant, tidyverse, fracdiff",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.0.3"
+"swirl","swirl","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.4.5",NA,"R (>= 3.1.0)","stringr, testthat (>= 1.0.2), httr (>= 1.1.0), yaml, RCurl,
+digest, tools, methods",NA,"stringi",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"swirlify","swirlify","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.5.3",NA,"R (>= 3.2.0)","swirl (>= 2.4.2), stringr, yaml, rmarkdown, whisker, shiny,
+shinyAce, base64enc, readr",NA,"testthat, digest",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"sys","sys","C:/Users/alan.millington/Documents/R/R-4.0.3/library","3.4",NA,NA,NA,NA,"unix (>= 1.4), spelling, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"systemfonts","systemfonts","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.3.2",NA,NA,NA,"cpp11","testthat (>= 2.1.0), covr, knitr, rmarkdown, tools",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"syuzhet","syuzhet","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0.6",NA,"R (>= 3.5.0)","textshape (>= 1.3.0), NLP, zoo, dtt, stats, graphics, dplyr,
+tidyr, rlang",NA,"devtools, knitr, pander, parallel, readxl, rmarkdown,
+stringr, testthat (>= 0.9.1)",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.4"
+"tcltk","tcltk","C:/Users/alan.millington/Documents/R/R-4.0.3/library","4.0.3","base",NA,"utils",NA,NA,NA,"Part of R 4.0.3",NA,NA,NA,NA,"yes","4.0.3"
+"tensor","tensor","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.5",NA,NA,NA,NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,NA,"4.0.3"
+"testthat","testthat","C:/Users/alan.millington/Documents/R/R-4.0.3/library","3.0.1",NA,"R (>= 3.1)","brio, callr (>= 3.5.1), cli (>= 2.2.0), crayon (>= 1.3.4),
+desc, digest, ellipsis (>= 0.2.0), evaluate, jsonlite,
+lifecycle, magrittr, methods, pkgload, praise, processx, ps (>=
+1.3.4), R6 (>= 2.2.0), rlang (>= 0.4.9), utils, waldo (>=
+0.2.1), withr (>= 2.3.0)",NA,"covr, curl (>= 0.9.5), diffviewer (>= 0.1.0), knitr, mockery,
+rmarkdown, rstudioapi, shiny, usethis, vctrs (>= 0.1.0), xml2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"textshape","textshape","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.7.1",NA,"R (>= 3.4.0)","data.table, slam, stats, stringi, utils",NA,"testthat",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"thematic","thematic","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.1",NA,"R (>= 3.0.0)","utils, graphics, grDevices, grid, farver, rlang, scales,
+rstudioapi (>= 0.8), rappdirs, ggplot2 (>= 3.3.0)",NA,"lattice, stats, withr, sysfonts, showtext, Cairo,
+systemfonts, ragg, knitr, rmarkdown, htmltools, shiny (>=
+1.5.0), testthat, vdiffr, svglite, jsonlite, curl",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"tibble","tibble","C:/Users/alan.millington/Documents/R/R-4.0.3/library","3.1.0",NA,"R (>= 3.1.0)","ellipsis (>= 0.2.0), fansi (>= 0.4.0), lifecycle (>= 0.2.0),
+magrittr, methods, pillar (>= 1.5.0), pkgconfig, rlang (>=
+0.4.3), utils, vctrs (>= 0.3.2)",NA,"bench, bit64, blob, cli, covr, crayon (>= 1.3.4), DiagrammeR,
+dplyr, evaluate, formattable, ggplot2, hms, htmltools, import,
+knitr, lubridate, mockr, nycflights13, purrr, rmarkdown,
+testthat (>= 3.0.2), tidyr, withr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.4"
+"tibbletime","tibbletime","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.6",NA,"R (>= 3.2.0)","assertthat (>= 0.2.0), dplyr (>= 0.7.4), glue (>= 1.1.1), hms
+(>= 0.4), lubridate (>= 1.6.0), purrr (>= 0.2.3), Rcpp (>=
+0.12.7), rlang (>= 0.1.6), tibble (>= 3.0.0), tidyselect (>=
+0.2.5), vctrs (>= 0.2.0), zoo (>= 1.8-0), lifecycle","Rcpp","broom, covr, gapminder, knitr, rmarkdown, testthat, tidyr (>=
+1.0.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"tictoc","tictoc","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0",NA,"R (>= 3.0.3), methods",NA,NA,NA,NA,"Apache License (== 2.0) | file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"tidygraph","tidygraph","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.2.0",NA,NA,"tibble, dplyr (>= 0.8.5), igraph, magrittr, utils, rlang, R6,
+Rcpp, tools, stats, tidyr, pillar","Rcpp","network, data.tree, ape, graph, methods, testthat, covr,
+seriation, netrankr, influenceR, NetSwan",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"tidymodels","tidymodels","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.2",NA,"R (>= 3.1)","broom (>= 0.7.2), cli (>= 2.2.0), dials (>= 0.0.9), dplyr (>=
+1.0.2), ggplot2 (>= 3.3.2), infer (>= 0.5.3), magrittr (>=
+2.0.0), modeldata (>= 0.1.0), parsnip (>= 0.1.4), purrr (>=
+0.3.4), recipes (>= 0.1.15), rlang (>= 0.4.8), rsample (>=
+0.0.8), rstudioapi (>= 0.13), tibble (>= 3.0.4), tidyr (>=
+1.1.2), tune (>= 0.1.2), workflows (>= 0.2.1), yardstick (>=
+0.0.7)",NA,"covr, glue, knitr, rmarkdown, testthat, xml2",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"tidyquant","tidyquant","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0.2",NA,"R (>= 3.5.0), lubridate, PerformanceAnalytics, quantmod (>=
+0.4-13)","dplyr (>= 1.0.0), ggplot2, httr, curl, lazyeval, magrittr,
+purrr, Quandl, riingo, readr, alphavantager (>= 0.1.2),
+stringr, tibble, tidyr (>= 1.0.0), timetk (>= 2.4.0), timeDate,
+TTR, xts, rlang, tidyselect, rstudioapi, crayon, cli, janitor",NA,"tidyverse, tibbletime, forcats, broom, knitr, rmarkdown,
+testthat (>= 2.1.0), scales, Rblpapi, readxl",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"tidyr","tidyr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.1.2",NA,"R (>= 3.1)","dplyr (>= 0.8.2), ellipsis (>= 0.1.0), glue, magrittr, purrr,
+rlang, tibble (>= 2.1.1), tidyselect (>= 1.1.0), utils, vctrs
+(>= 0.3.0), lifecycle","cpp11 (>= 0.2.1)","covr, jsonlite, knitr, repurrrsive (>= 1.0.0), rmarkdown,
+readr, testthat (>= 2.1.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"tidyselect","tidyselect","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.1.0",NA,"R (>= 3.2)","ellipsis, glue (>= 1.3.0), purrr (>= 0.3.2), rlang (>= 0.4.6),
+vctrs (>= 0.2.2)",NA,"covr, crayon, dplyr, knitr, magrittr, rmarkdown, testthat (>=
+2.3.0), tibble (>= 2.1.3), withr",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"tidytext","tidytext","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.3.0",NA,"R (>= 2.10)","rlang, tibble, dplyr, stringr, hunspell, generics, lifecycle,
+Matrix, tokenizers, janeaustenr, purrr (>= 0.1.1), methods,
+vctrs",NA,"readr, tidyr, XML, tm, quanteda, knitr, rmarkdown, ggplot2,
+reshape2, wordcloud, topicmodels, NLP, scales, testthat (>=
+2.1.0), vdiffr, mallet, stm, data.table, broom, textdata,
+stopwords, covr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"tidyverse","tidyverse","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.3.0",NA,"R (>= 3.2)","broom (>= 0.5.2), cli (>= 1.1.0), crayon (>= 1.3.4), dbplyr
+(>= 1.4.2), dplyr (>= 0.8.3), forcats (>= 0.4.0), ggplot2 (>=
+3.2.1), haven (>= 2.2.0), hms (>= 0.5.2), httr (>= 1.4.1),
+jsonlite (>= 1.6), lubridate (>= 1.7.4), magrittr (>= 1.5),
+modelr (>= 0.1.5), pillar (>= 1.4.2), purrr (>= 0.3.3), readr
+(>= 1.3.1), readxl (>= 1.3.1), reprex (>= 0.3.0), rlang (>=
+0.4.1), rstudioapi (>= 0.10), rvest (>= 0.3.5), stringr (>=
+1.4.0), tibble (>= 2.1.3), tidyr (>= 1.0.0), xml2 (>= 1.2.2)",NA,"covr, feather, glue, knitr, rmarkdown, testthat",NA,"GPL-3 | file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"tiff","tiff","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1-6",NA,"R (>= 2.9.0)",NA,NA,NA,NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"tigris","tigris","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0",NA,"R (>= 3.3.0)","stringr, magrittr, rgdal, sp, utils, rappdirs, maptools, httr,
+uuid, sf, dplyr, methods",NA,"testthat, ggplot2, ggthemes, leaflet, knitr, rgeos",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"timeDate","timeDate","C:/Users/alan.millington/Documents/R/R-4.0.3/library","3043.102",NA,"R (>= 2.15.1), graphics, utils, stats, methods",NA,NA,"date, RUnit",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"timetk","timetk","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.6.0",NA,"R (>= 3.3.0)","recipes (>= 0.1.4), rsample, dplyr (>= 1.0.0), ggplot2,
+forcats, stringr, plotly, lazyeval (>= 0.2.0), lubridate (>=
+1.6.0), padr (>= 0.5.2), purrr (>= 0.2.2), readr (>= 1.3.0),
+stringi (>= 1.4.6), tibble (>= 3.0.3), tidyr (>= 1.1.0), xts
+(>= 0.9-7), zoo (>= 1.7-14), rlang (>= 0.4.7), tidyselect (>=
+1.1.0), slider, anytime, timeDate, forecast, hms, assertthat,
+generics",NA,"tidyquant, tidymodels, modeltime, workflows, parsnip, tune,
+yardstick, tidyverse, knitr, rmarkdown, robets, broom, scales,
+testthat, fracdiff, timeSeries, tseries, roxygen2",NA,"GPL (>= 3)",NA,NA,NA,NA,"no","4.0.3"
+"tint","tint","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.3",NA,NA,"htmltools, knitr, rmarkdown",NA,"ggplot2",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.4"
+"tinytex","tinytex","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.27",NA,NA,"xfun (>= 0.19)",NA,"testit, rstudioapi",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"tm","tm","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.7-8",NA,"R (>= 3.2.0), NLP (>= 0.2-0)","Rcpp, parallel, slam (>= 0.1-37), stats, tools, utils,
+graphics, xml2","BH, Rcpp","antiword, filehash, methods, pdftools, Rcampdf, Rgraphviz,
+Rpoppler, SnowballC, testthat, tm.lexicon.GeneralInquirer",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.4"
+"tmap","tmap","C:/Users/alan.millington/Documents/R/R-4.0.3/library","3.2",NA,"R (>= 3.5.0), methods","tmaptools (>= 3.1), sf (>= 0.9-3), stars (>= 0.4-2), units (>=
+0.6-1), grid, RColorBrewer, viridisLite, classInt (>= 0.4-3),
+htmltools, htmlwidgets, widgetframe, leaflet (>= 2.0.2),
+leafsync, leafem (>= 0.1), stats, rlang, utils",NA,"rmapshaper, rmarkdown, knitr, png, cartogram, osmdata,
+ggplot2, dplyr, tidyr, shiny, testthat, covr, av, gifski",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"tmaptools","tmaptools","C:/Users/alan.millington/Documents/R/R-4.0.3/library","3.1",NA,"R (>= 3.5), methods","sf (>= 0.9.2), lwgeom (>= 0.1-4), stars (>= 0.4-1), units (>=
+0.6-1), grid, classInt, magrittr, RColorBrewer, viridisLite,
+stats, dichromat, XML",NA,"tmap (>= 3.0), rmapshaper, osmdata, OpenStreetMap, raster,
+png, shiny, shinyjs",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"tmvnsim","tmvnsim","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0-2",NA,NA,NA,NA,NA,NA,"GPL-2",NA,NA,NA,NA,"yes","4.0.0"
+"tokenizers","tokenizers","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.2.1",NA,"R (>= 3.1.3)","stringi (>= 1.0.1), Rcpp (>= 0.12.3), SnowballC (>= 0.5.1)","Rcpp","covr, knitr, rmarkdown, stopwords (>= 0.9.0), testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"tools","tools","C:/Users/alan.millington/Documents/R/R-4.0.3/library","4.0.3","base",NA,NA,NA,"codetools, methods, xml2, curl, commonmark",NA,"Part of R 4.0.3",NA,NA,NA,NA,"yes","4.0.3"
+"translations","translations","C:/Users/alan.millington/Documents/R/R-4.0.3/library","4.0.3",NA,NA,NA,NA,NA,NA,"Part of R 4.0.3",NA,NA,NA,NA,NA,"4.0.3"
+"treemap","treemap","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.4-2",NA,"R (>= 2.10)","colorspace, data.table (>= 1.8.8), ggplot2, grid, gridBase,
+igraph, methods, RColorBrewer, shiny (>= 0.12.0)",NA,"knitr",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"triebeard","triebeard","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.3.0",NA,NA,"Rcpp","Rcpp","knitr, rmarkdown, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"tseries","tseries","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.10-47",NA,"R (>= 2.10.0)","graphics, stats, utils, quadprog, zoo, quantmod (>= 0.4-9)",NA,NA,NA,"GPL-2",NA,NA,NA,NA,"yes","4.0.3"
+"TSP","TSP","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.1-10",NA,"R (>= 3.5.0)","graphics, foreach, utils, stats, grDevices",NA,"sp, maps, maptools, testthat",NA,"GPL-3",NA,NA,NA,NA,"yes","4.0.3"
+"TTR","TTR","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.24.2",NA,NA,"xts (>= 0.10-0), zoo, curl","xts","RUnit","quantmod","GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"tuber","tuber","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.9.9",NA,"R (>= 3.4.0)","httr, plyr, dplyr, purrr, jsonlite, utils",NA,"knitr (>= 1.11), testthat, rmarkdown, xml2, lintr, hms",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.4"
+"tufte","tufte","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.9",NA,NA,"htmltools, xfun (>= 0.13), knitr (>= 1.28), rmarkdown (>= 2.1)",NA,NA,NA,"GPL-3",NA,NA,NA,NA,"no","4.0.4"
+"tune","tune","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.2",NA,"R (>= 2.10)","dplyr (>= 1.0.0), rlang (>= 0.4.0), tibble (>= 2.1.3), purrr
+(>= 0.3.2), dials (>= 0.0.9), recipes (>= 0.1.15), utils,
+ggplot2, glue, cli (>= 2.0.0), yardstick (>= 0.0.7), rsample
+(>= 0.0.8), tidyr, GPfit, foreach, parsnip (>= 0.1.4),
+workflows (>= 0.2.1), hardhat (>= 0.1.5), vctrs (>= 0.3.0),
+generics (>= 0.1.0)",NA,"testthat, knitr, covr, kernlab, randomForest, modeldata,
+xml2, spelling",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"tweenr","tweenr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0.1",NA,"R (>= 3.2.0)","Rcpp (>= 0.12.3), grDevices, farver, magrittr, rlang","Rcpp","testthat, covr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"tweetrmd","tweetrmd","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.0.8",NA,NA,"htmltools, httr, jsonlite, knitr, rmarkdown",NA,"webshot2 (>= 0.0.0.9000)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"txtq","txtq","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.2.3",NA,NA,"base64url, filelock (>= 1.0.2), R6",NA,"parallel, purrr, testthat (>= 2.1.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.4"
+"udpipe","udpipe","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.8.5",NA,"R (>= 2.10)","Rcpp (>= 0.11.5), data.table (>= 1.9.6), Matrix, methods,
+stats","Rcpp","knitr, rmarkdown, topicmodels, lattice, parallel",NA,"MPL-2.0",NA,NA,NA,NA,"yes","4.0.4"
+"ukpolice","ukpolice","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.2.2",NA,NA,"jsonlite, tibble, purrr, httr, snakecase",NA,"testthat, covr, knitr, rmarkdown, ggplot2, dplyr, leaflet,
+htmltools, scales, sf, sp",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"units","units","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.6-7",NA,"R (>= 3.0.2)","Rcpp","Rcpp (>= 0.12.10)","udunits2, NISTunits, measurements, xml2, magrittr, pillar (>=
+1.3.0), dplyr (>= 1.0.0), vctrs (>= 0.3.1), knitr, testthat,
+ggforce, rmarkdown",NA,"GPL-2",NA,NA,NA,NA,"yes","4.0.3"
+"urca","urca","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.3-0",NA,"R (>= 2.0.0), methods","nlme, graphics, stats",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"urltools","urltools","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.7.3",NA,"R (>= 2.10)","Rcpp, methods, triebeard","Rcpp","testthat, knitr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"usethis","usethis","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.6.3",NA,"R (>= 3.2)","clipr (>= 0.3.0), cli, crayon, curl (>= 2.7), desc, fs (>=
+1.3.0), gh (>= 1.1.0), git2r (>= 0.23), glue (>= 1.3.0), purrr,
+rematch2, rlang (>= 0.4.3), rprojroot (>= 1.2), rstudioapi,
+stats, utils, whisker, withr, yaml",NA,"covr, knitr, magick, pkgdown (>= 1.4.0), rmarkdown, roxygen2,
+spelling (>= 1.2), styler (>= 1.2.0), testthat (>= 2.1.0)",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"utf8","utf8","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.2.1",NA,"R (>= 2.10)",NA,NA,"covr, knitr, rlang, rmarkdown, testthat (>= 3.0.0)",NA,"Apache License (== 2.0) | file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"utils","utils","C:/Users/alan.millington/Documents/R/R-4.0.3/library","4.0.3","base",NA,NA,NA,"methods, xml2, commonmark",NA,"Part of R 4.0.3",NA,NA,NA,NA,"yes","4.0.3"
+"uuid","uuid","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1-4",NA,"R (>= 2.9.0)",NA,NA,NA,NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"V8","V8","C:/Users/alan.millington/Documents/R/R-4.0.3/library","3.4.0",NA,NA,"Rcpp (>= 0.12.12), jsonlite (>= 1.0), curl (>= 1.0), utils","Rcpp","testthat, knitr, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"vcd","vcd","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.4-8",NA,"R (>= 2.4.0), grid","stats, utils, MASS, grDevices, colorspace, lmtest",NA,"KernSmooth, mvtnorm, kernlab, HSAUR3, coin",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"vctrs","vctrs","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.3.6",NA,"R (>= 3.3)","ellipsis (>= 0.2.0), digest, glue, rlang (>= 0.4.7)",NA,"bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr,
+pillar (>= 1.4.4), pkgdown, rmarkdown, testthat (>= 2.3.0),
+tibble, withr, xml2, waldo (>= 0.2.0), zeallot",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"viridis","viridis","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.5.1",NA,"R (>= 2.10), viridisLite (>= 0.3.0)","stats, ggplot2 (>= 1.0.1), gridExtra",NA,"hexbin (>= 1.27.0), scales, MASS, knitr, dichromat,
+colorspace, rasterVis, httr, mapproj, vdiffr, svglite (>=
+1.2.0), testthat, covr, rmarkdown, rgdal",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"viridisLite","viridisLite","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.3.0",NA,"R (>= 2.10)",NA,NA,"hexbin (>= 1.27.0), ggplot2 (>= 1.0.1), testthat, covr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"visNetwork","visNetwork","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.0.9",NA,"R (>= 3.0)","htmlwidgets, htmltools, jsonlite, magrittr, utils, methods,
+grDevices, stats",NA,"knitr, rmarkdown, webshot, igraph, rpart, shiny,
+shinyWidgets, colourpicker, sparkline, ggraph, tidygraph,
+flashClust",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"waldo","waldo","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.2.4",NA,NA,"cli, diffobj, fansi, glue, methods, rematch2, rlang (>=
+0.4.10), tibble",NA,"testthat (>= 3.0.0), covr, R6",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"warp","warp","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.2.0",NA,"R (>= 3.2)",NA,NA,"covr, testthat (>= 2.1.0), knitr, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"webshot","webshot","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.5.2",NA,"R (>= 3.0)","magrittr, jsonlite, callr",NA,"httpuv, knitr, rmarkdown, shiny",NA,"GPL-2",NA,NA,NA,NA,"no","4.0.3"
+"webutils","webutils","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.1",NA,NA,"curl (>= 2.5), jsonlite",NA,"httpuv, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"wesanderson","wesanderson","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.3.6",NA,"R (>= 3.0)",NA,NA,"ggplot2",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"whisker","whisker","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.4",NA,NA,NA,NA,"markdown",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"widgetframe","widgetframe","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.3.1",NA,"R (>= 3.1.0), htmlwidgets,","htmltools, purrr, magrittr, utils, tools",NA,"knitr, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"withr","withr","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.4.1",NA,"R (>= 3.2.0)","graphics, grDevices, stats",NA,"covr, DBI, knitr, lattice, methods, rmarkdown, RSQLite,
+testthat (>= 2.1.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"wordcloud","wordcloud","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.6",NA,"methods, RColorBrewer","Rcpp (>= 0.9.4)","Rcpp","tm (>= 0.6), slam",NA,"LGPL-2.1",NA,NA,NA,NA,"yes","4.0.4"
+"workflows","workflows","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.2.1",NA,"R (>= 3.2)","cli (>= 2.0.0), ellipsis (>= 0.2.0), generics, glue, hardhat
+(>= 0.1.4), parsnip (>= 0.1.3), rlang (>= 0.4.1), tidyselect
+(>= 1.1.0)",NA,"covr, knitr, magrittr, modeldata (>= 0.0.2), recipes,
+rmarkdown, testthat (>= 2.3.0)",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"writexl","writexl","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.3.1",NA,NA,NA,NA,"spelling, readxl, nycflights13, testthat, bit64",NA,"BSD_2_clause + file LICENSE",NA,NA,NA,NA,"yes","4.0.2"
+"WriteXLS","WriteXLS","C:/Users/alan.millington/Documents/R/R-4.0.3/library","6.1.0",NA,NA,"utils",NA,NA,NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"xfun","xfun","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.22",NA,NA,"stats, tools",NA,"testit, parallel, codetools, rstudioapi, tinytex (>= 0.30),
+mime, markdown, knitr, htmltools, remotes, pak, rmarkdown",NA,"MIT + file LICENSE",NA,NA,NA,NA,"yes","4.0.4"
+"xgboost","xgboost","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.2.0.1",NA,"R (>= 3.3.0)","Matrix (>= 1.1-0), methods, data.table (>= 1.9.6), magrittr
+(>= 1.5), stringi (>= 0.5.2)",NA,"knitr, rmarkdown, ggplot2 (>= 1.0.1), DiagrammeR (>= 0.9.0),
+Ckmeans.1d.dp (>= 3.3.1), vcd (>= 1.3), testthat, lintr, igraph
+(>= 1.0.1), jsonlite, float, crayon",NA,"Apache License (== 2.0) | file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"XLConnect","XLConnect","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0.1",NA,"R (>= 2.10.0)","methods, rJava",NA,"RUnit, lattice, ggplot2 (>= 0.9.3), zoo",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"xlsimple","xlsimple","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0.5",NA,"R (>= 3.2.0)","XLConnect",NA,"knitr",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"xlsx","xlsx","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.6.5",NA,NA,"rJava, xlsxjars, grDevices, utils",NA,"rprojroot, testthat, covr, tibble, knitr, rmarkdown",NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"xlsxjars","xlsxjars","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.6.1",NA,"rJava",NA,NA,NA,NA,"GPL-3",NA,NA,NA,NA,"no","4.0.3"
+"XML","XML","C:/Users/alan.millington/Documents/R/R-4.0.3/library","3.99-0.5",NA,"R (>= 4.0.0), methods, utils",NA,NA,"bitops, RCurl",NA,"BSD_3_clause + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"xml2","xml2","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.3.2",NA,"R (>= 3.1.0)","methods",NA,"covr, curl, httr, knitr, magrittr, mockery, rmarkdown,
+testthat (>= 2.1.0)",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"xopen","xopen","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.0.0",NA,"R (>= 3.1)","processx",NA,"ps, testthat",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"xtable","xtable","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.8-4",NA,"R (>= 2.10.0)","stats, utils",NA,"knitr, plm, zoo, survival",NA,"GPL (>= 2)",NA,NA,NA,NA,"no","4.0.3"
+"xts","xts","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.12.1",NA,"zoo (>= 1.7-12)","methods","zoo","timeSeries, timeDate, tseries, chron, fts, tis, RUnit",NA,"GPL (>= 2)",NA,NA,NA,NA,"yes","4.0.3"
+"yaml","yaml","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.2.1",NA,NA,NA,NA,"RUnit",NA,"BSD_3_clause + file LICENSE",NA,NA,NA,NA,"yes","4.0.3"
+"yardstick","yardstick","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.0.7",NA,"R (>= 2.10)","dplyr (>= 0.8.5), generics, pROC (>= 1.15.0), rlang (>=
+0.4.0), tidyselect, utils",NA,"covr, crayon, ggplot2, kableExtra, knitr, purrr, rmarkdown,
+testthat, tidyr",NA,"GPL-2",NA,NA,NA,NA,"yes","4.0.3"
+"zeallot","zeallot","C:/Users/alan.millington/Documents/R/R-4.0.3/library","0.1.0",NA,NA,NA,NA,"testthat, knitr, rmarkdown, purrr, magrittr",NA,"MIT + file LICENSE",NA,NA,NA,NA,"no","4.0.3"
+"zip","zip","C:/Users/alan.millington/Documents/R/R-4.0.3/library","2.1.1",NA,NA,NA,NA,"covr, processx, R6, testthat, withr",NA,"CC0",NA,NA,NA,NA,"yes","4.0.3"
+"zoo","zoo","C:/Users/alan.millington/Documents/R/R-4.0.3/library","1.8-8",NA,"R (>= 3.1.0), stats","utils, graphics, grDevices, lattice (>= 0.20-27)",NA,"AER, coda, chron, fts, ggplot2 (>= 3.0.0), mondate, scales,
+strucchange, timeDate, timeSeries, tis, tseries, xts",NA,"GPL-2 | GPL-3",NA,NA,NA,NA,"yes","4.0.3"

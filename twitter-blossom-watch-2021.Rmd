@@ -285,15 +285,15 @@ The "replies network", composed from users who reply directly to one another whe
 ![](images/repliesnetwork.png)
 
 ```{r reply-network}
-# blossom2021_replies <- blossom2021 %>% 
-#   filter(!is.na(reply_to_screen_name)) %>% 
-#   select(screen_name, reply_to_screen_name) %>% 
-#   graph.data.frame(directed = TRUE)
-# 
-# V(blossom2021_replies)$label <- V(blossom2021_replies)$name
-# V(blossom2021_replies)$id    <- V(blossom2021_replies)$name
+ blossom2021_replies <- blossom2021 %>%
+   filter(!is.na(reply_to_screen_name)) %>%
+   select(screen_name, reply_to_screen_name) %>%
+   graph.data.frame(directed = TRUE)
 
-#write_graph(blossom2021_replies, file = "blossom2021_replies.graphml", format = "graphml")
+ V(blossom2021_replies)$label <- V(blossom2021_replies)$name
+ V(blossom2021_replies)$id    <- V(blossom2021_replies)$name
+
+write_graph(blossom2021_replies, file = "blossom2021_replies.graphml", format = "graphml")
 ```
 
 ### Network Mentions
@@ -301,19 +301,19 @@ The "replies network", composed from users who reply directly to one another whe
 The "mentions network" is where users mention other users in their tweets and those tweets contain a keyword such as blossom. The large network (mid-right) is the National Trust twitter account. The smaller networks are key influencers that have shared blossom tweets with their network which have subsequently shared it to their followers too.
 
 ```{r mentions-network}
-# blossom_mentions <- blossom2021 %>% 
-#   mutate(mentions_screen_name = sapply(mentions_screen_name, 
-#                            function(x) paste(x, collapse = " "))) %>%
-#   select(screen_name, mentions_screen_name) %>% 
-#   mutate(mentions_screen_name = strsplit(mentions_screen_name, " ")) %>% 
-#   unnest(mentions_screen_name) %>% 
-#   filter(mentions_screen_name != "NA") %>% 
-#   graph.data.frame()
-# 
-# V(blossom_mentions)$label <- V(blossom_mentions)$name
-# V(blossom_mentions)$id    <- V(blossom_mentions)$name
+ blossom_mentions <- blossom2021 %>% 
+   mutate(mentions_screen_name = sapply(mentions_screen_name, 
+                            function(x) paste(x, collapse = " "))) %>%
+   select(screen_name, mentions_screen_name) %>% 
+   mutate(mentions_screen_name = strsplit(mentions_screen_name, " ")) %>% 
+   unnest(mentions_screen_name) %>% 
+   filter(mentions_screen_name != "NA") %>% 
+   graph.data.frame()
+ 
+ V(blossom_mentions)$label <- V(blossom_mentions)$name
+ V(blossom_mentions)$id    <- V(blossom_mentions)$name
 
-#write_graph(blossom_mentions, file = "blossom2021_mentions.graphml", format = "graphml")
+write_graph(blossom_mentions, file = "blossom2021_mentions.graphml", format = "graphml")
 
 ```
 

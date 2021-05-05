@@ -116,3 +116,65 @@ news <- function(term) {
 search_term <- URLdecode('national%20trust%20blossom')
 blossom_news <- news(URLencode(search_term))
 ```
+
+```{r bond-sentiment, eval=FALSE, fig.height=7, fig.width=9, include=FALSE}
+bond_sentiment <- blossom2021 %>% 
+  filter(screen_name !='bloomy_flowers') %>%
+  filter(grepl('plastic|fake|bond|bond/ street|artificial|fail',text, ignore.case = TRUE)) %>%
+  filter(is_retweet == FALSE)
+
+
+sentiment <- bond_sentiment$text
+sentiment_clean <- iconv(sentiment, 'UTF-8', 'ASCII')
+sentiment_clean <- syuzhet::get_nrc_sentiment(sentiment_clean)
+# subset rtweet data (for ease) and combine with sentiment data
+subset_tweets <- cbind(
+  bond_sentiment[, c("status_id", "favorite_count", "retweet_count")],
+  sentiment_clean)
+# transform data to long form (makes plotting easier)
+subset_tweets_long <- reshape2::melt(subset_tweets,
+    variable.name = "emotion",
+    value.name = "sentiment",
+    id.vars = c("status_id", "favorite_count", "retweet_count"))
+
+ggplot(subset_tweets_long, aes(x = emotion, y = sentiment,
+  fill = emotion)) + theme_minimal() +
+  coord_cartesian(ylim = c(0, 7)) +
+  geom_jitter(color = "#ffffff", shape = 25, size = 2, stroke = .2)  +#alpha removed (alpha = .9) due to slow processing
+  coord_flip() + labs(y = "", x = "",
+    title = "#Blossom tweet sentiment") +
+  theme(legend.position = "none",
+    text = element_text(size = 18),
+    axis.text.x = element_blank())
+```
+
+
+```{r bond-sentiment, eval=FALSE, fig.height=7, fig.width=9, include=FALSE}
+blossom_icon <- makeIcon(
+  iconUrl = "http://alanmillington.com/blossom/images/oakleaf.png",
+  iconWidth = 37, iconHeight = 51,
+  iconAnchorX = 0, iconAnchorY = 0,
+  shadowUrl = "http://alanmillington.com/blossom/images/marker-shadow.png",
+  shadowWidth = 51, shadowHeight = 41,
+  shadowAnchorX = 13, shadowAnchorY = 15
+)
+
+bond_sentiment %>%
+  mutate(bbox_coords = gsub("\\)|c\\(", "", bbox_coords)) %>%
+  separate(bbox_coords, c("box1", "box2","box3","box4", "box5", "box6", "box7", "box8"), sep = ", ") %>%
+  mutate_at(c("box1", "box2","box3","box4", "box5", "box6", "box7", "box8"), as.numeric) %>%
+    mutate(bbx_long = (box1 + box2 + box3 + box4)/4) %>%
+    mutate(bbx_lat = (box5 + box6 + box7 + box8)/4) %>%
+  filter(!is.na(place_type)) %>%
+  filter(!is.na(media_url)) %>%
+  #count()
+  leaflet() %>% 
+      setView(lat = 52.8781, lng = -2.8360, zoom = 6) %>%
+      addTiles() %>%
+          addProviderTiles(providers$Esri.WorldImagery) %>%
+      addMarkers(lng = ~bbx_long, lat = ~bbx_lat, popup = 
+                   ~paste0("<center><img src='",media_url,"' width=80%; height=80%;></center><b>@", screen_name, "</b>: ",text,"<br>"), icon = blossom_icon,
+                 )
+
+
+```

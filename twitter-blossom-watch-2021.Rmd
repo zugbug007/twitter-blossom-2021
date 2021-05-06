@@ -12,6 +12,7 @@ output:
   word_document: default
 editor_options: 
   chunk_output_type: inline
+always_allow_html: true
 ---
 
 ```{r setup, include=FALSE}
@@ -94,7 +95,7 @@ rm(list=ls(pattern="blossom2021_"))
 rm(df3)
 ```
 
-```{r}
+```{r calculate-map-markers}
 pinCount <- as.character(blossom2021 %>%
   mutate(bbox_coords = gsub("\\)|c\\(", "", bbox_coords)) %>%
   separate(bbox_coords, c("box1", "box2","box3","box4", "box5", "box6", "box7", "box8"), sep = ", ") %>%
@@ -251,14 +252,14 @@ blossom2021 %>%
 
 ### Top tweeters
 
-Top twitter users that have tweeted more than 35 tweets containing the \#blossom hashtag.
+Top twitter users that have tweeted more than 50 tweets containing the \#blossom hashtag.
 
 ```{r tweets-top-users, fig.height=7, fig.width=9}
 blossom2021 %>% 
   count(screen_name) %>% 
-  filter(n >= 35) %>% 
+  filter(n >= 50) %>% 
   ggplot(aes(reorder(screen_name, n), n)) + geom_col(fill = "skyblue3") + coord_flip() + 
-    labs(x = "Screen Name", y = "Tweets", title = "#blossom tweets by user", subtitle = "users with >= 35 tweets") + 
+    labs(x = "Screen Name", y = "Tweets", title = "#blossom tweets by user", subtitle = "users with >= 50 tweets") + 
     theme(axis.text = element_text(size = 12), axis.title = element_text(size = 12))
 ```
 
@@ -278,48 +279,43 @@ distinct(screen_name, source) %>%
 
 ### Network Replies
 
-The "replies network", composed from users who reply directly to one another where the hashtag or keyword of blossom was part of the message text. Complied on Friday 19th March.
+The "replies network", composed from users who reply directly to one another where the hashtag or keyword of blossom was part of the message text. Complied on 5th May.
 
-[Ultra High Quality Version](http://alanmillington.com/blossom/images/replies_network.png)
-
-![](images/repliesnetwork.png)
+![](images/replies_network-05.png)
 
 ```{r reply-network}
- blossom2021_replies <- blossom2021 %>%
-   filter(!is.na(reply_to_screen_name)) %>%
-   select(screen_name, reply_to_screen_name) %>%
-   graph.data.frame(directed = TRUE)
-
- V(blossom2021_replies)$label <- V(blossom2021_replies)$name
- V(blossom2021_replies)$id    <- V(blossom2021_replies)$name
-
-write_graph(blossom2021_replies, file = "blossom2021_replies.graphml", format = "graphml")
+#  blossom2021_replies <- blossom2021 %>%
+#    filter(!is.na(reply_to_screen_name)) %>%
+#    select(screen_name, reply_to_screen_name) %>%
+#    graph.data.frame(directed = TRUE)
+# 
+#  V(blossom2021_replies)$label <- V(blossom2021_replies)$name
+#  V(blossom2021_replies)$id    <- V(blossom2021_replies)$name
+# 
+# write_graph(blossom2021_replies, file = "blossom2021_replies.graphml", format = "graphml")
 ```
 
 ### Network Mentions
 
-The "mentions network" is where users mention other users in their tweets and those tweets contain a keyword such as blossom. The large network (mid-right) is the National Trust twitter account. The smaller networks are key influencers that have shared blossom tweets with their network which have subsequently shared it to their followers too.
+The "mentions network" is where users mention other users in their tweets and those tweets contain a keyword such as blossom. The large network (middle, red circle) is the National Trust twitter account. The smaller networks are key influencers that have shared blossom tweets with their network which have subsequently shared it to their followers too. Complied on 5th May.
 
 ```{r mentions-network}
- blossom_mentions <- blossom2021 %>% 
-   mutate(mentions_screen_name = sapply(mentions_screen_name, 
-                            function(x) paste(x, collapse = " "))) %>%
-   select(screen_name, mentions_screen_name) %>% 
-   mutate(mentions_screen_name = strsplit(mentions_screen_name, " ")) %>% 
-   unnest(mentions_screen_name) %>% 
-   filter(mentions_screen_name != "NA") %>% 
-   graph.data.frame()
- 
- V(blossom_mentions)$label <- V(blossom_mentions)$name
- V(blossom_mentions)$id    <- V(blossom_mentions)$name
-
-write_graph(blossom_mentions, file = "blossom2021_mentions.graphml", format = "graphml")
+#  blossom_mentions <- blossom2021 %>% 
+#    mutate(mentions_screen_name = sapply(mentions_screen_name, 
+#                             function(x) paste(x, collapse = " "))) %>%
+#    select(screen_name, mentions_screen_name) %>% 
+#    mutate(mentions_screen_name = strsplit(mentions_screen_name, " ")) %>% 
+#    unnest(mentions_screen_name) %>% 
+#    filter(mentions_screen_name != "NA") %>% 
+#    graph.data.frame()
+#  
+#  V(blossom_mentions)$label <- V(blossom_mentions)$name
+#  V(blossom_mentions)$id    <- V(blossom_mentions)$name
+# 
+# write_graph(blossom_mentions, file = "blossom2021_mentions.graphml", format = "graphml")
 
 ```
-
-[Ultra High Quality Version](http://alanmillington.com/blossom/images/mentions_network.png)
-
-![](images/mentionsnetwork.png)
+![](images/mentions_network-05.png)
 
 ## Retweets
 
@@ -349,7 +345,7 @@ blossom2021 %>%
   select(screen_name, text, retweet_count) %>% 
   arrange(desc(retweet_count)) %>% 
   distinct() %>%
-  slice(1:10) %>% 
+  slice(1:5) %>% 
   pander(justify = c("left", "left", "right"), split.table = Inf)
 ```
 
@@ -383,7 +379,7 @@ blossom2021 %>%
   select(screen_name, text, favorite_count) %>% 
   arrange(desc(favorite_count)) %>% 
   distinct() %>%
-  slice(1:10) %>% 
+  slice(1:5) %>% 
   pander(justify = c("left", "left", "right"), split.table = Inf)
 ```
 
@@ -415,12 +411,12 @@ blossom2021 %>%
   count(quoted_status_id) %>% 
   filter(n > 1) %>% 
   arrange(desc(n)) %>% 
-  slice(1:10) %>% 
+  slice(1:5) %>% 
   inner_join(select(blossom2021, screen_name, quoted_status_id, is_retweet, text)) %>% 
   filter(is_retweet == FALSE) %>% 
   select(screen_name, text, quote_count = n) %>%
   distinct() %>%
-  slice(1:10) %>%
+  slice(1:5) %>%
   pander(justify = c("left", "left", "right"), split.table = Inf)
 ```
 
@@ -449,7 +445,7 @@ blossom_media <- blossom2021 %>%
   filter(favorite_count > 0)
 
 blossom_media %>%
-  slice(1:10) %>% 
+  slice(1:5) %>% 
   select(screen_name, text, favorite_count) %>%
   pander(justify = c("left", "left", "right"), split.table = Inf)
 ```

@@ -12,7 +12,6 @@ output:
   word_document: default
 editor_options: 
   chunk_output_type: inline
-always_allow_html: true
 ---
 
 ```{r setup, include=FALSE}
@@ -109,7 +108,8 @@ pinCount <- as.character(blossom2021 %>%
 
 ## Interactive Blossom Map
 
-Click the markers to view the tweets where an image and the \#blossom hashtags exist. Zoom out for the world view!
+Click the markers to view the tweets where an image and the \#blossom hashtags exist. Zoom out for the world view! 
+All locations are approximate.
 
 Currently showing: `r pinCount` markers.
 

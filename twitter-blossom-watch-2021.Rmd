@@ -455,7 +455,7 @@ blossom_media %>%
 
 ### Most liked media image & tweet
 
-[](`r blossom_media[1, "media_url"]`)
+![](`r blossom_media[1, "media_url"]`)
 ```{r}
 # inc_tweet <- tweet_url(blossom_media$screen_name[1], blossom_media$status_id[1])
 # 
